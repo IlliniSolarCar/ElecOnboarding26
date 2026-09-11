@@ -5,11 +5,13 @@
 
 #include <mbed.h>
 // PROJECT 1 - Include something here!
+#include <chrono>
 #include "CAN/can_data.h"
 #include "CAN/can_id.h"
 #include "can_buffer.h"
 #include "can_struct.h"
 #include "peripherals.h"
+#include "pins.h"
 
 /*
  * This is an example function. It blinks the heartbeat LED and sends
@@ -76,6 +78,10 @@ int main() {
 	CANMessage msg;
 	bool shutdown = false;
 
+	const chrono::duration<float> MIN_BLINK_RATE = chrono::milliseconds(100);
+	const chrono::duration<float> MAX_BLINK_RATE = chrono::seconds(5);
+	uint32_t blinkRateUs = BLINK_RATE_US;
+
 	// Main functionality
 	while (!shutdown) {
 		// on time overflow all callbacks will happen and timing reset to 0. Might be needed for
@@ -92,11 +98,15 @@ int main() {
 			common.toggleReceiveCANLED();
 		}
 
-		if (timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)) {
+		if (timing.tickThreshold(last_task_1_time, blinkRateUs)) {
 			// PROJECT 1 - add code here to actually make the LED blink
+			led5.write(!led5.read());
 		}
 
 		// PROJECT 2 - use the potentiometer to change the blink rate
+		auto blinkRate = potentiometer.read() * (MAX_BLINK_RATE - MIN_BLINK_RATE) + MIN_BLINK_RATE;
+		blinkRateUs =
+			static_cast<uint32_t>(chrono::duration_cast<chrono::microseconds>(blinkRate).count());
 	}
 
 	shutdown_method();
