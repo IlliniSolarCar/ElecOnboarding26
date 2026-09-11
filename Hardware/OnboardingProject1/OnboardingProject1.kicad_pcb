@@ -293,7 +293,7 @@
 		(property "Reference" "D1"
 			(at 0 -1.25 0)
 			(layer "F.SilkS")
-			(uuid "7c416937-bbf8-49fe-b9eb-3708aa4a402d")
+			(uuid "286f694b-d1e0-472f-801a-b139b0f9ceaa")
 			(effects
 				(font
 					(size 1 1)
@@ -304,7 +304,7 @@
 		(property "Value" "LED_AMBER"
 			(at 0 1.35 0)
 			(layer "F.Fab")
-			(uuid "0e31b93d-c6cc-4475-b6d8-34cced31f3c5")
+			(uuid "dd42df44-ce08-43fc-929b-18f3f1c9ac25")
 			(effects
 				(font
 					(size 1 1)
@@ -316,7 +316,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "826d0004-2100-450f-bad7-6310727b73fd")
+			(uuid "e505de02-6a8c-4cb9-a54a-f5ffbc259880")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,7 +328,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a441902c-164e-4358-b447-bc42e2a2fc66")
+			(uuid "f0b261b7-7150-4bd9-9316-ef95fd13cd32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -555,9 +555,9 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 -1.43 0)
+			(at 0.0125 1.3 0)
 			(layer "F.SilkS")
-			(uuid "c4782c80-66bc-4abc-80f0-2ce321d5b94f")
+			(uuid "1a275c13-0e8d-4ac7-9e8a-42346d7875d6")
 			(effects
 				(font
 					(size 1 1)
@@ -568,7 +568,7 @@
 		(property "Value" "105"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "61fa498b-a873-4eb7-8176-26fe66cefeb5")
+			(uuid "3e09d870-5ace-4b95-9c64-a8592787fd5b")
 			(effects
 				(font
 					(size 1 1)
@@ -580,7 +580,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31d752a8-ec6b-476e-97da-4d43a56f49a9")
+			(uuid "f43f31c9-5ef7-4df9-b33a-0134777cdbc1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,7 +592,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "650ee3b7-eb76-4a57-b876-b7dc8c5f9e13")
+			(uuid "20e3e321-cf7f-4b82-81cb-7e9d3792e1c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -782,7 +782,7 @@
 		(property "Reference" "SW1"
 			(at 0 -3.11 90)
 			(layer "F.SilkS")
-			(uuid "5fd72b80-1cf7-45ef-b41a-f05c09752655")
+			(uuid "1a1103af-1aa8-41dc-84d5-0591b26b688c")
 			(effects
 				(font
 					(size 1 1)
@@ -793,7 +793,7 @@
 		(property "Value" "SW_Push"
 			(at 0 3.11 90)
 			(layer "F.Fab")
-			(uuid "49a9a2f1-a1c1-4768-9058-38bb387d0ca6")
+			(uuid "1b9a7ba5-792d-4eb7-989d-d8baee0d3e94")
 			(effects
 				(font
 					(size 1 1)
@@ -805,7 +805,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "afea2ca8-e229-40d1-8c4d-8a4a19be57af")
+			(uuid "e3489b1b-b709-46ce-b1f3-e243bc4d6209")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,7 +817,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0fbb0683-c6ae-4db3-a8bf-63293ae95d77")
+			(uuid "bfb90bcb-f2e0-4bf5-b294-0d350ca9b771")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,9 +1405,9 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J1"
-			(at 0.54 -4.12 0)
+			(at 1.27 -4.12 0)
 			(layer "F.SilkS")
-			(uuid "b85cd621-0cf0-4df7-95c8-cb224f5a4c05")
+			(uuid "bdc8e4b0-8e20-4092-9df4-46448f4ebc47")
 			(effects
 				(font
 					(size 1 1)
@@ -1418,7 +1418,7 @@
 		(property "Value" "Conn_01x02"
 			(at 1.27 4.08 0)
 			(layer "F.Fab")
-			(uuid "b1d7fae5-c17a-44a1-ad7b-5e878c68030d")
+			(uuid "37c24517-1846-413b-9751-95e2352ab691")
 			(effects
 				(font
 					(size 1 1)
@@ -1430,7 +1430,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7160f0ed-1a2a-478c-adec-69d795b36bb3")
+			(uuid "4d579f71-73a2-4768-9d5d-e0eff883043b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1442,7 +1442,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "472bad9b-dce5-4d42-bd45-6f4063726f9e")
+			(uuid "d3d3b2c6-4d88-4336-81af-f37b57145d2d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +1982,7 @@
 		(width 0.25)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "dfb53ba0-049a-42e6-9afc-d424b06873b1")
+		(uuid "a8f6f358-2edb-4f88-a257-c3582c082843")
 	)
 	(via
 		(at 125 101)
@@ -1994,20 +1994,20 @@
 		(uuid "07e88f3b-5d93-46db-a97f-60d487178f53")
 	)
 	(segment
-		(start 126.6 99)
-		(end 129 99)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "251b01f8-ebc3-4885-895f-b14a040817a4")
-	)
-	(segment
 		(start 129.505 99)
 		(end 129 99)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "25cf0224-f89c-4f8c-860f-a79225603253")
+	)
+	(segment
+		(start 126.6 99)
+		(end 129 99)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "521e26fa-a4d3-43a8-aebe-baa410438eab")
 	)
 	(segment
 		(start 130.825 96.175)
