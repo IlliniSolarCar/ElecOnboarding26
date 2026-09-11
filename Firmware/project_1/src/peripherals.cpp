@@ -18,17 +18,14 @@ CAN can(P_CAN_rd, P_CAN_td);
 
 // The mbed timer class used to keep track of when to do things.
 Timer timer;
-//Common timing class to include often used timing functions and handle the
-//above timer by taking care of overflow and time comparisons
+// Common timing class to include often used timing functions and handle the
+// above timer by taking care of overflow and time comparisons
 TimingCommon timing;
 
-//Watchdog timer to reset board if it stops working
-//this should be fed only in the main loop
+// Watchdog timer to reset board if it stops working
+// this should be fed only in the main loop
 WDT wdt(WDT_TIMEOUT_US);
 
 // Common hardware methods to all boards - debug LEDs, timing classes, CAN
 hardware_common_mbed common_(&timer, &can, &wdt);
 hardware_common& common = common_;
-
-
-
