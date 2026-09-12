@@ -1,0 +1,1901 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "USLetter")
+	(title_block
+		(title "LED Project")
+		(date "2026-09-11")
+		(rev "1.0")
+		(company "Illini Solar Car")
+		(comment 1 "Designed By: Ben Chen")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+		(47 "User.5" user)
+		(49 "User.6" user)
+		(51 "User.7" user)
+		(53 "User.8" user)
+		(55 "User.9" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 6)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(net 1 "Net-(D1-A)")
+	(net 2 "GND")
+	(net 3 "Net-(R1-Pad1)")
+	(net 4 "+3V3")
+	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "0cbaf6e9-8c06-4bde-83cf-899fd0f1bb71")
+		(at 192 150.0875 -90)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R1"
+			(at 0 -1.43 90)
+			(layer "F.SilkS")
+			(uuid "bcb80cd9-299e-4d42-b6ab-67cfe291f67b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "105"
+			(at 0 1.43 90)
+			(layer "F.Fab")
+			(uuid "0c991a28-b95a-4297-a03e-36bc3879a787")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d7d7a76-3f0d-438f-b776-08badba245e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "918cd80a-035f-4baa-b23a-b3bcb98f684a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8051a48-3600-4028-952a-6c17ebbd6d6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6ed7053-919b-4797-b407-1d6b083663f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/4d751ab3-ec30-4dcc-982a-bc2773f3aac3")
+		(sheetname "/")
+		(sheetfile "proj1.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.254724 0.5225)
+			(end 0.254724 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a7fcddb5-df79-4706-b2a8-3692e8166c73")
+		)
+		(fp_line
+			(start -0.254724 -0.5225)
+			(end 0.254724 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "11ccff9d-b6f1-445a-aebb-a9c1cfe202e2")
+		)
+		(fp_rect
+			(start -1.65 -0.73)
+			(end 1.65 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e5ba59a4-5dab-4ce0-834c-e4888549bf98")
+		)
+		(fp_rect
+			(start -0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "ac72340b-7370-4b7c-b2d9-14d76d846787")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "a0ab69f7-e1c8-4e9e-b017-3955be005719")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9125 0 270)
+			(size 0.975 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 3 "Net-(R1-Pad1)")
+			(pintype "passive")
+			(uuid "b1634920-4a41-462d-b1b6-1e9ec975da0c")
+		)
+		(pad "2" smd roundrect
+			(at 0.9125 0 270)
+			(size 0.975 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 1 "Net-(D1-A)")
+			(pintype "passive")
+			(uuid "8faded60-9cd3-4e21-8372-416781d88b83")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+		(layer "F.Cu")
+		(uuid "77aa8903-b860-4176-8ff6-e6d8100e20ed")
+		(at 186.68 157.5)
+		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
+		(tags "connector Molex KK-254 vertical")
+		(property "Reference" "J1"
+			(at 1.27 -4.12 0)
+			(layer "F.SilkS")
+			(uuid "dee435e0-12ca-40ac-971d-4e66eb7cbbdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 1.27 4.08 0)
+			(layer "F.Fab")
+			(uuid "57280131-4a92-4d3b-87a5-5c1868bf8a8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/641/6410/022272021_sd.pdf?inline"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70eca833-a2f0-4883-a4be-7fc4db8d681c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb244b6a-5b1b-4c2a-995b-77d805a0b8e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "022272021"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7728e5ca-2cd5-4569-abc4-67bd09875404")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "beae0a51-7e00-4256-806e-103a1821906c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/e5b216a8-591b-4228-8fab-2d6635ee1d59")
+		(sheetname "/")
+		(sheetfile "proj1.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -1.67 -2)
+			(end -1.67 2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7338090e-465e-4fc0-a383-5e6549550e97")
+		)
+		(fp_line
+			(start -0.8 -3.03)
+			(end -0.8 -2.43)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a31b7560-b348-4ee3-834d-2f004a6fa441")
+		)
+		(fp_line
+			(start -0.8 -2.43)
+			(end 0.8 -2.43)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "637d5002-5048-4233-8e42-bbc271347acd")
+		)
+		(fp_line
+			(start 0 1.99)
+			(end 0.25 1.46)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "07d94065-d2de-4304-8196-95df3ef80bc8")
+		)
+		(fp_line
+			(start 0 1.99)
+			(end 2.54 1.99)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b8e01dd5-1948-4d8e-89c0-76cd8027b9e8")
+		)
+		(fp_line
+			(start 0 2.99)
+			(end 0 1.99)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "001a4d34-e3ef-4125-9534-b822f1bd1c5a")
+		)
+		(fp_line
+			(start 0.25 1.46)
+			(end 2.29 1.46)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a997d6ae-ea70-4cff-9769-4b68ec33b5cb")
+		)
+		(fp_line
+			(start 0.25 2.99)
+			(end 0.25 1.99)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "deacdaef-048a-4144-8e2c-d5a9edaad7fe")
+		)
+		(fp_line
+			(start 0.8 -2.43)
+			(end 0.8 -3.03)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5ca5fcac-12c7-40a7-9a0c-e16ee7a89d8b")
+		)
+		(fp_line
+			(start 1.74 -3.03)
+			(end 1.74 -2.43)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b0dd26ea-d436-4b24-b43c-efe92f4ea4d2")
+		)
+		(fp_line
+			(start 1.74 -2.43)
+			(end 3.34 -2.43)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1672e3f5-b7ee-422e-b645-2f5f4c9ad9a5")
+		)
+		(fp_line
+			(start 2.29 1.46)
+			(end 2.54 1.99)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e9f941ad-763e-4189-b951-b4dadd8a35b3")
+		)
+		(fp_line
+			(start 2.29 2.99)
+			(end 2.29 1.99)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "425962a3-d070-4f49-b0cd-2e2597833d33")
+		)
+		(fp_line
+			(start 2.54 1.99)
+			(end 2.54 2.99)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "710101dd-ca4a-43f0-886a-5778a391d812")
+		)
+		(fp_line
+			(start 3.34 -2.43)
+			(end 3.34 -3.03)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "507ed85c-f19e-4833-93ac-f61261b65cbb")
+		)
+		(fp_rect
+			(start -1.38 -3.03)
+			(end 3.92 2.99)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "476acd3d-2ae9-478b-82fe-411715a98c93")
+		)
+		(fp_rect
+			(start -1.77 -3.42)
+			(end 4.32 3.38)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f50c754b-1ca7-4044-a231-4f77074cf0ab")
+		)
+		(fp_line
+			(start -1.27 -0.5)
+			(end -0.562893 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2fe41bdc-e1f4-4bc3-9937-ae1ffbd46d9b")
+		)
+		(fp_line
+			(start -0.562893 0)
+			(end -1.27 0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f9fe7144-3a38-4aff-bafb-c22cd952c6a5")
+		)
+		(fp_rect
+			(start -1.27 -2.92)
+			(end 3.81 2.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "f4b6ebd6-66ba-4bd2-9450-2b95467de26c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.27 -2.22 0)
+			(layer "F.Fab")
+			(uuid "5796f679-e0d6-4585-9655-3b6fcfd70ac9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.74 2.19)
+			(drill 1.19)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.143678)
+			(net 2 "GND")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "7b9f0206-0198-45f9-824a-14ee9da6ef40")
+		)
+		(pad "2" thru_hole oval
+			(at 2.54 0)
+			(size 1.74 2.19)
+			(drill 1.19)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "+3V3")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "a9572c33-4b15-45f4-91d2-ab310905b9f0")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "c03cbab5-d4a6-493b-920c-d31700a65571")
+		(at 188 146)
+		(descr "Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M3")
+		(property "Reference" "REF**"
+			(at 0 -4.15 0)
+			(layer "F.SilkS")
+			(uuid "ce4ea328-58c3-43ad-904d-aa903271ca00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_3.2mm_M3"
+			(at 0 4.15 0)
+			(layer "F.Fab")
+			(uuid "78e3e25c-5432-46b1-aba7-a1b8f0800179")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cd06276-6aaf-4e5d-8cfd-b34e5c835eb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45740c0d-bc86-4b1b-b389-404a8ad49d4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "ed752ae5-5132-491d-92be-4dace490fd66")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b8763a86-a889-4e7d-a124-e01505f38b7e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "57c979ba-e2ed-46e7-b79b-e557b7084993")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "61857c9e-dab0-46eb-a28c-e6a04217dfc7")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "d70f166c-7265-4358-b17d-7a19061f88fc")
+		(at 196 158)
+		(descr "Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py")
+		(tags "mountinghole M3")
+		(property "Reference" "REF**"
+			(at 0 -4.15 0)
+			(layer "F.SilkS")
+			(uuid "9e96a446-e3e6-416b-b0d1-186633b6a31f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_3.2mm_M3"
+			(at 0 4.15 0)
+			(layer "F.Fab")
+			(uuid "8dfaee29-fd8c-4239-8fdc-c59877b3cb04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c1a7806-4cfa-4cf0-9c59-9efd9db3d4f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25bdab57-40b5-4955-bf87-c2013f8e2ddd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "df9d5355-fc9a-4ade-adac-af857bbbde5f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "0f8fa33c-ae31-4f8c-ab4f-27d875dcbb13")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9885bf75-06c3-4ec3-9108-c8289353401d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "cc69f1ed-4c7f-4549-9bc4-345272199381")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile"
+		(layer "F.Cu")
+		(uuid "dbed2377-dd67-4740-92f9-13a281f73100")
+		(at 196 148.75 90)
+		(descr "SMD 1x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile")
+		(tags "SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile")
+		(property "Reference" "SW1"
+			(at 0.75 3.25 270)
+			(layer "F.SilkS")
+			(uuid "145cd7ff-0d4d-4511-91e4-4faa35c907ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 3.11 90)
+			(layer "F.Fab")
+			(uuid "40f696bf-7699-4c96-9077-6387394c7cc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=8-1773450-9_SECTION_C_TACTILE_SWITCHES&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=1825910-6"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "053b6794-9137-4be2-82cd-095d7be387b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdde7567-3999-44ea-9e0b-f63409284f90")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "	 1825910-6"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6490cc2-d598-4bb3-93da-2213a782c700")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7116ce92-9020-493e-86a5-8cb8f6cbe9a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4e92aae0-a012-4a4c-84f7-8405e12d93e6")
+		(sheetname "/")
+		(sheetfile "proj1.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.65 -2.35)
+			(end -2.267 -2.35)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "00454547-c5f3-4a10-8a7d-9c26d2d32d56")
+		)
+		(fp_line
+			(start -3.65 -2.35)
+			(end -3.65 -0.967)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fdb52cb9-14ec-430b-bb6a-49c83269171b")
+		)
+		(fp_line
+			(start 3.41 -2.11)
+			(end 3.41 -0.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "211947ca-1791-488a-a330-e13c83929545")
+		)
+		(fp_line
+			(start -3.41 -2.11)
+			(end 3.41 -2.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "589edf75-cb17-4243-94a4-d6b189a9f9ef")
+		)
+		(fp_line
+			(start -3.41 -2.11)
+			(end -3.41 -0.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5fffa432-5a5d-47e3-a2c0-75e046089847")
+		)
+		(fp_line
+			(start -0.603333 -0.635)
+			(end -0.603333 0.635)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4252f6b9-f605-4c16-ace9-a5d26b0f6982")
+		)
+		(fp_line
+			(start 3.41 0.8)
+			(end 3.41 2.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "323b215f-3323-41b9-9100-6f74bd1f2735")
+		)
+		(fp_line
+			(start -3.41 0.8)
+			(end -3.41 2.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "80d8d14f-3633-4c27-9d84-93dc9a5d750e")
+		)
+		(fp_line
+			(start -3.41 2.11)
+			(end 3.41 2.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ed62fb4b-c579-44f2-a91a-59a160ba4435")
+		)
+		(fp_rect
+			(start -1.81 -0.635)
+			(end 1.81 0.635)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "ae58c719-b3c4-43cd-8cae-d3daf39e05e4")
+		)
+		(fp_rect
+			(start -1.81 -0.635)
+			(end -0.603333 0.635)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "093453a9-bb7f-4341-99da-9bb4544e00bc")
+		)
+		(fp_rect
+			(start -5.78 -2.36)
+			(end 5.78 2.36)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "2f7dfaba-2c91-4b2b-b4f9-0b4382204453")
+		)
+		(fp_line
+			(start 3.35 -2.05)
+			(end 3.35 2.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2b407043-1836-4faf-9f5d-214f1a98b50d")
+		)
+		(fp_line
+			(start -2.35 -2.05)
+			(end 3.35 -2.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3cbfeeff-8f11-4fdf-bddf-74046947a9ba")
+		)
+		(fp_line
+			(start -3.35 -1.05)
+			(end -2.35 -2.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6a0f9f0f-cdb6-4b4c-93bd-863b71b0662d")
+		)
+		(fp_line
+			(start -0.603333 -0.635)
+			(end -0.603333 0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5500f07f-09ee-4b5a-8ca0-b3650c4a881d")
+		)
+		(fp_line
+			(start 3.35 2.05)
+			(end -3.35 2.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "30a18315-c4f9-48e8-828b-2bb82101a8ed")
+		)
+		(fp_line
+			(start -3.35 2.05)
+			(end -3.35 -1.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4774454a-452f-4565-9c31-7badf91e5ec8")
+		)
+		(fp_rect
+			(start -1.81 -0.635)
+			(end 1.81 0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "baafbb8a-97a6-45d3-b8f1-7ef6d089b496")
+		)
+		(fp_rect
+			(start -1.81 -0.635)
+			(end -0.603333 0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "d01a9e26-2c08-4525-b6cf-f51b117b2fee")
+		)
+		(fp_text user "on"
+			(at 0.4275 -1.3425 90)
+			(layer "F.Fab")
+			(uuid "811742fb-65f1-4af1-8349-0c4735ab71d0")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.09)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.58 0 0)
+			(layer "F.Fab")
+			(uuid "e5204063-3b67-466c-91fc-e3b217bf0c27")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.09)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -4.305 0 90)
+			(size 2.44 1.12)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.223214)
+			(net 4 "+3V3")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "48608518-ff1d-42e9-9415-73052f09508d")
+		)
+		(pad "2" smd roundrect
+			(at 4.305 0 90)
+			(size 2.44 1.12)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.223214)
+			(net 3 "Net-(R1-Pad1)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "9eaac4a1-a28e-4eb3-8c5a-9fadc077df79")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
+	)
+	(footprint "layout:LED_0603_Symbol_on_F.SilkS"
+		(layer "F.Cu")
+		(uuid "eb664629-3662-48d2-a72c-a2cd4220fc8d")
+		(at 187.8 151)
+		(descr "LED 0603 smd package")
+		(tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
+		(property "Reference" "D1"
+			(at 0 -1.25 0)
+			(layer "F.SilkS")
+			(uuid "9e53b9cc-3411-4f77-b389-f31a9b69df04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED_BLUE"
+			(at 0 1.35 0)
+			(layer "F.Fab")
+			(uuid "7cea4186-375e-430e-b07b-f263d78aa1ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60e36c2a-409d-4dca-b578-f802765cd882")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa123b2a-9751-4e80-a683-71c9813e5d54")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "480ad639-112e-4e75-aa7b-16a00efbc5b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "492d6231-005d-423a-912a-156997dc505b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65105c81-ec02-4121-bc05-f8d5ceb6c179")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/b454e0e2-29c9-4ca8-ad85-06fea15744a0")
+		(sheetname "/")
+		(sheetfile "proj1.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.3 -0.5)
+			(end -1.3 0.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ef376963-1456-4444-966b-5217129c6166")
+		)
+		(fp_line
+			(start -1.3 -0.5)
+			(end 0.8 -0.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b4f608f8-b252-4116-a151-236b95b681b0")
+		)
+		(fp_line
+			(start -1.3 0.5)
+			(end 0.8 0.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1b5f50d7-103f-4692-8f81-33ce5671d5f5")
+		)
+		(fp_line
+			(start -0.2 -0.2)
+			(end -0.2 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4d55bc2b-6b22-406d-a2c2-db59e8398fbe")
+		)
+		(fp_line
+			(start -0.15 0)
+			(end 0.15 -0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c9cef4da-c5ba-48c9-9b44-37b79292e96d")
+		)
+		(fp_line
+			(start 0.15 -0.2)
+			(end 0.15 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5fea4ae0-5d26-4b55-a59d-1cedfb6d2289")
+		)
+		(fp_line
+			(start 0.15 0.2)
+			(end -0.15 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d6a3e7d4-5fc0-4774-935e-006450869ab2")
+		)
+		(fp_line
+			(start -1.45 -0.65)
+			(end 1.45 -0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1775657f-81b0-465d-ba5f-c3419555dbdf")
+		)
+		(fp_line
+			(start -1.45 0.65)
+			(end -1.45 -0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3e6aff0d-400e-4c18-99ff-e658138c7a94")
+		)
+		(fp_line
+			(start 1.45 -0.65)
+			(end 1.45 0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "243bf447-773b-41e1-ba7e-b4db37167fcf")
+		)
+		(fp_line
+			(start 1.45 0.65)
+			(end -1.45 0.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f75772f0-c89d-46ad-99f8-3fcac9e5a0c1")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9c30f58a-e5df-4173-895c-a2669da7e363")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "605d2381-0005-4668-800b-8f0289d58ada")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "16ded114-0488-403f-8dff-998dd484361d")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5937b28a-281b-4d82-a7e6-290a7aa1d906")
+		)
+		(pad "1" smd rect
+			(at -0.8 0 180)
+			(size 0.8 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 2 "GND")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "fde6c34b-fb9a-44dc-bc0b-f73b4e7cb370")
+		)
+		(pad "2" smd rect
+			(at 0.8 0 180)
+			(size 0.8 0.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "Net-(D1-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "f272906f-63dd-4540-a935-3a80409e9018")
+		)
+		(embedded_fonts no)
+		(model "${KISYS3DMOD}/LEDs.3dshapes/LED_0603.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
+		)
+	)
+	(gr_line
+		(start 184 146)
+		(end 184 158)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6c789a62-42b5-4f72-8ddf-a80e04cd253d")
+	)
+	(gr_arc
+		(start 184 146)
+		(mid 185.171573 143.171573)
+		(end 188 142)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "199dbf74-679d-4264-9d5a-6f46fb179622")
+	)
+	(gr_arc
+		(start 188 162)
+		(mid 185.171573 160.828427)
+		(end 184 158)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e9bbdf71-09f9-4b36-85b7-e576cf9c7f49")
+	)
+	(gr_line
+		(start 188 162)
+		(end 196 162)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bb9690c6-771f-43aa-bbb7-a301982df34d")
+	)
+	(gr_line
+		(start 196 142)
+		(end 188 142)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "30e44960-aeb3-462b-b47c-b86cf1c87bc5")
+	)
+	(gr_arc
+		(start 196 142)
+		(mid 198.828427 143.171573)
+		(end 200 146)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dd25107b-6b5a-4775-982c-8ad920428789")
+	)
+	(gr_arc
+		(start 200 158)
+		(mid 198.828427 160.828427)
+		(end 196 162)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "46c3d073-0726-45e2-9097-f40c0bc7e446")
+	)
+	(gr_line
+		(start 200 158)
+		(end 200 146)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1280d74e-f1fc-4cf4-9bbe-50dccb9d08f8")
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "093dce09-75e8-49c3-a85b-5deda1b9039c")
+		(pts
+			(xy 188 146) (xy 187.95 158.96)
+		)
+		(height -7)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "12.9600 mm"
+			(at 179.2 152.48 90)
+			(layer "F.Cu")
+			(uuid "093dce09-75e8-49c3-a85b-5deda1b9039c")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "4f24171e-84af-4755-bc86-d69ab74cd0ef")
+		(pts
+			(xy 200 142) (xy 184 142)
+		)
+		(height -6)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "16.0000 mm"
+			(at 192 134.2 0)
+			(layer "F.Cu")
+			(uuid "4f24171e-84af-4755-bc86-d69ab74cd0ef")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "72d2c511-62b0-4a2b-a9b0-3d8b3bfccda2")
+		(pts
+			(xy 200 162) (xy 200 142)
+		)
+		(height 6)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "20.0000 mm"
+			(at 204.2 152 90)
+			(layer "F.Cu")
+			(uuid "72d2c511-62b0-4a2b-a9b0-3d8b3bfccda2")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "e38a16b9-7f88-46e4-bd9a-27850358e29e")
+		(pts
+			(xy 196 158) (xy 188 158)
+		)
+		(height 11)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "8.0000 mm"
+			(at 192 167.2 0)
+			(layer "F.Cu")
+			(uuid "e38a16b9-7f88-46e4-bd9a-27850358e29e")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(segment
+		(start 188.6 151)
+		(end 192 151)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "b24d125f-7930-4546-877a-d903bd9a14d3")
+	)
+	(segment
+		(start 187 151)
+		(end 187 153)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "770cbe0f-1412-419c-995e-3fae8dd53b5c")
+	)
+	(via
+		(at 187 153)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "39d260e6-9e6a-4a11-8636-78dd8147bccd")
+	)
+	(segment
+		(start 186.68 153.32)
+		(end 187 153)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "05efa1a1-dd78-4b89-a3ef-e9810f9926c2")
+	)
+	(segment
+		(start 186.68 157.5)
+		(end 186.68 153.32)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "278ce1c9-b149-4e87-b7fa-604799d20ab1")
+	)
+	(segment
+		(start 196 144.445)
+		(end 192 148.445)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "20073a4f-8a38-4612-b2d9-b50dafa3354e")
+	)
+	(segment
+		(start 192 148.445)
+		(end 192 149.175)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "5285e31f-cd4f-4190-bfbf-9362aecc9550")
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "Title_Block copy.kicad_wks")
+			(type worksheet)
+			(data |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|
+			)
+			(checksum "D1393CF1F13EC6C3BBA16AD11B9C0D5A")
+		)
+	)
+)
