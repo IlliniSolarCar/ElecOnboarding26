@@ -97,15 +97,14 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
-        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        //PROJECT 2 - use the potentiometer to change the blink rate
+        float potentiometerVal = potentiometer.read();
+
+        if(timing.tickThreshold(last_task_1_time, potentiometerVal * TASK_1_RATE_US)){
         	//PROJECT 1 - add code here to actually make the LED blink
         	led.write(isLedOn);
         	isLedOn = !isLedOn;
         }
-
-        //PROJECT 2 - use the potentiometer to change the blink rate
-
-
 	}
 
 	shutdown_method();
