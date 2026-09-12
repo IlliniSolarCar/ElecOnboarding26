@@ -751,6 +751,19 @@
 				)
 			)
 		)
+		(property "MPN" "RES SMD 105 OHM 1% 1/4W 0603"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2480a28-8adc-42b8-82a0-bd917b3137e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6385d927-7c75-4a3a-89a1-5c244545d765")
 		(sheetname "/")
@@ -1588,7 +1601,7 @@
 				)
 			)
 		)
-		(property "MPN" "LTST-C193KRKT-5A"
+		(property "MPN" "LED RED CLEAR 0603 SMD"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
