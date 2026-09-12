@@ -1917,10 +1917,84 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "F.Fab")
-		(uuid "5fb9dce7-7ae0-444f-944c-d85ab1bf6e7f")
+		(layer "Dwgs.User")
+		(uuid "10bde1b6-1291-455f-9b6b-ab904602eb37")
 		(pts
-			(xy 101.5 66) (xy 109.635 66.591667)
+			(xy 101.5 66) (xy 109 82)
+		)
+		(height 16.5)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "16.0000 mm"
+			(at 116.85 74 90)
+			(layer "Dwgs.User")
+			(uuid "10bde1b6-1291-455f-9b6b-ab904602eb37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "1f3b44b7-f5e4-48b9-b1e5-3d7773909f03")
+		(pts
+			(xy 105.55 86) (xy 105.5 61)
+		)
+		(height -13.55)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "25.0000 mm"
+			(at 90.85 73.5 90)
+			(layer "Dwgs.User")
+			(uuid "1f3b44b7-f5e4-48b9-b1e5-3d7773909f03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "2f91db07-fb09-4a8c-a7ca-59a965e7d8c3")
+		(pts
+			(xy 101.5 66) (xy 109 82)
 		)
 		(height -8)
 		(orientation 0)
@@ -1932,7 +2006,7 @@
 			(precision 4)
 		)
 		(style
-			(thickness 0.1)
+			(thickness 0.15)
 			(arrow_length 1.27)
 			(text_position_mode 0)
 			(arrow_direction outward)
@@ -1940,10 +2014,10 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "8.1350 mm"
-			(at 105.5675 56.85 0)
-			(layer "F.Fab")
-			(uuid "5fb9dce7-7ae0-444f-944c-d85ab1bf6e7f")
+		(gr_text "7.5000 mm"
+			(at 105.25 56.85 0)
+			(layer "Dwgs.User")
+			(uuid "2f91db07-fb09-4a8c-a7ca-59a965e7d8c3")
 			(effects
 				(font
 					(size 1 1)
@@ -1954,86 +2028,12 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "F.Fab")
-		(uuid "c9583f4c-1d7d-419d-bcd7-143b346b2007")
-		(pts
-			(xy 111 82) (xy 103.5 66)
-		)
-		(height 6)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "16.0000 mm"
-			(at 115.85 74 90)
-			(layer "F.Fab")
-			(uuid "c9583f4c-1d7d-419d-bcd7-143b346b2007")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "F.Fab")
-		(uuid "cd2877d9-d939-4b9a-b219-2a17e6f90f78")
-		(pts
-			(xy 100 61) (xy 100 86)
-		)
-		(height -7)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "25.0000 mm"
-			(at 91.85 73.5 90)
-			(layer "F.Fab")
-			(uuid "cd2877d9-d939-4b9a-b219-2a17e6f90f78")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "F.Fab")
-		(uuid "cfbf0a20-ebe2-4854-b6b0-34fcee853263")
+		(layer "Dwgs.User")
+		(uuid "6fe4960e-811d-4aea-a05c-974bf759fdb2")
 		(pts
 			(xy 97 83) (xy 114 83)
 		)
-		(height 6)
+		(height 7)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -2043,7 +2043,7 @@
 			(precision 4)
 		)
 		(style
-			(thickness 0.1)
+			(thickness 0.15)
 			(arrow_length 1.27)
 			(text_position_mode 0)
 			(arrow_direction outward)
@@ -2052,9 +2052,9 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "17.0000 mm"
-			(at 105.5 87.85 0)
-			(layer "F.Fab")
-			(uuid "cfbf0a20-ebe2-4854-b6b0-34fcee853263")
+			(at 105.5 88.85 0)
+			(layer "Dwgs.User")
+			(uuid "6fe4960e-811d-4aea-a05c-974bf759fdb2")
 			(effects
 				(font
 					(size 1 1)
