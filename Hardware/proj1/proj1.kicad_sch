@@ -950,7 +950,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 137.16 109.22 0)
 			(effects
 				(font
@@ -1029,7 +1029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 135.382 97.79 90)
 			(effects
 				(font
