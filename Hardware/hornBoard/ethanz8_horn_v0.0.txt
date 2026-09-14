@@ -1,0 +1,38 @@
+Horn Board: 
+
+## Overview and Description
+- Electric horn used on the car to sound a loud horn
+- In series with another of the same board 
+- Other board integration:
+	- Power in 
+	- Horn control (input)
+	- Signal to other horns (output)
+- Wiki page: https://wiki.illinisolarcar.com/w/index.php/Public:Electrical_Onboarding_Fall_2026#.28Challenge.29_Project_2:_Horns_Board 
+
+## High-Level Requirements
+- No microcontroller
+- A Horn On/Off which will be a digital signal for whether or not it should be on
+- A Horn Output which will output 24V at 150mA
+
+## Communication Protocols
+- Digital GPIO to switch the horn
+
+## Connectors
+- Power in (INPUT: where the board gets power from)
+- Horn Control (INPUT: where the digital On/Off Signal is received)
+- 2 "Horn Outs" linked in series (OUTPUT: the signal the board is sending to the horns)
+
+## ICs
+- No ICs
+
+## Buttons/Switches
+- Can add a button to debug the board
+
+## Power System
+- +24V, 150mA signal from the low voltage bus board 
+
+## Test Points
+- Can add test points to any net 
+
+## LED Indicators
+- Can add LED indicators to any net 
