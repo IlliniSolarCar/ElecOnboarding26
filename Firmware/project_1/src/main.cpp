@@ -4,9 +4,12 @@
  */
 
 #include <mbed.h>
+
 // PROJECT 1 - Include something here!
 #include "pins.h"
 #include "peripherals.h"
+#include "setup.h"
+
 #include "can_struct.h"
 #include "CAN/can_id.h"
 #include "CAN/can_data.h"
