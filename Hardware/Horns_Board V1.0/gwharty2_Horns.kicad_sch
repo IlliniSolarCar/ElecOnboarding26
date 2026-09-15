@@ -1718,7 +1718,7 @@
 		(uuid "8a910a18-5199-4f82-ba87-b7e02841b4cb")
 	)
 	(junction
-		(at 86.36 107.95)
+		(at 86.36 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d80f5873-7ff0-48bf-aa23-98c879bfae6a")
@@ -1745,7 +1745,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 90.17) (xy 101.6 93.98)
+			(xy 101.6 91.44) (xy 101.6 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1835,7 +1835,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 107.95) (xy 86.36 107.95)
+			(xy 83.82 99.06) (xy 86.36 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1935,7 +1935,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 110.49) (xy 86.36 107.95)
+			(xy 86.36 101.6) (xy 86.36 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1985,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 88.9) (xy 86.36 107.95)
+			(xy 86.36 88.9) (xy 86.36 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2183,7 +2183,7 @@
 		)
 		(uuid "4524235d-8728-41d1-86cf-2e4b5167eb38")
 	)
-	(label "Horn In"
+	(label "HRN_IN"
 		(at 105.41 77.47 0)
 		(effects
 			(font
@@ -2284,7 +2284,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 182.88 82.55 0)
 			(effects
 				(font
@@ -2304,6 +2304,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 182.88 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 182.88 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,7 +2369,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 123.444 98.044 90)
 			(effects
 				(font
@@ -2371,6 +2389,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 123.19 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 123.19 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2550,7 +2586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 152.4 82.55 0)
 			(effects
 				(font
@@ -2570,6 +2606,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 152.4 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 152.4 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,7 +2671,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 160.02 82.55 0)
 			(effects
 				(font
@@ -2637,6 +2691,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 160.02 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 160.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,7 +2872,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36cdf808-d802-4637-88f9-09e7ff6a9bc9")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 203.962 84.074 90)
 			(effects
 				(font
@@ -2818,7 +2890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_Elec_3x5.4"
 			(at 199.0852 86.36 0)
 			(effects
 				(font
@@ -2845,6 +2917,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 198.12 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Might change out not sure of standard"
+			(at 198.12 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "205568d3-013a-49b4-b32c-1cc9137db7ea")
 		)
@@ -2854,7 +2944,7 @@
 		(instances
 			(project "gwharty2_Horns"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3017,7 +3107,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 175.26 82.55 0)
 			(effects
 				(font
@@ -3044,6 +3134,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 175.26 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 175.26 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "653f55d9-1062-4362-9146-2ab3364ff74a")
 		)
@@ -3061,7 +3169,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 110.49 0)
+		(at 86.36 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3070,7 +3178,7 @@
 		(fields_autoplaced yes)
 		(uuid "4997091b-4d2c-4ff3-95d8-273ca484d059")
 		(property "Reference" "#PWR02"
-			(at 86.36 116.84 0)
+			(at 86.36 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +3187,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 115.57 0)
+			(at 86.36 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3087,7 +3195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 110.49 0)
+			(at 86.36 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3096,7 +3204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 110.49 0)
+			(at 86.36 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3105,7 +3213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 110.49 0)
+			(at 86.36 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +3301,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 90.17 180)
+		(at 101.6 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3201,7 +3309,7 @@
 		(dnp no)
 		(uuid "537836b4-b9d7-40dc-9b6c-9d62806bf12f")
 		(property "Reference" "#PWR021"
-			(at 101.6 83.82 0)
+			(at 101.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +3318,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.902 88.9 0)
+			(at 104.902 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 90.17 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +3335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 90.17 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3236,7 +3344,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 90.17 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,6 +3475,24 @@
 			)
 		)
 		(property "Description" "600V 2A General Purpose Rectifier Diode, SMB"
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 87.63 80.01 0)
 			(effects
 				(font
@@ -3546,7 +3672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 128.27 95.25 0)
 			(effects
 				(font
@@ -3566,6 +3692,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 128.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 128.27 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 128.27 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,7 +3758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 69.85 86.36 0)
 			(effects
 				(font
@@ -3633,6 +3777,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 69.85 86.36 0)
 			(effects
 				(font
@@ -3819,7 +3981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 93.98 72.39 0)
 			(effects
 				(font
@@ -3846,6 +4008,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 93.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 93.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3773cebd-0d3c-4fa2-8dfb-69ffa5995080")
 		)
@@ -3863,7 +4043,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 83.82 107.95 90)
+		(at 83.82 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3872,7 +4052,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a24eb62-bcae-47b0-82bf-bf335a72cc2b")
 		(property "Reference" "#FLG01"
-			(at 81.915 107.95 0)
+			(at 81.915 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +4061,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 80.01 107.9499 90)
+			(at 80.01 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +4070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 107.95 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +4079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 107.95 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +4088,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 83.82 107.95 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,6 +4231,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 104.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 104.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a4d8d6a4-3fe7-41ca-bb71-1318f4ea6976")
 		)
@@ -4097,7 +4295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 102.87 72.39 0)
 			(effects
 				(font
@@ -4116,6 +4314,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 102.87 72.39 0)
 			(effects
 				(font
@@ -4164,7 +4380,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 167.64 82.55 0)
 			(effects
 				(font
@@ -4184,6 +4400,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 167.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 167.64 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 167.64 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,7 +4465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 101.6 83.312 90)
 			(effects
 				(font
@@ -4251,6 +4485,24 @@
 		)
 		(property "Description" "Fuse"
 			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 101.6 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 101.6 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4498,7 +4750,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 125.73 80.01 0)
 			(effects
 				(font
@@ -4518,6 +4770,24 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 125.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 125.73 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 125.73 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +4835,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 144.78 82.55 0)
 			(effects
 				(font
@@ -4585,6 +4855,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 144.78 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 144.78 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4632,7 +4920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 190.5 82.55 0)
 			(effects
 				(font
@@ -4652,6 +4940,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 190.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 190.5 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 190.5 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
