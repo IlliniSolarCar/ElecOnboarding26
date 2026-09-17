@@ -811,7 +811,7 @@
 			(uuid "504e3ca3-2012-40e5-9594-2b71377badbc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1518,7 +1518,7 @@
 			(uuid "7d7f50d4-08f6-4521-a87b-410b8dd5b461")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1748,7 +1748,7 @@
 			(uuid "5ab70e84-7200-42b7-bdd4-c2c6be94ce9a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2087,55 +2087,6 @@
 		)
 	)
 	(segment
-		(start 128.016 108.204)
-		(end 128.016 107.226)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "Net-(D1-A)")
-		(uuid "0b2cdc09-a21e-4b31-ab3d-9323b0dac43e")
-	)
-	(segment
-		(start 128.524 108.712)
-		(end 128.016 108.204)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "Net-(D1-A)")
-		(uuid "601357ba-cfaf-4d7b-82ad-8d74fec439c2")
-	)
-	(segment
-		(start 130.6595 108.712)
-		(end 128.524 108.712)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "Net-(D1-A)")
-		(uuid "a6af439b-1e5f-495e-884b-e2edff76c5d2")
-	)
-	(segment
-		(start 128.016 105.626)
-		(end 130.772 105.626)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "7b3e0f95-5a71-4bda-8a1b-7ace748f0347")
-	)
-	(segment
-		(start 130.772 105.626)
-		(end 130.81 105.664)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "fcb95c03-2a74-4639-b2c8-fb9b80ba616d")
-	)
-	(via
-		(at 130.81 105.664)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "707532f6-483c-48e2-a023-397fd6005b2f")
-	)
-	(segment
 		(start 133.096 104.902)
 		(end 132.4845 105.5135)
 		(width 0.25)
@@ -2174,6 +2125,55 @@
 		(layer "F.Cu")
 		(net "Net-(R1-Pad1)")
 		(uuid "a25d1375-0dac-4b94-92f7-428db509a97c")
+	)
+	(segment
+		(start 128.016 105.626)
+		(end 130.772 105.626)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "7b3e0f95-5a71-4bda-8a1b-7ace748f0347")
+	)
+	(segment
+		(start 130.772 105.626)
+		(end 130.81 105.664)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "fcb95c03-2a74-4639-b2c8-fb9b80ba616d")
+	)
+	(via
+		(at 130.81 105.664)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "707532f6-483c-48e2-a023-397fd6005b2f")
+	)
+	(segment
+		(start 128.016 108.204)
+		(end 128.016 107.226)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(D1-A)")
+		(uuid "0b2cdc09-a21e-4b31-ab3d-9323b0dac43e")
+	)
+	(segment
+		(start 128.524 108.712)
+		(end 128.016 108.204)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(D1-A)")
+		(uuid "601357ba-cfaf-4d7b-82ad-8d74fec439c2")
+	)
+	(segment
+		(start 130.6595 108.712)
+		(end 128.524 108.712)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(D1-A)")
+		(uuid "a6af439b-1e5f-495e-884b-e2edff76c5d2")
 	)
 	(zone
 		(net "+3V3")
