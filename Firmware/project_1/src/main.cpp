@@ -10,6 +10,7 @@
 #include "CAN/can_id.h"
 #include "CAN/can_data.h"
 #include "can_buffer.h"
+#include "pins.h"
 
 
 /*
@@ -95,12 +96,17 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
+       /*
         if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
-        	//PROJECT 1 - add code here to actually make the LED blink
+        	//PROJECT 1 - add code here to actually make the LED blin
+        	led1 = !led1;
         }
+       */
 
         //PROJECT 2 - use the potentiometer to change the blink rate
-
+        if(timing.tickThreshold(last_task_1_time, pot1.read() * TASK_1_RATE_US)){
+        	led1 = !led1;
+        }
 
 	}
 
