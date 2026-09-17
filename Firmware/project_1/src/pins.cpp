@@ -24,3 +24,4 @@ DigitalOut led3(P_LED3);
 DigitalOut led4(P_LED4);
 
 DigitalOut ledBlink(P_LED_BLINK);
+AnalogIn potentiometer(P_POTENTIOMETER);

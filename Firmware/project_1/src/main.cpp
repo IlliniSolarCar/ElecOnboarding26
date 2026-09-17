@@ -77,6 +77,7 @@ int main() {
 	// Configure all of our peripherals and globals
 	setup();
 
+	uint32_t led_blink_rate_us = LED_BLINK_RATE_US; // base rate
 	uint32_t last_led_blink_time = timing.onTick(NULL);
 	bool led_blink_state = false;
 
@@ -98,13 +99,15 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
-		if (timing.tickThreshold(last_led_blink_time, LED_BLINK_RATE_US)) {
+        //PROJECT 2 - use the potentiometer to change the blink rate
+        //scaled from 0.5-1.5 seconds
+        led_blink_rate_us = (potentiometer.read() * 1e6) + 5e5;
+
+        // use threshold to allow variably changing it
+        if (timing.tickThreshold(last_led_blink_time, led_blink_rate_us)) {
 			led_blink_state = !led_blink_state;
 			ledBlink.write(led_blink_state);
 		}
-
-        //PROJECT 2 - use the potentiometer to change the blink rate
-
 
 	}
 

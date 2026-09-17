@@ -39,13 +39,13 @@ extern DigitalOut led4;
  * BOARD SPECIFIC PINS
  */
 #define P_LED_BLINK P0_4
+#define P_POTENTIOMETER P0_5
 
 /*
  * BOARD SPECIFIC PIN OBJECT DECLARATIONS
  */
 extern DigitalOut ledBlink;
-// PROJECT 2 - You can declare a AnalogIn object here
-
+extern AnalogIn potentiometer;
 
 
 #endif // __MBED1549_SKELETON_PINS_H__
