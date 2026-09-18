@@ -11,7 +11,7 @@
 /*
  * PIN OBJECT INSTANTIATIONS
  */
-
+AnalogIn potentiometer1(P0_4);
 // PROJECT 2 - You can instantiate your AnalogIn object here
 
 /*
