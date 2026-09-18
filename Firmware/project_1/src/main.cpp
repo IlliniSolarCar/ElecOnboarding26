@@ -107,7 +107,7 @@ int main() {
         //PROJECT 2 - use the potentiometer to change the blink rate
         float pot_val = pot.read();
         current_rate = (uint32_t)(100000 + pot_val * 1900000);
-
+        //base rate of 100000 microseconds, then poteniometer adjusts up to 2e6 microseconds (2 seconds)
 	}
 
 	shutdown_method();
