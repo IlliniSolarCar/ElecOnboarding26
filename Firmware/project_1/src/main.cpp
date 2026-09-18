@@ -105,7 +105,6 @@ int main() {
 
         if(timing.tickThreshold(last_task_1_time, LED_BLINK_RATE_US * potentiometerVal)){
         	// PROJECT 1 - blink the LED
-        	led.write(ledOn);
         	ledOn = !ledOn;
         }
 
