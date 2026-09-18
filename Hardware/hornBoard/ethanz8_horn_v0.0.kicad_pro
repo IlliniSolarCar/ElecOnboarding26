@@ -248,7 +248,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -498,7 +498,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Template_v0.0.kicad_pro",
+    "filename": "ethanz8_horn_v0.0.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -679,18 +679,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Template_v0.0.kicad_sch",
-        "name": "Template_v0.0",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "filename": "ethanz8_horn_v0.0.kicad_sch",
+        "name": "ethanz8_horn_v0.0",
+        "uuid": "1e1b062d-fad0-427c-a622-c5b8a80b5268"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R1-4,#FLG1-2,J1-4,Q1-2,D1,#PWR1-14,C1-10,F1-3",
     "variants": []
   },
   "sheets": [
     [
       "1e1b062d-fad0-427c-a622-c5b8a80b5268",
-      ""
+      "ethanz8_horn_v0.0"
     ]
   ],
   "text_variables": {},

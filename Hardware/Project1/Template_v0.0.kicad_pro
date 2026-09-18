@@ -248,7 +248,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -622,12 +622,42 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Notes",
+          "name": "Notes",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -670,7 +700,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "Title_Block.kicad_wks",
+    "page_layout_descr_file": "LED_Project.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "spice_adjust_passive_values": false,
@@ -681,16 +711,16 @@
       {
         "filename": "Template_v0.0.kicad_sch",
         "name": "Template_v0.0",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "1e1b062d-fad0-427c-a622-c5b8a80b5268"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1,D1,BT1,J1,#FLG1,R1,SW1",
     "variants": []
   },
   "sheets": [
     [
       "1e1b062d-fad0-427c-a622-c5b8a80b5268",
-      ""
+      "Template_v0.0"
     ]
   ],
   "text_variables": {},
