@@ -2159,7 +2159,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 132.08) (xy 149.86 148.59)
+			(xy 149.86 132.08) (xy 149.86 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2589,7 +2589,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 128.27) (xy 152.4 148.59)
+			(xy 152.4 128.27) (xy 152.4 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4317,7 +4317,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Female")
-		(at 152.4 153.67 270)
+		(at 152.4 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4326,7 +4326,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb739f5f-6963-44c2-b96a-3a31b878211d")
 		(property "Reference" "J2"
-			(at 148.59 154.3051 90)
+			(at 148.59 142.8751 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +4335,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Female"
-			(at 148.59 151.7651 90)
+			(at 148.59 140.3351 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +4344,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 152.4 153.67 0)
+			(at 152.4 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +4353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 153.67 0)
+			(at 152.4 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +4362,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 152.4 153.67 0)
+			(at 152.4 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
