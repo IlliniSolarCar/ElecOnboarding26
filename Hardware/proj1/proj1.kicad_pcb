@@ -1692,6 +1692,30 @@
 		(net 3)
 		(uuid "5285e31f-cd4f-4190-bfbf-9362aecc9550")
 	)
+	(segment
+		(start 192.945 153.055)
+		(end 189.22 156.78)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "01ee1be6-b46e-45e0-bde2-0eb9e95ff754")
+	)
+	(segment
+		(start 196 153.055)
+		(end 192.945 153.055)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "5167f2e1-38b4-4f13-9823-6b4b392968cb")
+	)
+	(segment
+		(start 189.22 156.78)
+		(end 189.22 157.5)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "75ce0a53-55d9-4d40-8b78-b74f0701dea2")
+	)
 	(embedded_fonts no)
 	(embedded_files
 		(file
