@@ -496,7 +496,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "proj2horns.net",
-      "plot": "",
+      "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
