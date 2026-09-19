@@ -1,0 +1,23 @@
+# Add footprint label to anything that changes footprint libraries
+footprint:
+  - '**/*.pretty'
+  - '**/*.kicad_mod'
+
+# Add symbol label to anything that changes symbol libraries
+symbol: 
+  - '**/*.kicad_sym'
+
+# Add 3d model label to any changes to 3d models
+3d model:
+  - packages3d/*
+
+# Add kicad libraries label to anything that changes kicads libraries
+kicad libraries:
+  - footprint_kicad/**/*
+  - schematic_kicad/**/*
+
+# Add git label to anything that changes a repo config
+git:
+  - .github/**/*
+  - '**/.gitignore'
+  - ./*.md

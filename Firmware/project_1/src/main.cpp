@@ -5,6 +5,7 @@
 
 #include <mbed.h>
 // PROJECT 1 - Include something here!
+#include "pins.h"
 #include "peripherals.h"
 #include "can_struct.h"
 #include "CAN/can_id.h"
@@ -94,9 +95,15 @@ int main() {
         	//total messages. Do nothing for irrelevant messages
         	common.toggleReceiveCANLED();
         }
+        float potValue = analogPot.read();
+        uint32_t minRate = 100000;
+        uint32_t maxRate = 2000000;
+        uint32_t blinkRateUS = minRate + (uint32_t)(potValue * (maxRate - minRate));
+
 
         if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
         	//PROJECT 1 - add code here to actually make the LED blink
+        	digitalHeartbeatLED = !digitalHeartbeatLED;
         }
 
         //PROJECT 2 - use the potentiometer to change the blink rate
