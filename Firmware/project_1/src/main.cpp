@@ -72,6 +72,7 @@ void shutdown_method() {
 		wdt.feed();
 	}
 }
+uint32_t proj_blink_rate = TASK_1_RATE_US;
 
 int main() {
 	// Configure all of our peripherals and globals
@@ -82,7 +83,14 @@ int main() {
 	bool shutdown = false;
 	// Main functionality
 	while (!shutdown) {
-
+		if (pot1.read()>.5)
+		{
+			proj_blink_rate = TASK_2_RATE_US;
+		}
+		else
+		{
+			proj_blink_rate = TASK_1_RATE_US;
+		}
 		//on time overflow all callbacks will happen and timing reset to 0. Might be needed for other functions that rely on timing.
         bool overflow;
         uint32_t now = common.loopTime(&timing, &overflow);
@@ -96,7 +104,7 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
-        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        if(timing.tickThreshold(last_task_1_time,  proj_blink_rate)){
 
         	//PROJECT 1 - add code here to actually make the LED blink
         	led5 = !led5;
