@@ -77,7 +77,7 @@ int main() {
 	// Configure all of our peripherals and globals
 	setup();
 	uint32_t last_task_1_time = timing.onTick(NULL);
-
+	uint32_t task_1_rate_us = TASK_1_RATE_US;
 	CANMessage msg;
 	bool shutdown = false;
 	// Main functionality
@@ -95,8 +95,10 @@ int main() {
         	//total messages. Do nothing for irrelevant messages
         	common.toggleReceiveCANLED();
         }
+		float pot_value = potentiometer.read();
+		task_1_rate_us = 100000 + (uint32_t)(pot_value * 900000);
 
-        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        if(timing.tickThreshold(last_task_1_time, task_1_rate_us)  ){
         	//PROJECT 1 - add code here to actually make the LED blink
 			project_led = !project_led.read();
         }

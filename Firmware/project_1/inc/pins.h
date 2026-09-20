@@ -40,10 +40,10 @@ extern DigitalOut project_led;
 /*
  * BOARD SPECIFIC PINS
  */
-
+#define P_POT P0_X
 // PROJECT 2 - You can declare a AnalogIn object here
 
-
+extern AnalogIn potentiometer;
 /*
  * BOARD SPECIFIC PIN OBJECT DECLARATIONS
  */
