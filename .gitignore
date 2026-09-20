@@ -41,6 +41,3 @@ doc/
 
 # Exclude lock files #
 *.lck
-
-
-.mcuxpressoide_packages_support
