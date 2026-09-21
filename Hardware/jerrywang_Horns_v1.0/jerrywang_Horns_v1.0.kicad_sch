@@ -2229,7 +2229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 177.4952 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2389,7 +2389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 94.9452 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2549,7 +2549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2867,7 +2867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 155.9052 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3106,7 +3106,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 110.49 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -3422,7 +3422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 215.5952 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3503,7 +3503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 186.3852 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3662,7 +3662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 145.7452 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3743,7 +3743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 68.58 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4137,7 +4137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 38.1 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4378,7 +4378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 82.55 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4616,7 +4616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 75.692 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -4775,7 +4775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 80.772 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -5012,7 +5012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 166.0652 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5171,7 +5171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 195.2752 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5252,7 +5252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 204.1652 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5410,7 +5410,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 105.41 130.81 0)
 			(hide yes)
 			(show_name no)
