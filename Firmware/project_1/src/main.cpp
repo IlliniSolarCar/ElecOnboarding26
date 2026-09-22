@@ -78,6 +78,9 @@ int main() {
 	setup();
 	uint32_t last_task_1_time = timing.onTick(NULL);
 
+	// Start with the original Project 1 blink rate
+	uint32_t current_rate = TASK_1_RATE_US;
+
 	CANMessage msg;
 	bool shutdown = false;
 	// Main functionality
@@ -96,13 +99,15 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
-        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        if(timing.tickThreshold(last_task_1_time, current_rate)){
         	//PROJECT 1 - add code here to actually make the LED blink
         	heartbeat_led = !heartbeat_led.read();
         }
 
         //PROJECT 2 - use the potentiometer to change the blink rate
+        float pot_value = potentiometer.read();
 
+        current_rate = (uint32_t)(100000 + pot_value * 1900000);
 
 	}
 
