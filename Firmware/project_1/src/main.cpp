@@ -94,12 +94,13 @@ int main() {
         	//total messages. Do nothing for irrelevant messages
         	common.toggleReceiveCANLED();
         }
+        /* Commenting out Project 1 for Project 2
 
         if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
-        	//PROJECT 1 - add code here to actually make the LED blink
-        	int value = led5.read(); //Store current state of LED as value
+        	//PROJECT 1 - Code to actually make the LED blink
+        	int ledState = led5.read(); //Store current state of LED as integer variabe
 
-        	if (value == 0){
+        	if (ledState == 0){
         		led5.write(1);
         	}
         	else{
@@ -107,8 +108,24 @@ int main() {
         	}
 
         }
+		*/
 
-        //PROJECT 2 - use the potentiometer to change the blink rate
+        //PROJECT 2 - Used the potentiometer to change the blink rate
+        float potentiometerState = pot1.read();
+
+        uint32_t minRate = 100000; //0.1 seconds
+        uint32_t maxRate = 2900000; //2.9 seconds
+
+        uint32_t currentRate = potentiometerState * (maxRate - minRate)  + minRate;
+
+        if(timing.tickThreshold(last_task_1_time, currentRate)){
+        	if (led5.read() == 0){
+        		led5.write(1);
+        	}
+        	else{
+        		led5.write(0);
+        	}
+        }
 
 
 	}
