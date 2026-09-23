@@ -232,7 +232,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -671,7 +671,7 @@
       {
         "filename": "Template_v0.0.kicad_sch",
         "name": "Template_v0.0",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "1e1b062d-fad0-427c-a622-c5b8a80b5268"
       }
     ],
     "used_designators": "J1,#PWR1-2,D1-2,SW1,R1,BT1",
@@ -680,7 +680,7 @@
   "sheets": [
     [
       "1e1b062d-fad0-427c-a622-c5b8a80b5268",
-      ""
+      "Template_v0.0"
     ]
   ],
   "text_variables": {},
