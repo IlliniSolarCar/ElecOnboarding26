@@ -95,13 +95,14 @@ int main() {
         	//total messages. Do nothing for irrelevant messages
         	common.toggleReceiveCANLED();
         }
-
-        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        //PROJECT 2 - use the potentiometer to change the blink rate
+             float potValue = potentiometer.read();
+             uint32_t blinkRate = 100000 + potValue * 900000;
+        if(timing.tickThreshold(last_task_1_time, blinkRate)){
         	//PROJECT 1 - add code here to actually make the LED blink
             heartbeatLED.write(!heartbeatLED.read());
 
         }
-        //PROJECT 2 - use the potentiometer to change the blink rate
 
 
 	}
