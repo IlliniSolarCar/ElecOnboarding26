@@ -13,7 +13,7 @@
  */
 
 // PROJECT 2 - You can instantiate your AnalogIn object here
-AnalogIn res(P_RES_task2)
+AnalogIn res(P_RES_task2);
 /*
  * COMMON PIN OBJECT INSTANTIATIONS
  */
