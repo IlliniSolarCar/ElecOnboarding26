@@ -1428,6 +1428,7 @@
 		(property "Reference" "REF**"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "467d8569-169a-4f0a-956f-19bc7d9f1e4f")
 			(effects
 				(font
@@ -1739,6 +1740,7 @@
 		(property "Reference" "REF**"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "406c397d-ca7e-4541-80aa-ecdb821ad448")
 			(effects
 				(font
@@ -2002,6 +2004,43 @@
 			(at 132.95 99.911701 90)
 			(layer "Dwgs.User")
 			(uuid "d9952842-c587-4a74-a494-d0ceaa25e57c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Fab")
+		(uuid "bd5209b0-a80a-4678-a16b-acbe2aa51695")
+		(pts
+			(xy 140.023402 106.9766) (xy 161.2 107.1)
+		)
+		(height 14.4354)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "21.1766 mm"
+			(at 150.611701 120.262 0)
+			(layer "F.Fab")
+			(uuid "bd5209b0-a80a-4678-a16b-acbe2aa51695")
 			(effects
 				(font
 					(size 1 1)
