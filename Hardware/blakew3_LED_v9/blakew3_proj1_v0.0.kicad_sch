@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260306)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "10.0")
+	(generator_version "9.0")
 	(uuid "1e1b062d-fad0-427c-a622-c5b8a80b5268")
 	(paper "USLetter")
 	(title_block
@@ -20,12 +20,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -34,8 +30,6 @@
 			)
 			(property "Value" "Conn_01x02"
 				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -44,57 +38,47 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "Conn_01x02_1_1"
@@ -134,38 +118,30 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "Pin_1"
-						(effects
+					(name "Pin_1" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
-					(number "1"
-						(effects
+						))
+					(number "1" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
+						))
 				)
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 3.81)
-					(name "Pin_2"
-						(effects
+					(name "Pin_2" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
-					(number "2"
-						(effects
+						))
+					(number "2" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
+						))
 				)
 			)
 			(embedded_fonts no)
@@ -181,12 +157,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
 				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -196,8 +168,6 @@
 			)
 			(property "Value" "SW_Push"
 				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -206,46 +176,38 @@
 			)
 			(property "Footprint" ""
 				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "switch normally-open pushbutton push-button"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "SW_Push_0_1"
@@ -261,9 +223,7 @@
 					)
 				)
 				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
+					(pts (xy 0 1.27) (xy 0 3.048))
 					(stroke
 						(width 0)
 						(type default)
@@ -284,9 +244,7 @@
 					)
 				)
 				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
+					(pts (xy 2.54 1.27) (xy -2.54 1.27))
 					(stroke
 						(width 0)
 						(type default)
@@ -298,38 +256,30 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "1"
-						(effects
+					(name "1" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
-					(number "1"
-						(effects
+						))
+					(number "1" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
+						))
 				)
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "2"
-						(effects
+					(name "2" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
-					(number "2"
-						(effects
+						))
+					(number "2" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
+						))
 				)
 			)
 			(embedded_fonts no)
@@ -345,12 +295,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -359,8 +305,6 @@
 			)
 			(property "Value" "LED"
 				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -369,63 +313,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "Light emitting diode"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy -3.048 -0.762)
+						(xy -4.572 -2.286)
+						(xy -3.81 -2.286)
+						(xy -4.572 -2.286)
+						(xy -4.572 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -437,7 +375,11 @@
 				)
 				(polyline
 					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+						(xy -1.778 -0.762)
+						(xy -3.302 -2.286)
+						(xy -2.54 -2.286)
+						(xy -3.302 -2.286)
+						(xy -3.302 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -448,9 +390,7 @@
 					)
 				)
 				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
+					(pts (xy -1.27 0) (xy 1.27 0))
 					(stroke
 						(width 0)
 						(type default)
@@ -460,9 +400,7 @@
 					)
 				)
 				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
+					(pts (xy -1.27 -1.27) (xy -1.27 1.27))
 					(stroke
 						(width 0.254)
 						(type default)
@@ -472,9 +410,7 @@
 					)
 				)
 				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
+					(pts (xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27))
 					(stroke
 						(width 0.254)
 						(type default)
@@ -488,38 +424,30 @@
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "K"
-						(effects
+					(name "K" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
-					(number "1"
-						(effects
+						))
+					(number "1" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
+						))
 				)
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "A"
-						(effects
+					(name "A" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
-					(number "2"
-						(effects
+						))
+					(number "2" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
+						))
 				)
 			)
 			(embedded_fonts no)
@@ -534,12 +462,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -548,8 +472,6 @@
 			)
 			(property "Value" "R_US"
 				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -558,63 +480,67 @@
 			)
 			(property "Footprint" ""
 				(at 1.016 -0.254 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "Resistor, US symbol"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "R_US_0_1"
 				(polyline
+					(pts (xy 0 2.286) (xy 0 2.54))
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
 					(pts
-						(xy 0 2.286) (xy 0 2.54)
+						(xy 0 2.286)
+						(xy 1.016 1.905)
+						(xy 0 1.524)
+						(xy -1.016 1.143)
+						(xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -626,7 +552,11 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 0.762)
+						(xy 1.016 0.381)
+						(xy 0 0)
+						(xy -1.016 -0.381)
+						(xy 0 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -638,7 +568,11 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+						(xy 0 -0.762)
+						(xy 1.016 -1.143)
+						(xy 0 -1.524)
+						(xy -1.016 -1.905)
+						(xy 0 -2.286)
 					)
 					(stroke
 						(width 0)
@@ -649,21 +583,7 @@
 					)
 				)
 				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
+					(pts (xy 0 -2.286) (xy 0 -2.54))
 					(stroke
 						(width 0)
 						(type default)
@@ -677,67 +597,53 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name ""
-						(effects
+					(name "~" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
-					(number "1"
-						(effects
+						))
+					(number "1" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
+						))
 				)
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name ""
-						(effects
+					(name "~" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
-					(number "2"
-						(effects
+						))
+					(number "2" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
+						))
 				)
 			)
 			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
-			(power global)
+			(power)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "+3V3"
 				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -746,53 +652,43 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "+3V3_0_1"
 				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
+					(pts (xy -0.762 1.27) (xy 0 2.54))
 					(stroke
 						(width 0)
 						(type default)
@@ -802,9 +698,7 @@
 					)
 				)
 				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
+					(pts (xy 0 2.54) (xy 0.762 1.27))
 					(stroke
 						(width 0)
 						(type default)
@@ -814,9 +708,7 @@
 					)
 				)
 				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
+					(pts (xy 0 0) (xy 0 2.54))
 					(stroke
 						(width 0)
 						(type default)
@@ -831,49 +723,39 @@
 					(at 0 0 90)
 					(length 0)
 					(hide yes)
-					(name "+3V3"
-						(effects
+					(name "+3V3" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
-					(number "1"
-						(effects
+						))
+					(number "1" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
+						))
 				)
 			)
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power global)
+			(power)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -882,52 +764,49 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy 0 0)
+						(xy 0 -1.27)
+						(xy 1.27 -1.27)
+						(xy 0 -2.54)
+						(xy -1.27 -1.27)
+						(xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -943,20 +822,16 @@
 					(at 0 0 270)
 					(length 0)
 					(hide yes)
-					(name "GND"
-						(effects
+					(name "GND" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
-					(number "1"
-						(effects
+						))
+					(number "1" (effects
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
+						))
 				)
 			)
 			(embedded_fonts no)
@@ -987,9 +862,7 @@
 		(uuid "e2040d41-b534-4e35-bbfe-e8d5a9ffbcc5")
 	)
 	(wire
-		(pts
-			(xy 87.63 118.11) (xy 59.69 118.11)
-		)
+		(pts (xy 87.63 118.11) (xy 59.69 118.11))
 		(stroke
 			(width 0)
 			(type default)
@@ -997,9 +870,7 @@
 		(uuid "0a7049ab-bc17-4f3d-bd1d-d022e03a429e")
 	)
 	(wire
-		(pts
-			(xy 55.88 111.76) (xy 58.42 111.76)
-		)
+		(pts (xy 55.88 111.76) (xy 58.42 111.76))
 		(stroke
 			(width 0)
 			(type default)
@@ -1007,9 +878,7 @@
 		(uuid "0acc3b0d-3a83-4c4e-980a-bfd26f7b60c2")
 	)
 	(wire
-		(pts
-			(xy 86.36 107.95) (xy 87.63 107.95)
-		)
+		(pts (xy 86.36 107.95) (xy 87.63 107.95))
 		(stroke
 			(width 0)
 			(type default)
@@ -1017,9 +886,7 @@
 		(uuid "17545ff8-9c9d-4cde-8149-2da677f8b44c")
 	)
 	(wire
-		(pts
-			(xy 59.69 107.95) (xy 67.31 107.95)
-		)
+		(pts (xy 59.69 107.95) (xy 67.31 107.95))
 		(stroke
 			(width 0)
 			(type default)
@@ -1027,9 +894,7 @@
 		(uuid "22285ff6-7240-4aef-b2ab-f28b763e21c7")
 	)
 	(wire
-		(pts
-			(xy 77.47 107.95) (xy 78.74 107.95)
-		)
+		(pts (xy 77.47 107.95) (xy 78.74 107.95))
 		(stroke
 			(width 0)
 			(type default)
@@ -1037,9 +902,7 @@
 		(uuid "2aed9eca-0a81-4e50-b280-6584d75a4c4c")
 	)
 	(wire
-		(pts
-			(xy 58.42 111.76) (xy 59.69 111.76)
-		)
+		(pts (xy 58.42 111.76) (xy 59.69 111.76))
 		(stroke
 			(width 0)
 			(type default)
@@ -1047,9 +910,7 @@
 		(uuid "2d4d307e-299a-4687-870b-d563a2ae0232")
 	)
 	(wire
-		(pts
-			(xy 59.69 114.3) (xy 59.69 118.11)
-		)
+		(pts (xy 59.69 114.3) (xy 59.69 118.11))
 		(stroke
 			(width 0)
 			(type default)
@@ -1057,9 +918,7 @@
 		(uuid "62c67b22-3f82-4a9f-a809-5bf19d9ea393")
 	)
 	(wire
-		(pts
-			(xy 87.63 107.95) (xy 87.63 109.22)
-		)
+		(pts (xy 87.63 107.95) (xy 87.63 109.22))
 		(stroke
 			(width 0)
 			(type default)
@@ -1067,9 +926,7 @@
 		(uuid "9ec120da-ead6-47d2-8784-feb1068ad9c8")
 	)
 	(wire
-		(pts
-			(xy 55.88 114.3) (xy 58.42 114.3)
-		)
+		(pts (xy 55.88 114.3) (xy 58.42 114.3))
 		(stroke
 			(width 0)
 			(type default)
@@ -1077,9 +934,7 @@
 		(uuid "d9cbe491-cf07-4631-baeb-7d32d5144bc3")
 	)
 	(wire
-		(pts
-			(xy 59.69 111.76) (xy 59.69 107.95)
-		)
+		(pts (xy 59.69 111.76) (xy 59.69 107.95))
 		(stroke
 			(width 0)
 			(type default)
@@ -1087,9 +942,7 @@
 		(uuid "db372f65-926a-45e6-ab45-b9c4c83b740a")
 	)
 	(wire
-		(pts
-			(xy 58.42 114.3) (xy 59.69 114.3)
-		)
+		(pts (xy 58.42 114.3) (xy 59.69 114.3))
 		(stroke
 			(width 0)
 			(type default)
@@ -1097,9 +950,7 @@
 		(uuid "e8724bfc-b7ac-440b-8d0c-adc27aeefa15")
 	)
 	(wire
-		(pts
-			(xy 59.69 118.11) (xy 59.69 119.38)
-		)
+		(pts (xy 59.69 118.11) (xy 59.69 119.38))
 		(stroke
 			(width 0)
 			(type default)
@@ -1107,9 +958,7 @@
 		(uuid "f3625c93-c008-43d9-91a7-8b5d68f744fc")
 	)
 	(wire
-		(pts
-			(xy 87.63 116.84) (xy 87.63 118.11)
-		)
+		(pts (xy 87.63 116.84) (xy 87.63 118.11))
 		(stroke
 			(width 0)
 			(type default)
@@ -1117,9 +966,7 @@
 		(uuid "f4da56ea-5aad-478e-a343-4d35d1b18c4f")
 	)
 	(wire
-		(pts
-			(xy 59.69 107.95) (xy 59.69 105.41)
-		)
+		(pts (xy 59.69 107.95) (xy 59.69 105.41))
 		(stroke
 			(width 0)
 			(type default)
@@ -1130,29 +977,23 @@
 		(lib_id "power:+3V3")
 		(at 59.69 105.41 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a105b52-e0d5-40c2-96c8-15f11c06e7a7")
 		(property "Reference" "#PWR01"
 			(at 59.69 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "+3V3"
 			(at 59.69 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1161,35 +1002,29 @@
 		)
 		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
 			(at 59.69 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 59.69 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 59.69 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1197,10 +1032,7 @@
 		)
 		(instances
 			(project "blakew3_proj1_v0.0"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "#PWR01")
-					(unit 1)
-				)
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268" (reference "#PWR01") (unit 1))
 			)
 		)
 	)
@@ -1208,29 +1040,23 @@
 		(lib_id "power:GND")
 		(at 59.69 119.38 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1be1a093-085a-464e-bf78-68d0d12915a1")
 		(property "Reference" "#PWR02"
 			(at 59.69 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 59.69 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,35 +1065,29 @@
 		)
 		(property "Footprint" ""
 			(at 59.69 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 59.69 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 59.69 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1275,10 +1095,7 @@
 		)
 		(instances
 			(project "blakew3_proj1_v0.0"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "#PWR02")
-					(unit 1)
-				)
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268" (reference "#PWR02") (unit 1))
 			)
 		)
 	)
@@ -1286,18 +1103,14 @@
 		(lib_id "device:LED")
 		(at 87.63 113.03 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "345b6dfc-bde3-4d48-bb9b-b3e5e6bc7fbe")
 		(property "Reference" "D1"
 			(at 91.44 113.3474 90)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1307,8 +1120,6 @@
 		)
 		(property "Value" "LED_RED"
 			(at 91.44 115.8874 90)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,35 +1129,29 @@
 		)
 		(property "Footprint" "layout:LED_0603_Symbol_on_F.SilkS"
 			(at 87.63 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
 			(at 87.63 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Light emitting diode"
 			(at 87.63 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1357,10 +1162,7 @@
 		)
 		(instances
 			(project "blakew3_proj1_v0.0"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "D1")
-					(unit 1)
-				)
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268" (reference "D1") (unit 1))
 			)
 		)
 	)
@@ -1368,18 +1170,14 @@
 		(lib_id "Switch:SW_Push")
 		(at 72.39 107.95 0)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fb9823b-ee44-4378-b31c-9f8ed6b49a4b")
 		(property "Reference" "SW1"
 			(at 72.39 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,8 +1186,6 @@
 		)
 		(property "Value" "SW_Push"
 			(at 72.39 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1398,35 +1194,29 @@
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile"
 			(at 72.39 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 72.39 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 72.39 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1437,10 +1227,7 @@
 		)
 		(instances
 			(project "blakew3_proj1_v0.0"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "SW1")
-					(unit 1)
-				)
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268" (reference "SW1") (unit 1))
 			)
 		)
 	)
@@ -1448,18 +1235,14 @@
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 53.34 114.3 180)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e77c6d3-5468-491c-a76c-b8b67dbf178a")
 		(property "Reference" "J1"
 			(at 53.34 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,8 +1251,6 @@
 		)
 		(property "Value" "Conn_01x02"
 			(at 53.34 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,35 +1259,29 @@
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 53.34 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/641/6410/022272021_sd.pdf?inline"
 			(at 53.34 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 53.34 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1517,10 +1292,7 @@
 		)
 		(instances
 			(project "blakew3_proj1_v0.0"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "J1")
-					(unit 1)
-				)
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268" (reference "J1") (unit 1))
 			)
 		)
 	)
@@ -1528,18 +1300,14 @@
 		(lib_id "device:R_US")
 		(at 82.55 107.95 90)
 		(unit 1)
-		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81133099-42f7-4c98-af8d-16677914dc83")
 		(property "Reference" "R1"
 			(at 82.55 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,8 +1316,6 @@
 		)
 		(property "Value" "105"
 			(at 82.55 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,35 +1324,29 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 82.804 106.934 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
 			(at 82.55 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 82.55 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1597,17 +1357,12 @@
 		)
 		(instances
 			(project "blakew3_proj1_v0.0"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "R1")
-					(unit 1)
-				)
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268" (reference "R1") (unit 1))
 			)
 		)
 	)
 	(sheet_instances
-		(path "/"
-			(page "1")
-		)
+		(path "/" (page "1"))
 	)
 	(embedded_fonts no)
 )
