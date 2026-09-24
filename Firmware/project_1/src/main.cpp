@@ -10,6 +10,7 @@
 #include "CAN/can_id.h"
 #include "CAN/can_data.h"
 #include "can_buffer.h"
+#include "pins.h"
 
 
 /*
@@ -41,7 +42,7 @@ void setup() {
 	//set up the CAN interrupts and handling.
 	common.setupCAN();
 	//set up LEDs and turn them all off
-	common.setupLEDs(&led1, &led2, &led3, &led4);
+	common.setupLEDs(&led1, &led2, &led3, &led4, &led);
 
 	//Set Callbacks:
 	//These are side tasks (up to 8) that are run independently of the main
@@ -85,6 +86,7 @@ int main() {
 		//on time overflow all callbacks will happen and timing reset to 0. Might be needed for other functions that rely on timing.
         bool overflow;
         uint32_t now = common.loopTime(&timing, &overflow);
+        unit32_t curr_rate = TASK_1_RATE_US;
 
         //clear CAN Buffer
         while(!common.readCANMessage(msg)) {
@@ -96,10 +98,13 @@ int main() {
         }
 
         if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        	led.write(!led.read());
         	//PROJECT 1 - add code here to actually make the LED blink
         }
+        
 
         //PROJECT 2 - use the potentiometer to change the blink rate
+        curr_rate = (uint32_t)(potentiometer1.read() * TASK_1_RATE_US);
 
 
 	}
