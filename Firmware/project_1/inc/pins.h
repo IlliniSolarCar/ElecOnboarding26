@@ -44,12 +44,12 @@ extern DigitalOut led_blink;
  */
 
 // PROJECT 2 - You can declare a AnalogIn object here
-
+#define P_POT P0_23
 
 /*
  * BOARD SPECIFIC PIN OBJECT DECLARATIONS
  */
-
+extern AnalogIn pot;
 
 
 

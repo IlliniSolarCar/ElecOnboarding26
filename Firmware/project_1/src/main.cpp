@@ -77,6 +77,7 @@ int main() {
 	// Configure all of our peripherals and globals
 	setup();
 	uint32_t last_task_1_time = timing.onTick(NULL);
+	uint32_t task_1_rate_us = TASK_1_RATE_US;
 
 	CANMessage msg;
 	bool shutdown = false;
@@ -102,6 +103,7 @@ int main() {
         }
 
         //PROJECT 2 - use the potentiometer to change the blink rate
+        task_1_rate_us = TASK_1_RATE_MIN_US + (uint32_t)(pot.read() * (TASK_1_RATE_MAX_US - TASK_1_RATE_MIN_US));
 
 
 	}
