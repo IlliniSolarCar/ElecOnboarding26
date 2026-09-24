@@ -79,6 +79,10 @@ int main() {
 
 	CANMessage msg;
 	bool shutdown = false;
+    // PROJECT 2 variables
+    float r = 0.0f;
+    uint32_t rate_task2 = TASK_1_RATE_US;
+	
 	// Main functionality
 	while (!shutdown) {
 
@@ -97,9 +101,17 @@ int main() {
 
         if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
         	//PROJECT 1 - add code here to actually make the LED blink
-        }
+			if (led_task1.read()){
+				led_task1.write(0);
+			}
+			else{
+				led_task1.write(1);
+			}
+		}
 
         //PROJECT 2 - use the potentiometer to change the blink rate
+		r = res.read();
+		rate_task2 = r* TASK_1_RATE_US;
 
 
 	}
