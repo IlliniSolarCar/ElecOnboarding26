@@ -1,10 +1,10 @@
 /*
- * This is where your main program code lives. On reset, after some basic
- * initialization code is run, main() is called.
+ * Ryan Xiong
+ * 9/24/26
+ * Heartbeat: blinks LED on and off once per second
  */
 
 #include <mbed.h>
-// PROJECT 1 - Include something here!
 #include "peripherals.h"
 #include "can_struct.h"
 #include "CAN/can_id.h"
@@ -36,6 +36,7 @@ void checkCANController() {
  * If you have global variables that need to be initialized, here would
  * be a good place to do it.
  */
+
 void setup() {
 
 	//set up the CAN interrupts and handling.
@@ -76,9 +77,9 @@ int main() {
 	// Configure all of our peripherals and globals
 	setup();
 	uint32_t last_task_1_time = timing.onTick(NULL);
-
 	CANMessage msg;
 	bool shutdown = false;
+
 	// Main functionality
 	while (!shutdown) {
 
@@ -92,11 +93,21 @@ int main() {
         	//toggle the CAN receive LED for only the messages you need to
         	//receive for this board to function. This should be only a few
         	//total messages. Do nothing for irrelevant messages
+
+
         	common.toggleReceiveCANLED();
         }
 
         if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
         	//PROJECT 1 - add code here to actually make the LED blink
+
+        	int val = led.read();
+        	if(val == 1){
+        		val--;
+        	} else{
+        		val++;
+        	}
+        	led.write(val);
         }
 
         //PROJECT 2 - use the potentiometer to change the blink rate
