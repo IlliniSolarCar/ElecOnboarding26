@@ -20,6 +20,9 @@
 // PROJECT 1 - You can change the macro name to something more descriptive if you'd like
 #define TASK_1_RATE_US 1000000 // controls blink rate (in microseconds)
 
+// these values are used to map potentiometer to blink rates
+#define MIN_RATE_US 100000 		// 100ms toggle
+#define MAX_RATE_US 3000000		// 3s toggle
 
 
 #endif /* SETUP_H_ */
