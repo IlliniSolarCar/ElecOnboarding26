@@ -30,6 +30,7 @@
 /*
  * COMMON PIN OBJECT DECLARATIONS
  */
+#define P_POT P0_23
 
 extern DigitalOut led1;
 extern DigitalOut led2;
