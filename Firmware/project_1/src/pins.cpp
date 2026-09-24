@@ -25,3 +25,5 @@ DigitalOut led4(P_LED4);
 // PROJECT 1 - You can instantiate your DigitalOut object here
 
 DigitalOut led_blink(P_LEDBLINK);
+
+AnalogIn potentiometer(P_POTENTIOMETER);
