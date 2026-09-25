@@ -85,6 +85,7 @@ int main() {
 		//on time overflow all callbacks will happen and timing reset to 0. Might be needed for other functions that rely on timing.
         bool overflow;
         uint32_t now = common.loopTime(&timing, &overflow);
+        uint32_t blink_rate = TASK_1_RATE_US;
 
         //clear CAN Buffer
         while(!common.readCANMessage(msg)) {
@@ -96,10 +97,20 @@ int main() {
         }
 
         if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        	if(led5.read()== 1){
+        		led5.write(0);
+        	}else{
+        		led5.write(1);
+        	}
         	//PROJECT 1 - add code here to actually make the LED blink
         }
 
         //PROJECT 2 - use the potentiometer to change the blink rate
+        if(pot1.read() > 0.5){
+        	blink_rate = TASK_2_RATE_US;
+        }else{
+        	blink_rate = TASK_1_RATE_US;
+        }
 
 
 	}
