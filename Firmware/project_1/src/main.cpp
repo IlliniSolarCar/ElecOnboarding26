@@ -96,11 +96,13 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
-        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        //PROJECT 2 - use the potentiometer to change the blink rate
+        // read() is 0.0 to 1.0; toggle interval is 100,000 to 1,000,000 us.
+        const uint32_t blink_interval_us =
+            static_cast<uint32_t>(100000.0f + potentiometer.read() * 900000.0f);
+        if(timing.tickThreshold(last_task_1_time, blink_interval_us)){
         	led5 = !led5; //PROJECT 1 - add code here to actually make the LED blink
         }
-
-        //PROJECT 2 - use the potentiometer to change the blink rate
 
 
 	}
