@@ -24,7 +24,7 @@
 - Digital GPIO used to switch the horn
 
 ## Connectors
- - No through-hole; minimum 1A current capacity
+ - Minimum 1A current capacity
  - Power In (1x3 pin)
 	- GND
 	- +24V
@@ -48,4 +48,4 @@
 - Optional, any net
 
 ## LED Indicators
-- Optional, any net, plus the 4 default ISC debug LEDs
+- Optional, any net
