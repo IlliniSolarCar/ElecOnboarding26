@@ -1241,7 +1241,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4001"
+		(symbol "Diode:US2DA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1264,7 +1264,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4001"
+			(property "Value" "US2DA"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1274,7 +1274,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(property "Footprint" "Diode_SMD:D_SMA"
 				(at 0 -4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1285,7 +1285,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/US2AA-D.PDF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1296,7 +1296,7 @@
 					)
 				)
 			)
-			(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(property "Description" "200V, 1.5A, General Purpose Rectifier Diode, SMA(DO-214AC)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1307,7 +1307,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "Super Fast"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1318,7 +1318,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?41*"
+			(property "ki_fp_filters" "D*SMA*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1329,7 +1329,7 @@
 					)
 				)
 			)
-			(symbol "1N4001_0_1"
+			(symbol "US2DA_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -1367,7 +1367,7 @@
 					)
 				)
 			)
-			(symbol "1N4001_1_1"
+			(symbol "US2DA_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1407,9 +1407,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ICs:IRF7503TRPBF"
+		(symbol "Transistor_FET:AO3400A"
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1418,38 +1417,42 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 6.35 1.27 0)
+				(at 5.08 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "IRF7503TRPBF"
-				(at 11.43 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
+			(property "Value" "AO3400A"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Datasheet" ""
-				(at 3.81 -15.24 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1457,9 +1460,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Description" "Dual NMOS transistor, 6 pin package"
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1470,7 +1474,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+			(property "ki_keywords" "N-Channel MOSFET"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1481,7 +1485,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TSOP* SC?70* SC?88* SOT?363*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1492,39 +1496,25 @@
 					)
 				)
 			)
-			(symbol "IRF7503TRPBF_0_1"
+			(symbol "AO3400A_0_1"
 				(polyline
 					(pts
-						(xy 2.54 3.81) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "IRF7503TRPBF_1_1"
-				(polyline
-					(pts
-						(xy 0.0508 0) (xy 0.254 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
+						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1545,34 +1535,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 1.778) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.762 0.508) (xy 0.762 -0.508)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -1593,7 +1559,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.778) (xy 2.54 -1.778)
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1617,7 +1583,7 @@
 				)
 				(circle
 					(center 1.651 0)
-					(radius 2.8194)
+					(radius 2.794)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1640,60 +1606,36 @@
 				)
 				(circle
 					(center 2.54 1.778)
-					(radius 0.2794)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.778) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.778) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(circle
 					(center 2.54 -1.778)
-					(radius 0.2794)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -1720,10 +1662,12 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+			)
+			(symbol "AO3400A_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "S"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1738,10 +1682,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "G"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1757,261 +1701,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 6.35 270)
+					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 6.35 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "IRF7503TRPBF_2_1"
-				(polyline
-					(pts
-						(xy 0.0508 0) (xy 0.254 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 2.54 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.778) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.778) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2019,61 +1711,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 6.35 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 6.35 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2332,6 +1969,133 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 128.27 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "287c87d4-5065-4ee3-8741-d4b66d2f8238")
+	)
+	(junction
+		(at 121.92 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60a3c6da-4541-4dc1-9dcd-64591f5c880a")
 	)
 	(junction
 		(at 118.11 77.47)
@@ -2344,6 +2108,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8de6a1b7-a1ef-4a3a-8b81-b3713fa41e2f")
+	)
+	(junction
+		(at 119.38 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfcb6730-bb2e-4bf0-888b-63c5640ca9cd")
+	)
+	(wire
+		(pts
+			(xy 119.38 77.47) (xy 121.92 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e429d7-06d8-447d-abe5-7b2bd94640fe")
 	)
 	(wire
 		(pts
@@ -2387,6 +2167,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 92.71) (xy 45.72 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40bc2fb1-5ed1-40da-a8b8-b2520c141d5f")
+	)
+	(wire
+		(pts
 			(xy 118.11 92.71) (xy 118.11 77.47)
 		)
 		(stroke
@@ -2407,7 +2197,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 67.31) (xy 121.92 74.93)
+			(xy 128.27 60.96) (xy 128.27 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2467,6 +2257,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 66.04) (xy 128.27 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e30d54-23b7-4839-a58e-4357a170411f")
+	)
+	(wire
+		(pts
 			(xy 36.83 62.23) (xy 36.83 74.93)
 		)
 		(stroke
@@ -2487,13 +2287,23 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 77.47) (xy 128.27 77.47)
+			(xy 118.11 77.47) (xy 119.38 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ac2e3397-3ee9-4919-9fa7-42578a1ef768")
+	)
+	(wire
+		(pts
+			(xy 119.38 66.04) (xy 119.38 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c9aa0a-01ca-4fc3-8e2c-2c6cadc3bc39")
 	)
 	(wire
 		(pts
@@ -2507,16 +2317,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 77.47) (xy 118.11 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b976fd9a-ec9f-461b-a6fd-0c0b17f5d46c")
-	)
-	(wire
-		(pts
 			(xy 118.11 71.12) (xy 118.11 77.47)
 		)
 		(stroke
@@ -2527,13 +2327,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 74.93) (xy 121.92 74.93)
+			(xy 121.92 77.47) (xy 128.27 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d693abac-0268-412d-ad84-2fe7732a47d0")
+		(uuid "ce446733-068a-4cfe-beeb-910ff41079d9")
 	)
 	(wire
 		(pts
@@ -2567,16 +2367,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 92.71) (xy 45.72 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6ae8a43-5e44-4728-a0a5-5bef2f310b82")
-	)
-	(wire
-		(pts
 			(xy 17.78 62.23) (xy 36.83 62.23)
 		)
 		(stroke
@@ -2604,6 +2394,114 @@
 			(justify left bottom)
 		)
 		(uuid "e6ace385-4110-4f11-8f8b-e6f5511bdd3a")
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 36.83 90.17 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "000e1b72-ab4d-47a0-9982-795d5b0ba483")
+		(property "Reference" "Q2"
+			(at 36.83 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MOSFET"
+			(at 36.83 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 34.925 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 36.83 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 36.83 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 36.83 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 36.83 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "fdde1af3-7c0c-4a17-9eda-1a5755374602")
+		)
+		(pin "2"
+			(uuid "4ed096ef-db61-434a-a09a-1341c3be983a")
+		)
+		(pin "1"
+			(uuid "15803704-ef9f-4ab6-96e0-b78f484ef896")
+		)
+		(instances
+			(project "abfernhorns"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2678,6 +2576,212 @@
 			(project "abfernhorns"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 104.14 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10a8bcc3-7f44-4fac-8ae0-5770876711c2")
+		(property "Reference" "C6"
+			(at 107.95 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 107.95 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 105.1052 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fc3b5ab0-b94b-46a9-89eb-c494b7fd297d")
+		)
+		(pin "1"
+			(uuid "34b1f7c8-d88e-466f-abaf-3224bee8391a")
+		)
+		(instances
+			(project "abfernhorns"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:US2DA")
+		(at 49.53 71.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1608b2a4-2077-403b-ad69-88382ab3c70c")
+		(property "Reference" "D2"
+			(at 49.53 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Diode"
+			(at 49.53 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 49.53 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/US2AA-D.PDF"
+			(at 49.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200V, 1.5A, General Purpose Rectifier Diode, SMA(DO-214AC)"
+			(at 49.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 49.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 49.53 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7545d84-71cc-43f1-b804-367989d31fc2")
+		)
+		(pin "2"
+			(uuid "fb0fc783-a993-4dea-8503-928b104b046b")
+		)
+		(instances
+			(project "abfernhorns"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2840,8 +2944,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ICs:IRF7503TRPBF")
-		(at 36.83 90.17 270)
+		(lib_id "power:PWR_FLAG")
+		(at 128.27 66.04 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2850,20 +2954,20 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "21548b48-7d39-4f6c-8b1d-6aee5ce8bcd2")
-		(property "Reference" "Q1"
-			(at 35.9917 96.52 0)
+		(uuid "29baa5e6-cde7-4cf7-89c5-db8135c15aff")
+		(property "Reference" "#FLG02"
+			(at 130.175 66.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "NMOSFET"
-			(at 38.5317 96.52 0)
+		(property "Value" "PWR_FLAG"
+			(at 132.08 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2874,7 +2978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 95.25 0)
+			(at 128.27 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2885,7 +2989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 93.98 0)
+			(at 128.27 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2895,8 +2999,8 @@
 				)
 			)
 		)
-		(property "Description" "Dual NMOS transistor, 6 pin package"
-			(at 36.83 90.17 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 128.27 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2907,195 +3011,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e40e1dd8-c236-4dd1-b915-c32cd66fb3bd")
-		)
-		(pin "7"
-			(uuid "74ee9bf3-1b44-462e-b9ee-ae6a82b54d39")
-		)
-		(pin "8"
-			(uuid "161acfc5-708b-4f0c-9235-6750bee6562e")
-		)
-		(pin "3"
-			(uuid "496a58b7-0655-47ad-8172-52608aa4c6f3")
-		)
-		(pin "4"
-			(uuid "5df0a03c-e0d1-4e05-bc63-4b4baa66d600")
-		)
-		(pin "5"
-			(uuid "2f2718e2-d1e3-4c0e-b270-ea9382121418")
-		)
-		(pin "6"
-			(uuid "ce767df8-7dee-49d9-b26a-42ece4475c37")
-		)
-		(pin "2"
-			(uuid "f76d3c4c-be53-4de0-a4af-d96024505154")
+			(uuid "e8d25c4b-6a7b-4f58-b38f-4788658bd7c7")
 		)
 		(instances
 			(project "abfernhorns"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 49.53 71.12 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29e9c715-770f-4732-9709-32833590cab3")
-		(property "Reference" "D1"
-			(at 49.53 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 49.53 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 49.53 66.675 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 49.53 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 49.53 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3a94f42d-1e01-4006-9771-8287ca340e00")
-		)
-		(pin "1"
-			(uuid "4e13ce6e-3345-4eae-9d4d-5f90f664f5b7")
-		)
-		(instances
-			(project "abfernhorns"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 93.98 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "342103d4-9b60-40aa-ad89-3df898c2667a")
-		(property "Reference" "C5"
-			(at 97.79 27.0509 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 97.79 29.5909 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 94.9452 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 93.98 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a1da0779-7826-4fdd-92ca-5973ee317d33")
-		)
-		(pin "1"
-			(uuid "49bfe83d-39a7-4e24-8556-2aa4456ea9fb")
-		)
-		(instances
-			(project "abfernhorns"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "C5")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -3134,7 +3055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 22.86 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3157,6 +3078,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 22.86 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "22272021"
+			(at 22.86 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/641/6410/022272021_sd.pdf?inline"
 			(at 22.86 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3651,8 +3594,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 125.73 29.21 0)
+		(lib_id "Device:C")
+		(at 82.55 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3661,9 +3604,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6f1b0ee8-22b1-44d5-b679-a8e877bf7af4")
-		(property "Reference" "C8"
-			(at 129.54 27.0509 0)
+		(uuid "6b49dc9d-f5eb-45df-849d-0e3257d6b674")
+		(property "Reference" "C4"
+			(at 86.36 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3673,8 +3616,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 129.54 29.5909 0)
+		(property "Value" ".1u"
+			(at 86.36 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3684,8 +3627,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 126.6952 33.02 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 83.5152 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3696,7 +3639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 29.21 0)
+			(at 82.55 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3706,8 +3649,30 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 125.73 29.21 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 82.55 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 82.55 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 82.55 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3718,15 +3683,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "03bf6e23-bdf5-49a6-a368-f9665fbb4384")
+			(uuid "c0864645-7a1e-4664-affb-986b1142ff14")
 		)
 		(pin "1"
-			(uuid "830b5160-87cf-4514-a18f-2088ed874351")
+			(uuid "330622da-a6ef-4f17-9839-e47bcbf46e35")
 		)
 		(instances
 			(project "abfernhorns"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "C8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3842,7 +3807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 133.35 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3875,6 +3840,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 133.35 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 133.35 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a0d4fe82-4b7e-4efd-8272-7b630067ee0d")
 		)
@@ -3888,88 +3875,6 @@
 			(project "abfernhorns"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 82.55 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79bd94bd-8133-4de5-91df-145bb5c93076")
-		(property "Reference" "C4"
-			(at 86.36 27.0509 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 86.36 29.5909 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.5152 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 82.55 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e018d5da-8e5e-4c1e-a2c6-1e21184fa261")
-		)
-		(pin "1"
-			(uuid "8494e36b-cdd6-4c26-9ebc-3ebc696bb1cd")
-		)
-		(instances
-			(project "abfernhorns"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4165,7 +4070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 37.846 78.994 90)
 			(hide yes)
 			(show_name no)
@@ -4198,6 +4103,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 36.83 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 36.83 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "52e3ef16-8be0-4d8b-be63-c9430001518a")
 		)
@@ -4215,7 +4142,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 67.31 180)
+		(at 128.27 60.96 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4226,7 +4153,7 @@
 		(fields_autoplaced yes)
 		(uuid "898c8411-4a32-4552-88e6-f2674e70bbfe")
 		(property "Reference" "#PWR02"
-			(at 121.92 60.96 0)
+			(at 128.27 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4237,7 +4164,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 62.23 0)
+			(at 128.27 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4247,7 +4174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 67.31 0)
+			(at 128.27 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4258,7 +4185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 67.31 0)
+			(at 128.27 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4269,7 +4196,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 67.31 0)
+			(at 128.27 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4323,7 +4250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 58.42 94.488 90)
 			(hide yes)
 			(show_name no)
@@ -4356,6 +4283,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 58.42 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 58.42 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ae97f8b9-eea7-4c25-a1e4-0182bcb3afca")
 		)
@@ -4366,6 +4315,110 @@
 			(project "abfernhorns"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 93.98 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "934ff383-c5aa-4c16-b5d5-6e52a566eef3")
+		(property "Reference" "C5"
+			(at 97.79 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 97.79 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 94.9452 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 93.98 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 93.98 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 93.98 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3ba6fa93-5a7f-47d7-b3b9-0e15331937d1")
+		)
+		(pin "1"
+			(uuid "5477b193-7780-4e5c-a3e9-bd7a5d2180ef")
+		)
+		(instances
+			(project "abfernhorns"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4472,7 +4525,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Male"
+		(property "Value" "Connector B"
 			(at 73.66 98.4249 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4483,7 +4536,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 69.85 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4507,6 +4560,28 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 69.85 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "22272021"
+			(at 69.85 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/641/6410/022272021_sd.pdf?inline"
+			(at 69.85 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4643,7 +4718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
 			(at 136.8552 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4676,6 +4751,28 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 135.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 135.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "32d8a4e2-ee0f-4ab0-a780-9c22938002de")
 		)
@@ -4692,8 +4789,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 104.14 29.21 0)
+		(lib_id "Device:C")
+		(at 125.73 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4702,173 +4799,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c927ec22-ab7a-46aa-9172-415e4ee55f32")
-		(property "Reference" "C6"
-			(at 107.95 27.0509 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 107.95 29.5909 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.1052 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 104.14 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f1108947-c3ae-4b6f-845c-dcfae01a919f")
-		)
-		(pin "1"
-			(uuid "c081c97d-986b-47d0-b729-e8adadc134b4")
-		)
-		(instances
-			(project "abfernhorns"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 59.69 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf5b7966-bf3e-4265-b6f1-5f74c415a4d1")
-		(property "Reference" "C2"
-			(at 63.5 27.0509 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 63.5 29.5909 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.6552 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 59.69 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6dc42113-d171-40d8-a88f-4aa15b7e62db")
-		)
-		(pin "1"
-			(uuid "effebda2-11b1-45ff-8dc2-7dda5b5594c5")
-		)
-		(instances
-			(project "abfernhorns"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 114.3 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da12bd72-a8c4-4509-80ba-bc4826d039f0")
-		(property "Reference" "C7"
-			(at 118.11 27.0509 0)
+		(uuid "c2bdadce-6a75-40ec-81cd-6e6601ff6b06")
+		(property "Reference" "C8"
+			(at 129.54 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4879,7 +4812,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 118.11 29.5909 0)
+			(at 129.54 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4889,7 +4822,111 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 126.6952 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 125.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 125.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "972e5abb-06fc-49c7-aea8-d4647ca573d6")
+		)
+		(pin "1"
+			(uuid "5f7aaa11-c051-478a-92f5-8f606cf94534")
+		)
+		(instances
+			(project "abfernhorns"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5e59b7a-aa40-4d93-9827-110823d86b9e")
+		(property "Reference" "C7"
+			(at 118.11 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 118.11 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 115.2652 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4911,7 +4948,29 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 114.3 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
 			(at 114.3 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4923,15 +4982,223 @@
 			)
 		)
 		(pin "2"
-			(uuid "1d65b602-58a9-48e5-90dd-4c4999a75288")
+			(uuid "15718b13-5d42-4c22-a494-8bf9ed0a6987")
 		)
 		(pin "1"
-			(uuid "9663457e-37ee-4d11-a239-dde2224daffe")
+			(uuid "2962c032-447b-4191-85b4-af8cddd22efb")
 		)
 		(instances
 			(project "abfernhorns"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Male")
+		(at 86.36 97.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdbd4c50-01a7-4a9e-8907-4b492346d038")
+		(property "Reference" "J3"
+			(at 90.17 95.8849 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Connector A"
+			(at 90.17 98.4249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 86.36 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 86.36 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "22272021"
+			(at 86.36 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/641/6410/022272021_sd.pdf?inline"
+			(at 86.36 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e84576ad-cb11-47f8-9bd7-44e10b44fa06")
+		)
+		(pin "2"
+			(uuid "01a2220a-11c5-46d0-8fce-e2c235681257")
+		)
+		(instances
+			(project "abfernhorns"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 59.69 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d75691fa-60ac-4280-b293-312efb10ee7e")
+		(property "Reference" "C2"
+			(at 63.5 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1u"
+			(at 63.5 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 60.6552 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 59.69 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 59.69 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "af99d279-796f-40fd-ad66-9da3f3df87a8")
+		)
+		(pin "1"
+			(uuid "34385911-03b2-4d04-897d-e381c00b4440")
+		)
+		(instances
+			(project "abfernhorns"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5017,7 +5284,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 113.03 77.47 90)
+		(at 119.38 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5025,10 +5292,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "da4ceb42-7e0b-462e-8c2d-ba7c48438f5f")
 		(property "Reference" "#PWR01"
-			(at 116.84 77.47 0)
+			(at 119.38 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5039,7 +5305,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 109.22 77.4701 90)
+			(at 120.65 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5050,7 +5316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 77.47 0)
+			(at 119.38 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5061,7 +5327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 77.47 0)
+			(at 119.38 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5072,7 +5338,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 113.03 77.47 0)
+			(at 119.38 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5089,6 +5355,188 @@
 			(project "abfernhorns"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 71.12 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dca475ef-9226-4007-b212-1bf108c482bf")
+		(property "Reference" "C3"
+			(at 74.93 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1u"
+			(at 74.93 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 72.0852 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 71.12 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 71.12 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 71.12 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f3869cc6-d093-46e8-8a03-45ba4025ca7a")
+		)
+		(pin "1"
+			(uuid "855f2bd8-d4bc-4fbb-919e-28a2d854945a")
+		)
+		(instances
+			(project "abfernhorns"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 121.92 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de0ea7ab-5a3b-464f-8fa4-2f273cce0f18")
+		(property "Reference" "#FLG01"
+			(at 121.92 75.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 121.92 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 121.92 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59be9765-93b1-40a2-8cab-ae08632c1e5d")
+		)
+		(instances
+			(project "abfernhorns"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -5251,88 +5699,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 71.12 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5680178-9448-4a5d-af07-55cd803d5f1a")
-		(property "Reference" "C3"
-			(at 74.93 27.0509 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 74.93 29.5909 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.0852 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 71.12 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "25121069-c959-461b-84bd-4b8d3fe238fa")
-		)
-		(pin "1"
-			(uuid "45cc31e9-ee9f-4afe-bbcc-28b5283e10e2")
-		)
-		(instances
-			(project "abfernhorns"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 26.67 92.71 270)
 		(unit 1)
@@ -5364,7 +5730,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 22.86 93.6752 0)
 			(hide yes)
 			(show_name no)
@@ -5388,6 +5754,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 26.67 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 26.67 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 26.67 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
