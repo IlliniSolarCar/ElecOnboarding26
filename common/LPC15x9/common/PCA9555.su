@@ -1,0 +1,5 @@
+../common/PCA9555.cpp:12:1:PCA9555::PCA9555(mbed::I2C&, DeviceAddress)	24	static
+../common/PCA9555.cpp:17:9:uint8_t PCA9555::readRegister8(MemoryAddress, bool&)	40	static
+../common/PCA9555.cpp:31:10:uint16_t PCA9555::readRegister16(MemoryAddress, bool&)	40	static
+../common/PCA9555.cpp:45:6:bool PCA9555::writeRegister8(MemoryAddress, uint8_t)	32	static
+../common/PCA9555.cpp:51:6:bool PCA9555::writeRegister16(MemoryAddress, uint16_t)	32	static

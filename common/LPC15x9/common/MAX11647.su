@@ -1,0 +1,5 @@
+/Users/jerry/Solar_Car/ElecOnboarding26/Firmware/common/api/MAX11647.h:36:16:int MAX11647::numReadings() const	16	static
+../common/MAX11647.cpp:12:1:MAX11647::MAX11647(mbed::I2C&, DeviceAddress)	24	static
+../common/MAX11647.cpp:17:6:void MAX11647::configure(int, int, bool, bool)	40	static
+../common/MAX11647.cpp:33:6:void MAX11647::readChannel(Channel, uint16_t&)	48	static
+../common/MAX11647.cpp:47:6:void MAX11647::readDifferential(int16_t*)	72	dynamic

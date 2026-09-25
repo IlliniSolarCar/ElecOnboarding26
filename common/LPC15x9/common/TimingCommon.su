@@ -1,0 +1,11 @@
+../common/TimingCommon.cpp:13:1:TimingCommon::TimingCommon()	24	static
+../common/TimingCommon.cpp:25:1:TimingCommon::~TimingCommon()	16	static
+../common/TimingCommon.cpp:25:1:virtual TimingCommon::~TimingCommon()	16	static
+../common/TimingCommon.cpp:28:6:void TimingCommon::resetCallbackLastTicks(uint32_t)	24	static
+../common/TimingCommon.cpp:35:6:void TimingCommon::start(mbed::Timer*)	16	static
+../common/TimingCommon.cpp:42:10:uint32_t TimingCommon::onTick(bool*)	24	static
+../common/TimingCommon.cpp:75:5:int TimingCommon::addCallback(uint32_t, void (*)())	24	static
+../common/TimingCommon.cpp:86:6:void TimingCommon::setHeartbeatCallback(uint32_t, void (*)(int))	24	static
+../common/TimingCommon.cpp:91:10:static uint32_t TimingCommon::difference(uint32_t, uint32_t)	16	static
+../common/TimingCommon.cpp:96:5:static int TimingCommon::threshold(uint32_t, uint32_t, uint32_t)	24	static
+../common/TimingCommon.cpp:102:5:int TimingCommon::tickThreshold(uint32_t&, uint32_t)	24	static

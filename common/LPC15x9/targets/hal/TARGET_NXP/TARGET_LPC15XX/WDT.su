@@ -1,0 +1,5 @@
+../targets/hal/TARGET_NXP/TARGET_LPC15XX/WDT.cpp:6:1:WDT::WDT(uint32_t)	16	static
+../targets/hal/TARGET_NXP/TARGET_LPC15XX/WDT.cpp:13:6:void WDT::setTimeout(uint32_t)	24	static
+../targets/hal/TARGET_NXP/TARGET_LPC15XX/WDT.cpp:27:6:void WDT::enable()	16	static
+../targets/hal/TARGET_NXP/TARGET_LPC15XX/WDT.cpp:32:6:bool WDT::causedReset()	24	static
+../targets/hal/TARGET_NXP/TARGET_LPC15XX/WDT.cpp:42:6:void WDT::feed()	16	static

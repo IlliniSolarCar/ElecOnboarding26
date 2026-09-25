@@ -1,0 +1,3 @@
+../targets/hal/TARGET_NXP/TARGET_LPC15XX/EEPROM.cpp:3:6:void EEPROM::init()	4	static
+../targets/hal/TARGET_NXP/TARGET_LPC15XX/EEPROM.cpp:8:6:void EEPROM::write(uint32_t, uint8_t*, uint32_t)	72	static
+../targets/hal/TARGET_NXP/TARGET_LPC15XX/EEPROM.cpp:21:6:void EEPROM::read(uint32_t, uint8_t*, uint32_t)	72	static

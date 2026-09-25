@@ -1,0 +1,8 @@
+../common/EventCounter.cpp:23:1:mbed::EventCounter::EventCounter(EventType, int)	24	static
+../common/EventCounter.cpp:28:6:void mbed::EventCounter::start()	16	static
+../common/EventCounter.cpp:33:6:void mbed::EventCounter::stop()	16	static
+../common/EventCounter.cpp:38:10:uint32_t mbed::EventCounter::read()	24	static
+../common/EventCounter.cpp:42:10:uint32_t mbed::EventCounter::slicetime()	16	static
+../common/EventCounter.cpp:50:6:void mbed::EventCounter::reset()	16	static
+../common/EventCounter.cpp:55:6:void mbed::EventCounter::mode(EventType, int)	24	static
+../common/EventCounter.cpp:60:1:mbed::EventCounter::operator uint32_t()	16	static

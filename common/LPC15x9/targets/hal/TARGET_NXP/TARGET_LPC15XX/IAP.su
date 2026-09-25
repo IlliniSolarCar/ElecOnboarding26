@@ -1,0 +1,2 @@
+../targets/hal/TARGET_NXP/TARGET_LPC15XX/IAP.cpp:3:9:uint8_t IAP::getPartID()	56	static
+../targets/hal/TARGET_NXP/TARGET_LPC15XX/IAP.cpp:17:6:bool IAP::getUniqueID(uint32_t (&)[4])	72	static
