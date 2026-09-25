@@ -5,6 +5,7 @@
 
 #include <mbed.h>
 // PROJECT 1 - Include something here!
+#include "pins.h"
 #include "peripherals.h"
 #include "can_struct.h"
 #include "CAN/can_id.h"
@@ -80,28 +81,42 @@ int main() {
 	CANMessage msg;
 	bool shutdown = false;
 	// Main functionality
+//	while (!shutdown) {
+//
+//		//on time overflow all callbacks will happen and timing reset to 0. Might be needed for other functions that rely on timing.
+//        bool overflow;
+//        uint32_t now = common.loopTime(&timing, &overflow);
+//
+//        //clear CAN Buffer
+//        while(!common.readCANMessage(msg)) {
+//        	//you should do something with the relevant CAN messages here
+//        	//toggle the CAN receive LED for only the messages you need to
+//        	//receive for this board to function. This should be only a few
+//        	//total messages. Do nothing for irrelevant messages
+//        	common.toggleReceiveCANLED();
+//        }
+//
+//        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+//        	led5 = !led5;
+//        }
+//
+//	}
+
+    //PROJECT 2 - use the potentiometer to change the blink rate
 	while (!shutdown) {
+	    bool overflow;
+	    uint32_t now = common.loopTime(&timing, &overflow);
 
-		//on time overflow all callbacks will happen and timing reset to 0. Might be needed for other functions that rely on timing.
-        bool overflow;
-        uint32_t now = common.loopTime(&timing, &overflow);
+	    while(!common.readCANMessage(msg)) {
+	        common.toggleReceiveCANLED();
+	    }
 
-        //clear CAN Buffer
-        while(!common.readCANMessage(msg)) {
-        	//you should do something with the relevant CAN messages here
-        	//toggle the CAN receive LED for only the messages you need to
-        	//receive for this board to function. This should be only a few
-        	//total messages. Do nothing for irrelevant messages
-        	common.toggleReceiveCANLED();
-        }
+	    // PROJECT 2: Read potentiometer (0.0 to 1.0) and map to microsecond delay range
+	    uint32_t variable_rate_us = 100000 + (uint32_t)(pot.read() * 1900000);
 
-        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
-        	//PROJECT 1 - add code here to actually make the LED blink
-        }
-
-        //PROJECT 2 - use the potentiometer to change the blink rate
-
-
+	    if(timing.tickThreshold(last_task_1_time, variable_rate_us)){
+	        led5 = !led5;
+	    }
 	}
 
 	shutdown_method();
