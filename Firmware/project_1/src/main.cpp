@@ -76,6 +76,7 @@ int main() {
 	// Configure all of our peripherals and globals
 	setup();
 	uint32_t last_task_1_time = timing.onTick(NULL);
+	uint32_t blink_rate = TASK_1_RATE_US;
 
 	CANMessage msg;
 	bool shutdown = false;
@@ -95,11 +96,14 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
-        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        if(timing.tickThreshold(last_task_1_time, blink_rate)){
         	project1_led.write(!project1_led.read());
         }
 
         //PROJECT 2 - use the potentiometer to change the blink rate
+
+        blink_rate = 100000 + potentiometer.read()*900000;
+
 
 
 	}

@@ -26,6 +26,7 @@
 #define P_LED3 P0_6
 #define P_LED4 P0_7
 #define P_PROJECT1_LED P0_4
+#define P_POT P0_8
 
 /*
  * COMMON PIN OBJECT DECLARATIONS
@@ -36,6 +37,7 @@ extern DigitalOut led2;
 extern DigitalOut led3;
 extern DigitalOut led4;
 extern DigitalOut project1_led;
+extern AnalogIn potentiometer;
 
 /*
  * BOARD SPECIFIC PINS

@@ -23,3 +23,4 @@ DigitalOut led2(P_LED2);
 DigitalOut led3(P_LED3);
 DigitalOut led4(P_LED4);
 DigitalOut project1_led(P_PROJECT1_LED);
+AnalogIn potentiometer(P_POT);
