@@ -11,7 +11,7 @@
 /*
  * PIN OBJECT INSTANTIATIONS
  */
-
+AnalogIn pot(P_POT);
 // PROJECT 2 - You can instantiate your AnalogIn object here
 
 /*

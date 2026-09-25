@@ -94,8 +94,8 @@ int main() {
         	//total messages. Do nothing for irrelevant messages
         	common.toggleReceiveCANLED();
         }
-
-        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        uint32_t blink_rate = 1000000 * (pot.read());
+        if(timing.tickThreshold(last_task_1_time, blink_rate)){
         	led_heartbeat = !led_heartbeat;
         }
 
