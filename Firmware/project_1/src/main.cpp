@@ -95,8 +95,8 @@ int main() {
         	//total messages. Do nothing for irrelevant messages
         	common.toggleReceiveCANLED();
         }
-
-        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        uint32_t blink_rate = BLINK_MIN_US + (uint32_t)(pot.read() * (BLINK_MAX_US - BLINK_MIN_US));
+        if(timing.tickThreshold(last_task_1_time, blink_rate)){
         	heartbeat_led.write(!heartbeat_led.read());
         	//PROJECT 1 - add code here to actually make the LED blink
         }
