@@ -728,6 +728,7 @@
 		(property "Reference" "REF**"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "03fcd6a7-c4f7-4db6-a211-ae83545821f4")
 			(effects
 				(font
@@ -1468,6 +1469,7 @@
 		(property "Reference" "REF**"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0ab8d121-ed0a-4f52-ab21-1097092fdddb")
 			(effects
 				(font
