@@ -10,6 +10,7 @@
 #include "CAN/can_id.h"
 #include "CAN/can_data.h"
 #include "can_buffer.h"
+#include "pins.h"
 
 
 /*
@@ -41,7 +42,7 @@ void setup() {
 	//set up the CAN interrupts and handling.
 	common.setupCAN();
 	//set up LEDs and turn them all off
-	common.setupLEDs(&led1, &led2, &led3, &led4);
+	common.setupLEDs(&led1, &led2, &led3, &led4, &led5);
 
 	//Set Callbacks:
 	//These are side tasks (up to 8) that are run independently of the main
@@ -95,8 +96,9 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
-        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        if(timing.tickThreshold(last_task_1_time, BLINK_RATE)){
         	//PROJECT 1 - add code here to actually make the LED blink
+        	led5 = !led5;
         }
 
         //PROJECT 2 - use the potentiometer to change the blink rate
