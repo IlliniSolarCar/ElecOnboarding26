@@ -980,22 +980,16 @@
 		(uuid "14874fbf-82d5-4d2c-a4d3-0ca673c168ec")
 	)
 	(junction
-		(at 82.55 96.52)
+		(at 82.55 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5077b278-04d7-4bb1-b487-736f2a361cf9")
-	)
-	(junction
-		(at 110.49 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84be6f66-ed91-4709-b1e1-00e7848f7b36")
+		(uuid "4c0a3f9d-42df-4ec8-983e-609cd177c8bc")
 	)
 	(junction
 		(at 82.55 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "da318dd2-4074-457a-b8b6-6785668a7e9d")
+		(uuid "62966cf2-aa7d-4f96-a906-3844866361ec")
 	)
 	(wire
 		(pts
@@ -1019,13 +1013,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 102.87) (xy 110.49 102.87)
+			(xy 82.55 95.25) (xy 82.55 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "356d085e-1939-4f38-9098-9fce20743ef1")
+		(uuid "33c41b5c-025d-442e-b973-9ebdcf029bae")
 	)
 	(wire
 		(pts
@@ -1059,7 +1053,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 102.87) (xy 82.55 102.87)
+			(xy 72.39 91.44) (xy 82.55 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5962df93-530e-466f-a6e0-d55961b96ec3")
+	)
+	(wire
+		(pts
+			(xy 82.55 102.87) (xy 116.84 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1099,16 +1103,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 95.25) (xy 77.47 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8710d95d-92b6-4797-8da6-636fdc37408e")
-	)
-	(wire
-		(pts
 			(xy 82.55 99.06) (xy 82.55 102.87)
 		)
 		(stroke
@@ -1116,6 +1110,16 @@
 			(type default)
 		)
 		(uuid "8d3c50bb-2f21-43f9-8af5-62d4a6224cd8")
+	)
+	(wire
+		(pts
+			(xy 77.47 95.25) (xy 82.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d5f4de-2b8d-437a-a90f-dd4d6f986929")
 	)
 	(wire
 		(pts
@@ -1129,23 +1133,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 91.44) (xy 82.55 96.52)
+			(xy 82.55 91.44) (xy 82.55 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "adbf4c2f-991c-4ca3-b86f-3e2c761827c7")
-	)
-	(wire
-		(pts
-			(xy 82.55 96.52) (xy 77.47 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f96d2187-7e03-4d70-b280-ca65c6d12e83")
+		(uuid "b777dcbb-c150-4e65-bed3-a88a2508882b")
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -1165,7 +1159,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "50"
 			(at 109.22 83.82 90)
 			(effects
 				(font
@@ -1173,7 +1167,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 109.474 86.614 90)
 			(effects
 				(font
@@ -1200,6 +1194,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 109.22 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80729cc7-4000-43b1-bd96-e743bfca7142")
 		)
@@ -1217,7 +1220,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 82.55 91.44 0)
+		(at 72.39 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1226,7 +1229,7 @@
 		(fields_autoplaced yes)
 		(uuid "28d890ef-77bb-47e1-9dce-2437e29c0a6d")
 		(property "Reference" "#FLG02"
-			(at 82.55 89.535 0)
+			(at 72.39 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1238,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 82.55 86.36 0)
+			(at 72.39 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +1246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 91.44 0)
+			(at 72.39 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1252,7 +1255,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 91.44 0)
+			(at 72.39 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,7 +1264,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 82.55 91.44 0)
+			(at 72.39 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1438,7 +1441,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 95.25 82.55 0)
 			(effects
 				(font
@@ -1447,7 +1450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3f.pdf"
 			(at 95.25 82.55 0)
 			(effects
 				(font
@@ -1457,6 +1460,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B3F-1000"
 			(at 95.25 87.63 0)
 			(effects
 				(font
@@ -1482,7 +1494,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 110.49 102.87 0)
+		(at 128.27 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1490,7 +1502,7 @@
 		(dnp no)
 		(uuid "8c1e3ef8-4582-4af3-8824-06d397764f42")
 		(property "Reference" "#FLG01"
-			(at 110.49 100.965 0)
+			(at 128.27 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,7 +1511,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 112.014 96.774 0)
+			(at 129.794 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,7 +1519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 102.87 0)
+			(at 128.27 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,7 +1528,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 102.87 0)
+			(at 128.27 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,7 +1537,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 110.49 102.87 0)
+			(at 128.27 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,6 +1552,71 @@
 			(project "Proj1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cd5b4ae-c4c7-4aa9-b92d-60f9f7819877")
+		(property "Reference" "#PWR03"
+			(at 128.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 131.572 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2a007bb-fa64-4306-94c4-5f90741e1934")
+		)
+		(instances
+			(project "Proj1"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1564,7 +1641,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 120.65 99.3774 90)
 			(effects
 				(font
@@ -1573,7 +1650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "layout:LED_0603_Symbol_on_F.SilkS"
 			(at 116.84 96.52 0)
 			(effects
 				(font
@@ -1593,6 +1670,15 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 116.84 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1643,7 +1729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 88.9 96.52 0)
 			(effects
 				(font
@@ -1652,7 +1738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://www.molex.com/pdm_docs/sd/022272021_sd.pdf"
 			(at 88.9 96.52 0)
 			(effects
 				(font
@@ -1662,6 +1748,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "22-27-2021"
 			(at 88.9 96.52 0)
 			(effects
 				(font
