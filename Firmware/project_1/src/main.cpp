@@ -2,9 +2,11 @@
  * This is where your main program code lives. On reset, after some basic
  * initialization code is run, main() is called.
  */
-
+#include <stdint.h>
 #include <mbed.h>
 // PROJECT 1 - Include something here!
+#include "pins.h"
+#include "setup.h"
 #include "peripherals.h"
 #include "can_struct.h"
 #include "CAN/can_id.h"
@@ -95,8 +97,11 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
-        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
-        	//PROJECT 1 - add code here to actually make the LED blink
+        float p_reading = potentiometer1.read();
+        uint32_t p_rate = (uint32_t)(p_reading*LED_RATE);
+
+        if(timing.tickThreshold(last_task_1_time, p_rate)){
+        	proj_led.write(!proj_led.read());
         }
 
         //PROJECT 2 - use the potentiometer to change the blink rate
