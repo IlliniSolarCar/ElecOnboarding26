@@ -44,7 +44,8 @@ extern DigitalOut heartbeat_led;
  */
 
 // PROJECT 2 - You can declare a AnalogIn object here
-
+#define P_POT A0
+extern AnalogIn potentiometer;
 
 /*
  * BOARD SPECIFIC PIN OBJECT DECLARATIONS
