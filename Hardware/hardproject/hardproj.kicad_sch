@@ -2335,7 +2335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 180.0352 52.07 0)
 			(effects
 				(font
@@ -2354,6 +2354,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 179.07 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 179.07 48.26 0)
 			(effects
 				(font
@@ -2471,7 +2480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 88.5952 72.39 0)
 			(effects
 				(font
@@ -2490,6 +2499,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 87.63 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 87.63 68.58 0)
 			(effects
 				(font
@@ -2606,7 +2624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
 			(at 219.71 48.26 0)
 			(effects
 				(font
@@ -2625,6 +2643,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 219.71 48.26 0)
 			(effects
 				(font
@@ -3006,7 +3033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -3015,7 +3042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/641/6410/022272021_sd.pdf?inline"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -3025,6 +3052,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "022272021"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -3342,7 +3378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 211.7852 52.07 0)
 			(effects
 				(font
@@ -3361,6 +3397,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 210.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 210.82 48.26 0)
 			(effects
 				(font
@@ -3411,7 +3456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 196.5452 52.07 0)
 			(effects
 				(font
@@ -3430,6 +3475,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 195.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 195.58 48.26 0)
 			(effects
 				(font
@@ -3612,7 +3666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 171.1452 52.07 0)
 			(effects
 				(font
@@ -3631,6 +3685,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 170.18 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 170.18 48.26 0)
 			(effects
 				(font
@@ -3681,7 +3744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 162.2552 52.07 0)
 			(effects
 				(font
@@ -3700,6 +3763,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 161.29 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 161.29 48.26 0)
 			(effects
 				(font
@@ -3760,7 +3832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds14002.pdf"
 			(at 119.38 35.56 0)
 			(effects
 				(font
@@ -3789,6 +3861,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 119.38 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ES2DA-13-F"
+			(at 119.38 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +3986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 110.49 48.26 0)
 			(effects
 				(font
@@ -3914,7 +3995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/91420/sihfr010.pdf"
 			(at 105.41 50.8 0)
 			(effects
 				(font
@@ -3924,6 +4005,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 105.41 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "IRFR010PBF "
 			(at 105.41 50.8 0)
 			(effects
 				(font
@@ -4043,7 +4133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 188.9252 52.07 0)
 			(effects
 				(font
@@ -4062,6 +4152,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 187.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 187.96 48.26 0)
 			(effects
 				(font
@@ -4112,7 +4211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 204.1652 52.07 0)
 			(effects
 				(font
@@ -4131,6 +4230,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 203.2 48.26 0)
 			(effects
 				(font
@@ -4182,7 +4290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 130.81 63.5 0)
 			(effects
 				(font
@@ -4191,7 +4299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/641/6410/022272021_sd.pdf?inline"
 			(at 130.81 63.5 0)
 			(effects
 				(font
@@ -4201,6 +4309,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 130.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0022272021"
 			(at 130.81 63.5 0)
 			(effects
 				(font
@@ -4316,7 +4433,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 91.694 62.484 90)
 			(effects
 				(font
@@ -4336,6 +4453,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 91.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 91.44 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,7 +4510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 111.76 43.688 90)
 			(effects
 				(font
@@ -4404,6 +4530,15 @@
 		)
 		(property "Description" "Fuse"
 			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 111.76 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,7 +4721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 142.24 39.37 0)
 			(effects
 				(font
@@ -4595,7 +4730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/641/6410/022272021_sd.pdf?inline"
 			(at 142.24 39.37 0)
 			(effects
 				(font
@@ -4605,6 +4740,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 142.24 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0022272021"
 			(at 142.24 39.37 0)
 			(effects
 				(font
@@ -4656,7 +4800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 142.24 30.48 0)
 			(effects
 				(font
@@ -4665,7 +4809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/641/6410/022272021_sd.pdf?inline"
 			(at 142.24 30.48 0)
 			(effects
 				(font
@@ -4675,6 +4819,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 142.24 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0022272021"
 			(at 142.24 30.48 0)
 			(effects
 				(font
