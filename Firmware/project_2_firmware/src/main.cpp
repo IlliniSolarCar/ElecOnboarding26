@@ -76,7 +76,6 @@ int main() {
 	// Configure all of our peripherals and globals
 	setup();
 	uint32_t last_task_1_time = timing.onTick(NULL);
-	uint32_t blink_rate = TASK_1_RATE_US;
 
 	CANMessage msg;
 	bool shutdown = false;
@@ -96,17 +95,17 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
-        if(timing.tickThreshold(last_task_1_time, blink_rate)){
-        	project1_led.write(!project1_led.read());
+        //project 1 block
+        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        	// toggle
+        	test_led = !test_led;
         }
 
-        uint32_t blink_rate = (uint32_t)(100000 + pot.read() * 1900000);
-        if(timing.tickThreshold(last_task_1_time, blink_rate)){
-            test_led = !test_led;
-        }
-
-        blink_rate = 100000 + potentiometer.read()*900000;
-
+        // Project 2 block
+        // uint32_t blink_rate = (uint32_t)(100000 + pot.read() * 1900000);
+        // if(timing.tickThreshold(last_task_1_time, blink_rate)){
+        //     test_led = !test_led;
+        // }
 
 
 	}
