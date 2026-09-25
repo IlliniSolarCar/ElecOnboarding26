@@ -5,9 +5,9 @@
 	(uuid "1e1b062d-fad0-427c-a622-c5b8a80b5268")
 	(paper "USLetter")
 	(title_block
-		(title "Project 1")
+		(title "LED Project")
 		(date "2026-09-24")
-		(rev "0.0")
+		(rev "1.0")
 		(company "Illini Solar Car")
 		(comment 1 "Designed By: Yunpeng Tan")
 	)
