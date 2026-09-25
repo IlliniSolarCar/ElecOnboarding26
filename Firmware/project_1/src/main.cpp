@@ -99,7 +99,7 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
-        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        if(timing.tickThreshold(last_task_1_time, rate_task2)){
         	//PROJECT 1 - add code here to actually make the LED blink
 			if (led_task1.read()){
 				led_task1.write(0);
