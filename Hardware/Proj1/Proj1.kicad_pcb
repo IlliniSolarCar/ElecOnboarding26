@@ -1324,7 +1324,7 @@
 	)
 	(gr_rect
 		(start 112 91)
-		(end 125.5 109.5)
+		(end 126 110)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -1338,7 +1338,7 @@
 		(layer "Dwgs.User")
 		(uuid "153da22c-d1b7-43db-882e-636f82283554")
 		(pts
-			(xy 112 91) (xy 111.5 109.5)
+			(xy 112 91) (xy 112 110)
 		)
 		(height 0)
 		(orientation 1)
@@ -1358,8 +1358,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "18.5000 mm"
-			(at 110.85 100.25 90)
+		(gr_text "19.0000 mm"
+			(at 110.85 100.5 90)
 			(layer "Dwgs.User")
 			(uuid "153da22c-d1b7-43db-882e-636f82283554")
 			(effects
@@ -1375,7 +1375,7 @@
 		(layer "Dwgs.User")
 		(uuid "9ae6c971-f283-43c8-8668-e2da6aa8077c")
 		(pts
-			(xy 112 91) (xy 125.5 91)
+			(xy 112 91) (xy 126 91)
 		)
 		(height 0)
 		(orientation 0)
@@ -1395,8 +1395,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "13.5000 mm"
-			(at 118.75 89.85 0)
+		(gr_text "14.0000 mm"
+			(at 119 89.85 0)
 			(layer "Dwgs.User")
 			(uuid "9ae6c971-f283-43c8-8668-e2da6aa8077c")
 			(effects
