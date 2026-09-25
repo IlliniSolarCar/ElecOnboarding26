@@ -1159,7 +1159,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "105"
 			(at 109.22 83.82 90)
 			(effects
 				(font
@@ -1641,7 +1641,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "Red"
 			(at 120.65 99.3774 90)
 			(effects
 				(font
