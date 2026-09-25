@@ -101,7 +101,15 @@ int main() {
         }
 
         //PROJECT 2 - use the potentiometer to change the blink rate
+    while(!shutdown) {
 
+    	float pot_value = potentiometer.read();
+
+    	uint32_t task_rate = (pot_value * 1000000)*9/10 + 100000;
+
+    	if(timing.tickThreshold(last_task_1_time, task_rate)){
+    	        	heartbeat_led.write(!heartbeat_led.read());
+    	}
 
 	}
 

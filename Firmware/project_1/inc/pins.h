@@ -26,6 +26,7 @@
 #define P_LED3 P0_6
 #define P_LED4 P0_7
 #define P_HEARTBEAT_LED P0_4
+#define P_POTENTIOMETER P0_5
 // PROJECT 1 - You can define a pin macro here
 
 /*
@@ -43,6 +44,7 @@ extern DigitalOut heartbeat_led;
  * BOARD SPECIFIC PINS
  */
 
+extern AnalogIn potentiometer;
 // PROJECT 2 - You can declare a AnalogIn object here
 
 
