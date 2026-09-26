@@ -40,9 +40,9 @@ extern DigitalOut heartbeat_led;
 /*
  * BOARD SPECIFIC PINS
  */
-
+#define P_POT_LED P0_12
 // PROJECT 2 - You can declare a AnalogIn object here
-
+extern AnalogIn potled;
 
 /*
  * BOARD SPECIFIC PIN OBJECT DECLARATIONS
