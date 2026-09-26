@@ -4,7 +4,7 @@
  */
 
 #include <mbed.h>
-#include "pins.h"//including the definitions
+#include "pins.h"
 #include "peripherals.h"
 #include "can_struct.h"
 #include "CAN/can_id.h"
@@ -95,11 +95,17 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
-        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
-        	test_led = !test_led;
-        }
+        //project 1 block
+        //if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        	// toggle
+        //	test_led = !test_led;
+        //}
 
-        //PROJECT 2 - use the potentiometer to change the blink rate
+        // Project 2 block
+        uint32_t blink_rate = (uint32_t)(BLINK_MIN_INTERVAL_US + pot.read() * (BLINK_MAX_INTERVAL_US-BLINK_MIN_INTERVAL_US));
+        if(timing.tickThreshold(last_task_1_time, blink_rate)){
+        		test_led = !test_led;
+        }
 
 
 	}
