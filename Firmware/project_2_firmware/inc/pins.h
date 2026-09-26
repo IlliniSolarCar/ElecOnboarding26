@@ -25,7 +25,8 @@
 #define P_LED2 P0_5
 #define P_LED3 P0_6
 #define P_LED4 P0_7
-#define P_LED5 P0_4
+// LED
+#define P_TEST_LED P0_4
 
 /*
  * COMMON PIN OBJECT DECLARATIONS
@@ -35,14 +36,15 @@ extern DigitalOut led1;
 extern DigitalOut led2;
 extern DigitalOut led3;
 extern DigitalOut led4;
-extern DigitalOut led5;
+// LED
+extern DigitalOut test_led;
 
 /*
  * BOARD SPECIFIC PINS
  */
 
 // Potentiometer
-#define P_POT P0_23
+// #define P_POT P0_23
 
 
 /*
@@ -50,5 +52,5 @@ extern DigitalOut led5;
  */
 
 // Potentiometer
-extern AnalogIn pot;
+// extern AnalogIn pot;
 #endif // __MBED1549_SKELETON_PINS_H__
