@@ -25,8 +25,7 @@
 #define P_LED2 P0_5
 #define P_LED3 P0_6
 #define P_LED4 P0_7
-// LED
-#define P_TEST_LED P0_4
+#define P_LED5 P0_4
 
 /*
  * COMMON PIN OBJECT DECLARATIONS
@@ -36,8 +35,7 @@ extern DigitalOut led1;
 extern DigitalOut led2;
 extern DigitalOut led3;
 extern DigitalOut led4;
-// LED
-extern DigitalOut test_led;
+extern DigitalOut led5;
 
 /*
  * BOARD SPECIFIC PINS

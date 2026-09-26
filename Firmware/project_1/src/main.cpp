@@ -4,7 +4,7 @@
  */
 
 #include <mbed.h>
-#include "pins.h"
+#include "DigitalOut.h"
 #include "peripherals.h"
 #include "can_struct.h"
 #include "CAN/can_id.h"
@@ -95,6 +95,10 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
+        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        	//PROJECT 1 - add code here to actually make the LED blink
+			led5.write(!led5.read());
+        }
 
         uint32_t blink_rate = (uint32_t)(100000 + pot.read() * 1900000);
         if(timing.tickThreshold(last_task_1_time, blink_rate)){
