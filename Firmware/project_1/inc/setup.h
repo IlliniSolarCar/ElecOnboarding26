@@ -22,4 +22,9 @@
 
 
 
+#define TASK_1_RATE_MIN_US 100000
+#define TASK_1_RATE_MAX_US 2000000
+
 #endif /* SETUP_H_ */
+
+

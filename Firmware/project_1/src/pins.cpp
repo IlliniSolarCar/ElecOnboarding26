@@ -25,3 +25,4 @@ DigitalOut led4(P_LED4);
 // PROJECT 1 - You can instantiate your DigitalOut object here
 DigitalOut led(P_LED); //actually defining and constructing this LED
 
+AnalogIn pot(P_POT);
