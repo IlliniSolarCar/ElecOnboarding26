@@ -8,11 +8,11 @@
 	)
 	(paper "USLetter")
 	(title_block
-		(title "Template")
-		(date "2022-08-16")
+		(title "Horns Board")
+		(date "2026-09-26")
 		(rev "0.0")
 		(company "Illini Solar Car")
-		(comment 1 "Designed By: Your Name")
+		(comment 1 "Designed By: Andrew Abraham")
 	)
 	(layers
 		(0 "F.Cu" signal)
