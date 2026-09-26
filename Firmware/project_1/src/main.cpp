@@ -4,12 +4,14 @@
  */
 
 #include <mbed.h>
-// PROJECT 1 - Include something here!
+#include "pins.h"
 #include "peripherals.h"
 #include "can_struct.h"
 #include "CAN/can_id.h"
 #include "CAN/can_data.h"
 #include "can_buffer.h"
+// Project 1: needed for the DigitalOut object used to drive the test LED
+#include "DigitalOut.h"
 
 
 /*
@@ -95,12 +97,12 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
-        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
-        	//PROJECT 1 - add code here to actually make the LED blink
+        // Project 1: every LED_BLINK_RATE_US microseconds, tickThreshold()
+        // returns true (and resets last_task_1_time), so this flips the
+        // test LED's output state, producing a 1-second on/1-second off blink.
+        if(timing.tickThreshold(last_task_1_time, LED_BLINK_RATE_US)) {
+        	test_led = !test_led;
         }
-
-        //PROJECT 2 - use the potentiometer to change the blink rate
-
 
 	}
 
