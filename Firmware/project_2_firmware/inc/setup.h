@@ -25,5 +25,10 @@
 // fully the other direction -> slow blink.
 #define MIN_BLINK_RATE_US 100000    // 0.1s per toggle -> fast blink
 #define MAX_BLINK_RATE_US 2000000   // 2.0s per toggle -> slow blink
+//task 1 rate
+// PROJECT 1 - You can change the macro name to something more descriptive if you'd like
+#define TASK_1_RATE_US 1000000
+
+
 
 #endif /* SETUP_H_ */

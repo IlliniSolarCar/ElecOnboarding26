@@ -27,6 +27,7 @@
 #define P_LED4 P0_7
 
 // Project 1: test LED, wired to the onboarding LED circuit
+// LED
 #define P_TEST_LED P0_4
 
 /*
@@ -39,6 +40,7 @@ extern DigitalOut led3;
 extern DigitalOut led4;
 
 // Project 1: DigitalOut used to toggle the test LED on/off
+// LED
 extern DigitalOut test_led;
 
 /*
@@ -47,6 +49,9 @@ extern DigitalOut test_led;
 
 // Project 2: potentiometer used to control the LED blink rate
 #define P_POT P0_23
+// Potentiometer
+// #define P_POT P0_23
+
 
 /*
  * BOARD SPECIFIC PIN OBJECT DECLARATIONS
@@ -55,4 +60,6 @@ extern DigitalOut test_led;
 // Project 2: AnalogIn reads a voltage 0.0-3.3V and returns it as a float 0.0-1.0
 extern AnalogIn pot;
 
+// Potentiometer
+// extern AnalogIn pot;
 #endif // __MBED1549_SKELETON_PINS_H__

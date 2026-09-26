@@ -9,6 +9,13 @@
 #include <pins.h>
 
 /*
+ * PIN OBJECT INSTANTIATIONS
+ */
+
+// Potentiometer
+// AnalogIn pot(P_POT);
+
+/*
  * COMMON PIN OBJECT INSTANTIATIONS
  */
 
@@ -22,3 +29,5 @@ DigitalOut test_led(P_TEST_LED);
 
 // Project 2: potentiometer input
 AnalogIn pot(P_POT);
+// LED
+DigitalOut test_led(P_TEST_LED);

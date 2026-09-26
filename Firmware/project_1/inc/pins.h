@@ -27,6 +27,7 @@
 #define P_LED4 P0_7
 
 // Project 1: test LED, wired to the onboarding LED circuit
+// LED
 #define P_TEST_LED P0_4
 
 /*
@@ -37,6 +38,15 @@ extern DigitalOut led1;
 extern DigitalOut led2;
 extern DigitalOut led3;
 extern DigitalOut led4;
+// LED
+extern DigitalOut test_led;
+
+/*
+ * BOARD SPECIFIC PINS
+ */
+
+// Potentiometer
+#define P_POT P0_23
 
 // Project 1: DigitalOut used to toggle the test LED on/off
 extern DigitalOut test_led;
@@ -45,4 +55,6 @@ extern DigitalOut test_led;
  * BOARD SPECIFIC PINS
  */
 
+// Potentiometer
+extern AnalogIn pot;
 #endif // __MBED1549_SKELETON_PINS_H__
