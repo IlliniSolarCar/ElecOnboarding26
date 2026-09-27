@@ -96,13 +96,14 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
-        if(timing.tickThreshold(last_task_1_time, LED5_BLINK_RATE)){
+        //PROJECT 2 - use the potentiometer to change the blink rate
+        float blink_rate_multiplier = pot1; // uses AnalogIn float operator
+        uint32_t modified_blink_rate = LED5_BLINK_RATE + (uint32_t)(blink_rate_multiplier * LED5_BLINK_RATE); // Base value of 1 s; potentiometer modifies interval to be in range [1 s, 2 s] for domain [pot1 = 0.0, pot1 = 1.0]
+
+        if(timing.tickThreshold(last_task_1_time, modified_blink_rate)){ // Changed interval from fixed blink rate from setup.h to a variable that can be modified by potentiometer
         	//PROJECT 1 - add code here to actually make the LED blink
         	led5 = !led5;
         }
-
-        //PROJECT 2 - use the potentiometer to change the blink rate
-
 
 	}
 
