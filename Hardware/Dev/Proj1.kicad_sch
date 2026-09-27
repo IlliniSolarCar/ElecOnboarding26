@@ -660,7 +660,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3VA"
+		(symbol "power:+3V3"
 			(power)
 			(pin_names
 				(offset 0)
@@ -677,7 +677,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3VA"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -703,7 +703,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -721,7 +721,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3VA_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -759,12 +759,12 @@
 					)
 				)
 			)
-			(symbol "+3.3VA_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
 					(hide yes)
-					(name "+3.3VA"
+					(name "+3V3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1164,7 +1164,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_RED"
 			(at 100.0125 86.36 0)
 			(effects
 				(font
@@ -1233,7 +1233,7 @@
 			(uuid "0792062e-09d3-44a8-8d6a-48db94bb497a")
 		)
 		(instances
-			(project "Onboarding1"
+			(project "Proj1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
 					(reference "D1")
 					(unit 1)
@@ -1299,9 +1299,75 @@
 			(uuid "96a89f1b-03be-4b78-aaa0-62388df96a82")
 		)
 		(instances
-			(project "Onboarding1"
+			(project "Proj1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 91.44 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ff2ec5a-f925-4c1b-a978-b1afecb30ede")
+		(property "Reference" "#PWR03"
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 91.44 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 91.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fda3c4c3-1026-4761-890a-9b7017d12e93")
+		)
+		(instances
+			(project "Proj1"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1366,7 +1432,7 @@
 			(uuid "c9b2f898-d859-46dc-a375-853c0fb0e7bf")
 		)
 		(instances
-			(project "Onboarding1"
+			(project "Proj1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
 					(reference "#FLG01")
 					(unit 1)
@@ -1393,7 +1459,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "105"
 			(at 111.76 81.2799 0)
 			(effects
 				(font
@@ -1436,7 +1502,7 @@
 			(uuid "cf4a2a55-5548-45e4-98e8-9e0ab9136fd8")
 		)
 		(instances
-			(project "Onboarding1"
+			(project "Proj1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
 					(reference "R2")
 					(unit 1)
@@ -1522,75 +1588,9 @@
 			(uuid "abc13f92-17ee-42f3-9077-0ba66737e9e5")
 		)
 		(instances
-			(project "Onboarding1"
+			(project "Proj1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 91.44 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8cbdf4f-90e8-4296-a073-36d1e2bcf519")
-		(property "Reference" "#PWR01"
-			(at 91.44 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 91.44 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 91.44 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "749440d8-ac5d-4d83-a93e-909c0c304a29")
-		)
-		(instances
-			(project "Onboarding1"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1674,7 +1674,7 @@
 			(uuid "f6e15c4d-571a-4862-af43-3f97abef599c")
 		)
 		(instances
-			(project "Onboarding1"
+			(project "Proj1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
 					(reference "SW1")
 					(unit 1)
@@ -1741,7 +1741,7 @@
 			(uuid "d8607281-6fd6-4695-aa38-cabdc19e132f")
 		)
 		(instances
-			(project "Onboarding1"
+			(project "Proj1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
 					(reference "#FLG02")
 					(unit 1)
