@@ -17,8 +17,8 @@
 #define WDT_TIMEOUT_US 10000000
 
 //task 1 rate
-// PROJECT 1 - You can change the macro name to something more descriptive if you'd like
-#define TASK_1_RATE_US 1000000
+// PROJECT 1 - Rate for 1 second
+#define TASK_1_RATE_US 500000
 
 
 
