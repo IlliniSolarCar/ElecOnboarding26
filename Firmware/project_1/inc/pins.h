@@ -44,6 +44,8 @@ extern DigitalOut heartbeat_led;
  */
 
 // PROJECT 2 - You can declare a AnalogIn object here
+#define P_POTENTIOMETER P0_12
+extern AnalogIn pot;
 
 
 /*
