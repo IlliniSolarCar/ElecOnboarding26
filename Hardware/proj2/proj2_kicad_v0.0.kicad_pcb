@@ -86,7 +86,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "proj2_kicad_v0.0-backups/")
+			(outputdirectory "Horn_Project_OnboardingZip/")
 		)
 	)
 	(net 0 "")
