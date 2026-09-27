@@ -2450,7 +2450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/38007666?display=pdf"
 			(at 118.11 123.19 0)
 			(effects
 				(font
@@ -2468,7 +2468,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "38007666"
 			(at 118.11 123.19 0)
 			(effects
 				(font
@@ -3473,7 +3473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 171.45 82.55 0)
 			(effects
 				(font
@@ -3491,7 +3491,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "22272021  "
 			(at 171.45 82.55 0)
 			(effects
 				(font
@@ -3685,7 +3685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.smc-diodes.com/propdf/S2A-S2M%20N0562%20REV.A.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds14002.pdf"
 			(at 153.67 77.47 0)
 			(effects
 				(font
@@ -3696,6 +3696,15 @@
 		)
 		(property "Description" "600V 2A General Purpose Rectifier Diode, SMB"
 			(at 153.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ES2DA‑13‑F"
+			(at 153.67 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,7 +3830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 144.78 119.38 0)
 			(effects
 				(font
@@ -3839,7 +3848,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "22272021  "
 			(at 144.78 119.38 0)
 			(effects
 				(font
@@ -4374,7 +4383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 171.45 72.39 0)
 			(effects
 				(font
@@ -4392,7 +4401,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "22272021  "
 			(at 171.45 72.39 0)
 			(effects
 				(font
@@ -4868,6 +4877,15 @@
 			)
 		)
 		(property "Description" "4.6A Id, 20V Vds, N-Channel MOSFET, SOT-23"
+			(at 161.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMN2058U"
 			(at 161.29 107.95 0)
 			(effects
 				(font

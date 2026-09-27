@@ -4,7 +4,7 @@
  */
 
 #include <mbed.h>
-#include <pins.cpp> // PROJECT 1 - Include something here!
+#include "pins.cpp" // PROJECT 1 - Include something here!
 #include "peripherals.h"
 #include "can_struct.h"
 #include "CAN/can_id.h"
