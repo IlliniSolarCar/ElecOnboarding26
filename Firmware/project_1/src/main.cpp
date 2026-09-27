@@ -95,8 +95,8 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
-
-        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        uint32_t blink_rate = (uint32_t)(100000+pot.read()*1900000);
+        if(timing.tickThreshold(last_task_1_time, blink_rate)){
             test_led = !test_led;
         }
 
