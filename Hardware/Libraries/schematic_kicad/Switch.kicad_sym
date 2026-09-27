@@ -7,25 +7,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at -6.35 8.89 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "SW_Coded"
-			(at -6.35 -7.62 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at -0.635 0.635 0)
+			(at -1.016 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -0.635 0.635 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61,10 +59,21 @@
 			)
 		)
 		(symbol "SW_Coded_0_1"
+			(rectangle
+				(start -6.35 6.35)
+				(end 6.35 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
-					(xy -0.889 -1.905) (xy -0.889 2.667) (xy -1.397 2.159) (xy -1.905 2.159) (xy -0.635 3.429) (xy 0.635 2.159)
-					(xy 0.127 2.159) (xy -0.381 2.667) (xy -0.381 -1.905) (xy -0.889 -1.905) (xy -0.889 -1.905)
+					(xy -1.27 -2.54) (xy -1.27 2.032) (xy -1.778 1.524) (xy -2.286 1.524) (xy -1.016 2.794) (xy 0.254 1.524)
+					(xy -0.254 1.524) (xy -0.762 2.032) (xy -0.762 -2.54) (xy -1.27 -2.54) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -75,7 +84,7 @@
 				)
 			)
 			(circle
-				(center -0.635 0.635)
+				(center -1.016 0)
 				(radius 3.81)
 				(stroke
 					(width 0)
@@ -85,22 +94,11 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 7.62 7.62)
-				(end -6.35 -6.35)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 		)
 		(symbol "SW_Coded_1_1"
 			(pin passive line
-				(at 12.7 6.35 180)
-				(length 5.08)
+				(at 10.16 5.08 180)
+				(length 3.81)
 				(name "CM"
 					(effects
 						(font
@@ -117,8 +115,8 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 2.54 180)
-				(length 5.08)
+				(at 10.16 2.54 180)
+				(length 3.81)
 				(name "D0"
 					(effects
 						(font
@@ -135,8 +133,8 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 0 180)
-				(length 5.08)
+				(at 10.16 0 180)
+				(length 3.81)
 				(name "D1"
 					(effects
 						(font
@@ -153,8 +151,8 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -2.54 180)
-				(length 5.08)
+				(at 10.16 -2.54 180)
+				(length 3.81)
 				(name "D2"
 					(effects
 						(font
@@ -171,8 +169,8 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -5.08 180)
-				(length 5.08)
+				(at 10.16 -5.08 180)
+				(length 3.81)
 				(name "D3"
 					(effects
 						(font
@@ -1818,7 +1816,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0 8.89 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,7 +1824,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x03"
-			(at 0 -3.81 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +1832,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,7 +1841,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,17 +1878,6 @@
 		)
 		(symbol "SW_DIP_x03_0_0"
 			(circle
-				(center -2.032 5.08)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
 				(center -2.032 2.54)
 				(radius 0.508)
 				(stroke
@@ -1912,10 +1899,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -1.524 5.207) (xy 2.3622 6.2484)
-				)
+			(circle
+				(center -2.032 -2.54)
+				(radius 0.508)
 				(stroke
 					(width 0)
 					(type default)
@@ -1948,9 +1934,10 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 2.032 5.08)
-				(radius 0.508)
+			(polyline
+				(pts
+					(xy -1.524 -2.413) (xy 2.3622 -1.3716)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -1981,11 +1968,22 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 2.032 -2.54)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "SW_DIP_x03_0_1"
 			(rectangle
-				(start -3.81 7.62)
-				(end 3.81 -2.54)
+				(start -3.81 5.08)
+				(end 3.81 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1997,7 +1995,7 @@
 		)
 		(symbol "SW_DIP_x03_1_1"
 			(pin passive line
-				(at -7.62 5.08 0)
+				(at -7.62 2.54 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -2015,7 +2013,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 2.54 0)
+				(at -7.62 0 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -2033,7 +2031,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 0 0)
+				(at -7.62 -2.54 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -2051,7 +2049,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 5.08 180)
+				(at 7.62 2.54 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -2069,7 +2067,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 2.54 180)
+				(at 7.62 0 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -2087,7 +2085,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 0 180)
+				(at 7.62 -2.54 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -3430,7 +3428,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0 13.97 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3436,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x07"
-			(at 0 -8.89 0)
+			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,7 +3444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,7 +3453,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,17 +3489,6 @@
 			)
 		)
 		(symbol "SW_DIP_x07_0_0"
-			(circle
-				(center -2.032 10.16)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
 				(center -2.032 7.62)
 				(radius 0.508)
@@ -3568,10 +3555,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -1.524 10.287) (xy 2.3622 11.3284)
-				)
+			(circle
+				(center -2.032 -7.62)
+				(radius 0.508)
 				(stroke
 					(width 0)
 					(type default)
@@ -3630,7 +3616,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 -2.3876) (xy 2.3622 -1.3462)
+					(xy -1.524 -2.413) (xy 2.3622 -1.3716)
 				)
 				(stroke
 					(width 0)
@@ -3652,9 +3638,10 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 2.032 10.16)
-				(radius 0.508)
+			(polyline
+				(pts
+					(xy -1.524 -7.4676) (xy 2.3622 -6.4262)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -3729,11 +3716,22 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 2.032 -7.62)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "SW_DIP_x07_0_1"
 			(rectangle
-				(start -3.81 12.7)
-				(end 3.81 -7.62)
+				(start -3.81 10.16)
+				(end 3.81 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3745,7 +3743,7 @@
 		)
 		(symbol "SW_DIP_x07_1_1"
 			(pin passive line
-				(at -7.62 10.16 0)
+				(at -7.62 7.62 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -3763,7 +3761,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 7.62 0)
+				(at -7.62 5.08 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -3781,7 +3779,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 5.08 0)
+				(at -7.62 2.54 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -3799,7 +3797,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 2.54 0)
+				(at -7.62 0 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -3817,7 +3815,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 0 0)
+				(at -7.62 -2.54 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -3835,7 +3833,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -2.54 0)
+				(at -7.62 -5.08 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -3853,7 +3851,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -5.08 0)
+				(at -7.62 -7.62 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -3871,7 +3869,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 10.16 180)
+				(at 7.62 7.62 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -3889,7 +3887,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 7.62 180)
+				(at 7.62 5.08 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -3907,7 +3905,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 5.08 180)
+				(at 7.62 2.54 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -3925,7 +3923,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 2.54 180)
+				(at 7.62 0 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -3943,7 +3941,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 0 180)
+				(at 7.62 -2.54 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -3961,7 +3959,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -2.54 180)
+				(at 7.62 -5.08 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -3979,7 +3977,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -5.08 180)
+				(at 7.62 -7.62 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6162,7 +6160,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0 19.05 0)
+			(at 0 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +6168,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x11"
-			(at 0 -13.97 0)
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,7 +6176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,7 +6185,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6223,17 +6221,6 @@
 			)
 		)
 		(symbol "SW_DIP_x11_0_0"
-			(circle
-				(center -2.032 15.24)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
 				(center -2.032 12.7)
 				(radius 0.508)
@@ -6344,10 +6331,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -1.524 15.367) (xy 2.3622 16.4084)
-				)
+			(circle
+				(center -2.032 -12.7)
+				(radius 0.508)
 				(stroke
 					(width 0)
 					(type default)
@@ -6430,7 +6416,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 -2.3876) (xy 2.3622 -1.3462)
+					(xy -1.524 -2.413) (xy 2.3622 -1.3716)
 				)
 				(stroke
 					(width 0)
@@ -6476,9 +6462,10 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 2.032 15.24)
-				(radius 0.508)
+			(polyline
+				(pts
+					(xy -1.524 -12.5476) (xy 2.3622 -11.5062)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -6597,11 +6584,22 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 2.032 -12.7)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "SW_DIP_x11_0_1"
 			(rectangle
-				(start -3.81 17.78)
-				(end 3.81 -12.7)
+				(start -3.81 15.24)
+				(end 3.81 -15.24)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -6613,7 +6611,7 @@
 		)
 		(symbol "SW_DIP_x11_1_1"
 			(pin passive line
-				(at -7.62 15.24 0)
+				(at -7.62 12.7 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6631,7 +6629,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 12.7 0)
+				(at -7.62 10.16 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6649,7 +6647,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 10.16 0)
+				(at -7.62 7.62 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6667,7 +6665,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 7.62 0)
+				(at -7.62 5.08 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6685,7 +6683,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 5.08 0)
+				(at -7.62 2.54 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6703,7 +6701,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 2.54 0)
+				(at -7.62 0 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6721,7 +6719,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 0 0)
+				(at -7.62 -2.54 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6739,7 +6737,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -2.54 0)
+				(at -7.62 -5.08 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6757,7 +6755,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -5.08 0)
+				(at -7.62 -7.62 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6775,7 +6773,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -7.62 0)
+				(at -7.62 -10.16 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6793,7 +6791,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -10.16 0)
+				(at -7.62 -12.7 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6811,7 +6809,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 15.24 180)
+				(at 7.62 12.7 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6829,7 +6827,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 12.7 180)
+				(at 7.62 10.16 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6847,7 +6845,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 10.16 180)
+				(at 7.62 7.62 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6865,7 +6863,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 7.62 180)
+				(at 7.62 5.08 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6883,7 +6881,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 5.08 180)
+				(at 7.62 2.54 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6901,7 +6899,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 2.54 180)
+				(at 7.62 0 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6919,7 +6917,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 0 180)
+				(at 7.62 -2.54 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6937,7 +6935,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -2.54 180)
+				(at 7.62 -5.08 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6955,7 +6953,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -5.08 180)
+				(at 7.62 -7.62 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6973,7 +6971,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -7.62 180)
+				(at 7.62 -10.16 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -6991,7 +6989,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -10.16 180)
+				(at 7.62 -12.7 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -7490,7 +7488,7 @@
 				)
 			)
 		)
-		(symbol "SW_DIP_x12_0_1"
+		(symbol "SW_DIP_x12_1_1"
 			(rectangle
 				(start -3.81 17.78)
 				(end 3.81 -15.24)
@@ -7502,8 +7500,6 @@
 					(type background)
 				)
 			)
-		)
-		(symbol "SW_DIP_x12_1_1"
 			(pin passive line
 				(at -7.62 15.24 0)
 				(length 5.08)
@@ -8009,6 +8005,17 @@
 			)
 		)
 		(symbol "SW_DP3T_0_1"
+			(rectangle
+				(start -3.175 3.81)
+				(end 3.175 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(circle
 				(center -2.032 0)
 				(radius 0.4572)
@@ -8225,7 +8232,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0 4.318 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8310,9 +8317,20 @@
 			)
 		)
 		(symbol "SW_DPDT_x2_0_1"
+			(rectangle
+				(start -3.175 3.81)
+				(end 3.175 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
-					(xy -1.524 0.254) (xy 1.651 2.286)
+					(xy -1.524 0.254) (xy 1.5748 2.286)
 				)
 				(stroke
 					(width 0)
@@ -8457,7 +8475,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0 5.08 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8627,6 +8645,17 @@
 			)
 		)
 		(symbol "SW_DPST_1_1"
+			(rectangle
+				(start -3.175 4.445)
+				(end 3.175 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at -5.08 2.54 0)
 				(length 2.54)
@@ -8711,12 +8740,11 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 1.524 5.334 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "SW_DPST_Temperature"
@@ -8754,7 +8782,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "temerature switch dual double-pole single-throw OFF-ON"
+		(property "ki_keywords" "temperature switch dual double-pole single-throw OFF-ON"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8813,7 +8841,7 @@
 			(polyline
 				(pts
 					(xy 0 3.556) (xy 0 4.318) (xy -0.762 4.318) (xy -0.762 4.826) (xy 0.762 4.826) (xy 0.762 5.334)
-					(xy 0 5.334) (xy 0 5.842)
+					(xy 0 5.334) (xy 0 5.715)
 				)
 				(stroke
 					(width 0)
@@ -8895,6 +8923,17 @@
 			)
 		)
 		(symbol "SW_DPST_Temperature_1_1"
+			(rectangle
+				(start -3.175 5.715)
+				(end 3.175 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at -5.08 2.54 0)
 				(length 2.54)
@@ -9842,12 +9881,11 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at -5.08 7.62 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "SW_MEC_5G_2LED"
@@ -9868,7 +9906,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 0 10.16 0)
+			(at 1.27 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10265,6 +10303,19 @@
 				)
 			)
 		)
+		(symbol "SW_MEC_5G_2LED_1_1"
+			(rectangle
+				(start -5.08 8.89)
+				(end 5.08 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "SW_MEC_5G_LED"
@@ -10276,16 +10327,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0.635 5.715 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "SW_MEC_5G_LED"
-			(at 0 -3.175 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10302,7 +10352,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 0 7.62 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10340,30 +10390,6 @@
 		(symbol "SW_MEC_5G_LED_0_0"
 			(polyline
 				(pts
-					(xy -3.81 -1.27) (xy -3.81 -1.905) (xy -3.175 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -1.905) (xy -2.54 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -2.54 0) (xy 2.54 0)
 				)
 				(stroke
@@ -10376,7 +10402,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.27) (xy -2.54 -1.905) (xy -1.905 -1.905)
+					(xy -2.286 -1.524) (xy -2.286 -2.159) (xy -1.651 -2.159)
 				)
 				(stroke
 					(width 0)
@@ -10388,7 +10414,31 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.905) (xy -1.27 -0.635)
+					(xy -2.286 -2.159) (xy -1.016 -0.889)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -1.524) (xy -1.016 -2.159) (xy -0.381 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -2.159) (xy 0.254 -0.889)
 				)
 				(stroke
 					(width 0)
@@ -10543,6 +10593,19 @@
 				)
 			)
 		)
+		(symbol "SW_MEC_5G_LED_1_1"
+			(rectangle
+				(start -3.175 5.715)
+				(end 3.175 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "SW_NKK_GW12LJPCF"
@@ -10554,7 +10617,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0 9.398 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,7 +10625,7 @@
 			)
 		)
 		(property "Value" "SW_NKK_GW12LJPCF"
-			(at 0 -8.89 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10570,7 +10633,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
-			(at 0 11.43 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10579,7 +10642,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.nkkswitches.com/pdf/gwillum.pdf"
-			(at 0 5.08 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10662,7 +10725,7 @@
 				)
 			)
 			(text "RED"
-				(at 0 -1.905 0)
+				(at 0.889 -2.159 0)
 				(effects
 					(font
 						(size 0.762 0.762)
@@ -10670,7 +10733,7 @@
 				)
 			)
 			(text "GREEN"
-				(at 0 -6.985 0)
+				(at 1.143 -7.239 0)
 				(effects
 					(font
 						(size 0.762 0.762)
@@ -10681,7 +10744,7 @@
 		(symbol "SW_NKK_GW12LJPCF_0_1"
 			(polyline
 				(pts
-					(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					(xy -1.778 -1.143) (xy -2.794 -2.159) (xy -2.159 -2.159) (xy -2.794 -2.159) (xy -2.794 -1.524)
 				)
 				(stroke
 					(width 0)
@@ -10693,7 +10756,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.048 -5.842) (xy -4.572 -7.366) (xy -3.81 -7.366) (xy -4.572 -7.366) (xy -4.572 -6.604)
+					(xy -1.778 -6.223) (xy -2.794 -7.239) (xy -2.159 -7.239) (xy -2.794 -7.239) (xy -2.794 -6.604)
 				)
 				(stroke
 					(width 0)
@@ -10705,31 +10768,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.778 -5.842) (xy -3.302 -7.366) (xy -2.54 -7.366) (xy -3.302 -7.366) (xy -3.302 -6.604)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.524 5.334) (xy 1.651 7.366)
+					(xy -1.524 5.334) (xy 1.5748 7.3152)
 				)
 				(stroke
 					(width 0)
@@ -10765,10 +10804,10 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					(xy -0.508 -1.143) (xy -1.524 -2.159) (xy -0.889 -2.159) (xy -1.524 -2.159) (xy -1.524 -1.524)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -10777,10 +10816,10 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -6.35) (xy 1.27 -3.81) (xy -1.27 -5.08) (xy 1.27 -6.35)
+					(xy -0.508 -6.223) (xy -1.524 -7.239) (xy -0.889 -7.239) (xy -1.524 -7.239) (xy -1.524 -6.604)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -10877,6 +10916,41 @@
 			)
 		)
 		(symbol "SW_NKK_GW12LJPCF_1_1"
+			(rectangle
+				(start -3.175 8.89)
+				(end 3.175 -8.255)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -6.35) (xy 1.27 -3.81) (xy -1.27 -5.08) (xy 1.27 -6.35)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(pin passive line
 				(at -5.08 5.08 0)
 				(length 2.54)
@@ -10924,6 +10998,156 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW_Push"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 1.27 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 -1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_Push_0_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11117,7 +11341,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0 8.89 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11217,7 +11441,7 @@
 		(symbol "SW_Push_DPDT_0_1"
 			(polyline
 				(pts
-					(xy -1.524 5.334) (xy 2.54 7.112)
+					(xy -1.524 5.334) (xy 2.3368 7.0612)
 				)
 				(stroke
 					(width 0)
@@ -11229,7 +11453,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 -4.826) (xy 2.54 -3.048)
+					(xy -1.524 -4.826) (xy 2.3368 -3.0988)
 				)
 				(stroke
 					(width 0)
@@ -11323,6 +11547,17 @@
 			)
 		)
 		(symbol "SW_Push_DPDT_1_1"
+			(rectangle
+				(start -3.175 8.89)
+				(end 3.175 -8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at -5.08 5.08 0)
 				(length 2.54)
@@ -11443,16 +11678,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 1.27 2.54 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "SW_Push_Dual"
-			(at 0 -6.858 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11460,7 +11694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 5.08 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11469,7 +11703,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 5.08 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11497,7 +11731,7 @@
 		)
 		(symbol "SW_Push_Dual_0_1"
 			(circle
-				(center -2.032 0)
+				(center -2.032 2.54)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -11508,7 +11742,7 @@
 				)
 			)
 			(circle
-				(center -2.032 -5.08)
+				(center -2.032 -2.54)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -11520,7 +11754,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.27) (xy 0 3.048)
+					(xy 0 3.81) (xy 0 5.588)
 				)
 				(stroke
 					(width 0)
@@ -11532,7 +11766,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.508) (xy 0 1.016)
+					(xy 0 3.048) (xy 0 3.556)
 				)
 				(stroke
 					(width 0)
@@ -11544,7 +11778,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.508) (xy 0 0)
+					(xy 0 2.032) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -11556,7 +11790,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.524) (xy 0 -1.016)
+					(xy 0 1.016) (xy 0 1.524)
 				)
 				(stroke
 					(width 0)
@@ -11568,7 +11802,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.032) (xy 0 -2.54)
+					(xy 0 0.508) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -11580,7 +11814,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -3.048) (xy 0 -3.556)
+					(xy 0 -0.508) (xy 0 -1.016)
 				)
 				(stroke
 					(width 0)
@@ -11591,7 +11825,7 @@
 				)
 			)
 			(circle
-				(center 2.032 0)
+				(center 2.032 2.54)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -11602,7 +11836,7 @@
 				)
 			)
 			(circle
-				(center 2.032 -5.08)
+				(center 2.032 -2.54)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -11614,7 +11848,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 1.27) (xy -2.54 1.27)
+					(xy 2.54 3.81) (xy -2.54 3.81)
 				)
 				(stroke
 					(width 0)
@@ -11626,7 +11860,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -3.81) (xy -2.54 -3.81)
+					(xy 2.54 -1.27) (xy -2.54 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -11637,7 +11871,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 0 0)
+				(at -5.08 2.54 0)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -11655,7 +11889,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -5.08 0)
+				(at -5.08 -2.54 0)
 				(length 2.54)
 				(name "3"
 					(effects
@@ -11673,7 +11907,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
+				(at 5.08 2.54 180)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -11691,7 +11925,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -5.08 180)
+				(at 5.08 -2.54 180)
 				(length 2.54)
 				(name "4"
 					(effects
@@ -11706,6 +11940,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "SW_Push_Dual_1_1"
+			(rectangle
+				(start -3.175 5.715)
+				(end 3.175 -4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -11907,16 +12154,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0.635 5.715 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "SW_Push_LED"
-			(at 0 -3.175 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11962,30 +12208,6 @@
 		(symbol "SW_Push_LED_0_0"
 			(polyline
 				(pts
-					(xy -3.81 -1.27) (xy -3.81 -1.905) (xy -3.175 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -1.905) (xy -2.54 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -2.54 0) (xy 2.54 0)
 				)
 				(stroke
@@ -11998,7 +12220,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.27) (xy -2.54 -1.905) (xy -1.905 -1.905)
+					(xy -2.286 -1.524) (xy -2.286 -2.159) (xy -1.651 -2.159)
 				)
 				(stroke
 					(width 0)
@@ -12010,7 +12232,31 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.905) (xy -1.27 -0.635)
+					(xy -2.286 -2.159) (xy -1.016 -0.889)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -1.524) (xy -1.016 -2.159) (xy -0.381 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -2.159) (xy 0.254 -0.889)
 				)
 				(stroke
 					(width 0)
@@ -12165,6 +12411,19 @@
 				)
 			)
 		)
+		(symbol "SW_Push_LED_1_1"
+			(rectangle
+				(start -3.175 5.715)
+				(end 3.175 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "SW_Push_Lamp"
@@ -12176,16 +12435,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0.635 5.715 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "SW_Push_Lamp"
-			(at 0 -3.175 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12407,6 +12665,19 @@
 				)
 			)
 		)
+		(symbol "SW_Push_Lamp_1_1"
+			(rectangle
+				(start -3.175 5.715)
+				(end 3.175 -1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "SW_Push_Open"
@@ -12569,16 +12840,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 1.27 2.54 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "SW_Push_Open_Dual"
-			(at 0 -6.985 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12835,6 +13105,19 @@
 				)
 			)
 		)
+		(symbol "SW_Push_Open_Dual_1_1"
+			(rectangle
+				(start -3.175 1.905)
+				(end 3.175 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "SW_Push_Open_Dual_x2"
@@ -13032,7 +13315,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0 4.318 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13122,7 +13405,7 @@
 		(symbol "SW_Push_SPDT_0_1"
 			(polyline
 				(pts
-					(xy -1.524 0.254) (xy 2.54 2.032)
+					(xy -1.524 0.2032) (xy 2.3368 1.9812)
 				)
 				(stroke
 					(width 0)
@@ -13145,6 +13428,17 @@
 			)
 		)
 		(symbol "SW_Push_SPDT_1_1"
+			(rectangle
+				(start -3.175 3.81)
+				(end 3.175 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -13192,6 +13486,208 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW_Push_Shielded"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 4.318 2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push_Shielded"
+			(at 0 4.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch normally-open pushbutton momentary"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_Push_Shielded_0_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
+				)
+				(stroke
+					(width -0.0254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SW_Push_Shielded_1_1"
+			(rectangle
+				(start -3.048 2.54)
+				(end 3.048 -1.27)
+				(stroke
+					(width -0.0254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13292,7 +13788,7 @@
 			)
 			(arc
 				(start -2.159 -1.397)
-				(mid -3.5499 0)
+				(mid -3.55 0)
 				(end -2.159 1.397)
 				(stroke
 					(width 0.254)
@@ -13304,7 +13800,7 @@
 			)
 			(arc
 				(start 2.159 1.397)
-				(mid 3.5499 0)
+				(mid 3.55 0)
 				(end 2.159 -1.397)
 				(stroke
 					(width 0.254)
@@ -13469,7 +13965,7 @@
 			)
 			(arc
 				(start -2.159 -1.397)
-				(mid -3.5499 0)
+				(mid -3.55 0)
 				(end -2.159 1.397)
 				(stroke
 					(width 0.254)
@@ -13481,7 +13977,7 @@
 			)
 			(arc
 				(start 2.159 1.397)
-				(mid 3.5499 0)
+				(mid 3.55 0)
 				(end 2.159 -1.397)
 				(stroke
 					(width 0.254)
@@ -13670,7 +14166,7 @@
 			)
 			(arc
 				(start -2.159 -1.397)
-				(mid -3.5499 0)
+				(mid -3.55 0)
 				(end -2.159 1.397)
 				(stroke
 					(width 0.254)
@@ -13682,7 +14178,7 @@
 			)
 			(arc
 				(start 2.159 1.397)
-				(mid 3.5499 0)
+				(mid 3.55 0)
 				(end 2.159 -1.397)
 				(stroke
 					(width 0.254)
@@ -13789,7 +14285,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SW_Rotary12"
+	(symbol "SW_Rotary_1x12"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -13805,7 +14301,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Rotary12"
+		(property "Value" "SW_Rotary_1x12"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -13814,7 +14310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -5.08 17.78 0)
+			(at 0 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13823,7 +14319,7 @@
 			)
 		)
 		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf"
-			(at -5.08 17.78 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13840,7 +14336,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "rotary switch"
+		(property "ki_keywords" "rotary switch 1x12"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13849,10 +14345,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "SW_Rotary12_0_0"
+		(symbol "SW_Rotary_1x12_0_0"
 			(polyline
 				(pts
-					(xy -10.16 9.525) (xy -10.16 15.24) (xy 5.08 15.24)
+					(xy -5.08 9.525) (xy -5.08 15.24) (xy 11.43 15.24)
 				)
 				(stroke
 					(width 0)
@@ -13863,7 +14359,7 @@
 				)
 			)
 			(circle
-				(center -10.16 8.89)
+				(center -5.08 8.89)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -13874,7 +14370,7 @@
 				)
 			)
 			(circle
-				(center -10.16 -8.89)
+				(center -5.08 -8.89)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -13886,7 +14382,19 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 -9.525) (xy -10.16 -15.24) (xy 5.08 -15.24)
+					(xy -5.08 -9.525) (xy -5.08 -15.24) (xy 11.43 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.1336 0.6096) (xy -4.826 8.2804)
 				)
 				(stroke
 					(width 0)
@@ -13897,9 +14405,9 @@
 				)
 			)
 			(arc
-				(start -8.255 5.08)
-				(mid -1.6023 0.949)
-				(end -5.715 -5.715)
+				(start -3.175 5.08)
+				(mid 3.4777 0.949)
+				(end -0.635 -5.715)
 				(stroke
 					(width 0)
 					(type default)
@@ -13910,7 +14418,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.985 10.16) (xy -6.985 12.7) (xy 5.08 12.7)
+					(xy -1.905 10.16) (xy -1.905 12.7) (xy 11.43 12.7)
 				)
 				(stroke
 					(width 0)
@@ -13921,7 +14429,7 @@
 				)
 			)
 			(circle
-				(center -6.985 9.525)
+				(center -1.905 9.525)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -13932,7 +14440,7 @@
 				)
 			)
 			(circle
-				(center -6.985 0)
+				(center -1.905 0)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -13942,20 +14450,8 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -6.985 0) (xy -10.16 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
-				(center -6.985 -9.525)
+				(center -1.905 -9.525)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -13967,7 +14463,7 @@
 			)
 			(polyline
 				(pts
-					(xy -6.985 -10.16) (xy -6.985 -12.7) (xy 5.08 -12.7)
+					(xy -1.905 -10.16) (xy -1.905 -12.7) (xy 11.43 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -13979,7 +14475,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.715 -5.715) (xy -5.08 -3.81)
+					(xy -0.635 -5.715) (xy 0 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -13991,7 +14487,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.715 -5.715) (xy -3.81 -6.35)
+					(xy -0.635 -5.715) (xy 1.27 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -14002,7 +14498,7 @@
 				)
 			)
 			(circle
-				(center -3.81 8.89)
+				(center 1.27 8.89)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -14013,53 +14509,7 @@
 				)
 			)
 			(circle
-				(center -3.81 -8.89)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.175 8.89) (xy 3.175 8.89) (xy 3.175 10.16) (xy 5.08 10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.175 -8.89) (xy 3.175 -8.89) (xy 3.175 -10.16) (xy 5.08 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -0.635 6.985)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -0.635 -6.985)
+				(center 1.27 -8.89)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -14071,7 +14521,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 6.985) (xy 4.445 6.985) (xy 4.445 7.62) (xy 5.08 7.62)
+					(xy 1.905 8.89) (xy 8.255 8.89) (xy 8.255 10.16) (xy 11.43 10.16)
 				)
 				(stroke
 					(width 0)
@@ -14083,7 +14533,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -6.985) (xy 4.445 -6.985) (xy 4.445 -7.62) (xy 5.08 -7.62)
+					(xy 1.905 -8.89) (xy 8.255 -8.89) (xy 8.255 -10.16) (xy 11.43 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -14094,7 +14544,7 @@
 				)
 			)
 			(circle
-				(center 1.27 5.08)
+				(center 4.445 6.985)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -14105,53 +14555,7 @@
 				)
 			)
 			(circle
-				(center 1.27 -5.08)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 5.08) (xy 5.08 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.905 -5.08) (xy 5.08 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 2.54 1.905)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 2.54 -1.905)
+				(center 4.445 -6.985)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -14163,7 +14567,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.175 1.905) (xy 4.445 1.905) (xy 4.445 2.54) (xy 5.08 2.54)
+					(xy 5.08 6.985) (xy 9.525 6.985) (xy 9.525 7.62) (xy 11.43 7.62)
 				)
 				(stroke
 					(width 0)
@@ -14175,7 +14579,99 @@
 			)
 			(polyline
 				(pts
-					(xy 3.175 -1.905) (xy 4.445 -1.905) (xy 4.445 -2.54) (xy 5.08 -2.54)
+					(xy 5.08 -6.985) (xy 9.525 -6.985) (xy 9.525 -7.62) (xy 11.43 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 5.08)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 6.35 -5.08)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 5.08) (xy 11.43 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -5.08) (xy 11.43 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 7.62 1.905)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 7.62 -1.905)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.905) (xy 9.525 1.905) (xy 9.525 2.54) (xy 11.43 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 -1.905) (xy 9.525 -1.905) (xy 9.525 -2.54) (xy 11.43 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -14186,10 +14682,33 @@
 				)
 			)
 		)
-		(symbol "SW_Rotary12_0_1"
+		(symbol "SW_Rotary_1x12_1_1"
+			(rectangle
+				(start -11.43 16.51)
+				(end 11.43 -16.51)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.43 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin passive line
 				(at -15.24 0 0)
-				(length 7.62)
+				(length 3.81)
 				(name "13"
 					(effects
 						(font
@@ -14206,8 +14725,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 15.24 180)
-				(length 5.08)
+				(at 15.24 15.24 180)
+				(length 3.81)
 				(name "1"
 					(effects
 						(font
@@ -14224,8 +14743,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 12.7 180)
-				(length 5.08)
+				(at 15.24 12.7 180)
+				(length 3.81)
 				(name "2"
 					(effects
 						(font
@@ -14242,8 +14761,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 10.16 180)
-				(length 5.08)
+				(at 15.24 10.16 180)
+				(length 3.81)
 				(name "3"
 					(effects
 						(font
@@ -14260,8 +14779,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 7.62 180)
-				(length 5.08)
+				(at 15.24 7.62 180)
+				(length 3.81)
 				(name "4"
 					(effects
 						(font
@@ -14278,8 +14797,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 5.08 180)
-				(length 5.08)
+				(at 15.24 5.08 180)
+				(length 3.81)
 				(name "5"
 					(effects
 						(font
@@ -14296,8 +14815,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 2.54 180)
-				(length 5.08)
+				(at 15.24 2.54 180)
+				(length 3.81)
 				(name "6"
 					(effects
 						(font
@@ -14314,8 +14833,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -2.54 180)
-				(length 5.08)
+				(at 15.24 -2.54 180)
+				(length 3.81)
 				(name "7"
 					(effects
 						(font
@@ -14332,8 +14851,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -5.08 180)
-				(length 5.08)
+				(at 15.24 -5.08 180)
+				(length 3.81)
 				(name "8"
 					(effects
 						(font
@@ -14350,8 +14869,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -7.62 180)
-				(length 5.08)
+				(at 15.24 -7.62 180)
+				(length 3.81)
 				(name "9"
 					(effects
 						(font
@@ -14368,8 +14887,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -10.16 180)
-				(length 5.08)
+				(at 15.24 -10.16 180)
+				(length 3.81)
 				(name "10"
 					(effects
 						(font
@@ -14386,8 +14905,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -12.7 180)
-				(length 5.08)
+				(at 15.24 -12.7 180)
+				(length 3.81)
 				(name "11"
 					(effects
 						(font
@@ -14404,8 +14923,8 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -15.24 180)
-				(length 5.08)
+				(at 15.24 -15.24 180)
+				(length 3.81)
 				(name "12"
 					(effects
 						(font
@@ -14424,7 +14943,3113 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SW_Rotary2x6"
+	(symbol "SW_Rotary_1x3_MP"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Rotary_1x3_MP"
+			(at 8.89 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary switch 1x3, SP3T with mount point"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Rotary switch 1x3 SP3T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_Rotary_1x3_MP_0_1"
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.5908 0.254) (xy 1.9304 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0.635)
+				(mid 0.0861 -0.5113)
+				(end -0.3176 -1.5875)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy -0.3176 -0.6985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy -0.3176 -1.5875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy 0.4444 -1.0795)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 3.175 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 3.175 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Rotary_1x3_MP_1_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW_Rotary_1x4_MP"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Rotary_1x4_MP"
+			(at 8.89 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary switch 1x4, SP4T with mount point"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Rotary switch 1x4 SP4T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_Rotary_1x4_MP_0_1"
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.7432 0.508) (xy 0.2032 3.9624)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.9526 2.2225)
+				(mid 0.154 0.449)
+				(end -0.3176 -1.5875)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy -0.3176 -0.6985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy -0.3176 -1.5875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy 0.4444 -1.0795)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.3174 -1.5875) (xy 0.3174 -1.5875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.635 4.445)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.08) (xy 2.54 5.08) (xy 2.54 4.445) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 3.175 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 3.175 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Rotary_1x4_MP_1_1"
+			(polyline
+				(pts
+					(xy -5.08 6.35) (xy 5.08 6.35) (xy 5.08 -5.08) (xy -5.08 -5.08) (xy -5.08 6.35) (xy -5.08 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 5.08 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW_Rotary_1x5_MP"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Rotary_1x5_MP"
+			(at 8.89 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary switch 1x5, SP5T with mount point"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Rotary switch 1x5 SP5T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_Rotary_1x5_MP_0_1"
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.7432 0.508) (xy 0.2032 3.9624)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.9526 2.2225)
+				(mid 0.154 0.449)
+				(end -0.3176 -1.5875)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy -0.3176 -0.6985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy -0.3176 -1.5875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy 0.4444 -1.0795)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.635 4.445)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.635 -4.445)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.08) (xy 2.54 5.08) (xy 2.54 4.445) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 3.175 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 3.175 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -5.08) (xy 2.54 -5.08) (xy 2.54 -4.445) (xy 1.27 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Rotary_1x5_MP_1_1"
+			(polyline
+				(pts
+					(xy -5.08 6.35) (xy 5.08 6.35) (xy 5.08 -6.35) (xy -5.08 -6.35) (xy -5.08 6.35) (xy -5.08 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 5.08 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -5.08 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW_Rotary_1x6_MP"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Rotary_1x6_MP"
+			(at 8.89 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary switch 1x6, SP6T with mount point"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Rotary switch 1x6 SP6T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_Rotary_1x6_MP_0_1"
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.9464 0.6096) (xy -1.4732 5.7404)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.9526 2.2225)
+				(mid 0.154 0.449)
+				(end -0.3176 -1.5875)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.27 6.35)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy -0.3176 -0.6985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy -0.3176 -1.5875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy 0.4444 -1.0795)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.635 4.445)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.635 -4.445)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 7.62) (xy -1.27 7.62) (xy -1.27 7.62) (xy -1.27 6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.08) (xy 2.54 5.08) (xy 2.54 4.445) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 3.175 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 3.175 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -5.08) (xy 2.54 -5.08) (xy 2.54 -4.445) (xy 1.27 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Rotary_1x6_MP_1_1"
+			(polyline
+				(pts
+					(xy -5.08 8.89) (xy 5.08 8.89) (xy 5.08 -6.35) (xy -5.08 -6.35) (xy -5.08 8.89) (xy -5.08 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 7.62 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 5.08 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -5.08 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW_Rotary_1x7_MP"
+		(pin_names
+			(offset 0.002)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Rotary_1x7_MP"
+			(at 8.89 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary switch 1x7, SP7T with mount point"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Rotary switch 1x7 SP7T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_Rotary_1x7_MP_0_1"
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.9464 0.6096) (xy -1.4732 5.7404)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.9526 2.2225)
+				(mid 0.154 0.449)
+				(end -0.3176 -1.5875)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.27 6.35)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.27 -6.35)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy -0.3176 -0.6985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy -0.3176 -1.5875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy 0.4444 -1.0795)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.635 4.445)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.635 -4.445)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 7.62) (xy -1.27 7.62) (xy -1.27 7.62) (xy -1.27 6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.08) (xy 2.54 5.08) (xy 2.54 4.445) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 3.175 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 3.175 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -5.08) (xy 2.54 -5.08) (xy 2.54 -4.445) (xy 1.27 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -7.62) (xy -1.27 -7.62) (xy -1.27 -7.62) (xy -1.27 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Rotary_1x7_MP_1_1"
+			(polyline
+				(pts
+					(xy -5.08 8.89) (xy 5.08 8.89) (xy 5.08 -8.89) (xy -5.08 -8.89) (xy -5.08 8.89) (xy -5.08 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -7.62 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 7.62 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 5.08 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -5.08 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -7.62 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW_Rotary_1x8_MP"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Rotary_1x8_MP"
+			(at 10.16 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary switch 1x8, SP8T with mount point"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Rotary switch 1x8 SP8T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_Rotary_1x8_MP_0_1"
+			(polyline
+				(pts
+					(xy -7.62 0) (xy -5.715 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.9276 0.6604) (xy -3.9116 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.81 6.985)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.2226 2.2225)
+				(mid -1.116 0.449)
+				(end -1.5876 -1.5875)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.5876 -1.5875) (xy -1.5876 -0.6985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.5876 -1.5875) (xy -1.5876 -1.5875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.5876 -1.5875) (xy -0.8256 -1.0795)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.27 6.35)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.27 -6.35)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.635 4.445)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.635 -4.445)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 7.62) (xy -1.27 7.62) (xy -1.27 7.62) (xy -1.27 6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.08) (xy 2.54 5.08) (xy 2.54 4.445) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 3.175 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 3.175 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -5.08) (xy 2.54 -5.08) (xy 2.54 -4.445) (xy 1.27 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -7.62) (xy 0.635 -7.62) (xy 0.635 -6.35) (xy -0.635 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Rotary_1x8_MP_1_1"
+			(polyline
+				(pts
+					(xy -7.62 11.43) (xy 5.08 11.43) (xy 5.08 -8.89) (xy -7.62 -8.89) (xy -7.62 11.43) (xy -7.62 11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 10.16) (xy -3.81 10.16) (xy -3.81 7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -7.62 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 10.16 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 7.62 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 5.08 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -5.08 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -7.62 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW_Rotary_1x9_MP"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Rotary_1x9_MP"
+			(at 8.89 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary switch 1x8, SP8T with mount point"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Rotary switch 1x8 SP8T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_Rotary_1x9_MP_0_1"
+			(polyline
+				(pts
+					(xy -7.62 0) (xy -5.715 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.08 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.9276 0.6604) (xy -3.9624 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.81 6.985)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.2226 2.2225)
+				(mid -1.116 0.449)
+				(end -1.5876 -1.5875)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.81 -7.62)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.5876 -1.5875) (xy -1.5876 -0.6985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.5876 -1.5875) (xy -1.5876 -1.5875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.5876 -1.5875) (xy -0.8256 -1.0795)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.27 6.35)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.27 -6.35)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.635 4.445)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.635 -4.445)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 7.62) (xy -1.27 7.62) (xy -1.27 7.62) (xy -1.27 6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.08) (xy 2.54 5.08) (xy 2.54 4.445) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 3.175 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 3.175 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -5.08) (xy 2.54 -5.08) (xy 2.54 -4.445) (xy 1.27 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -7.62) (xy 0.635 -7.62) (xy 0.635 -6.35) (xy -0.635 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Rotary_1x9_MP_1_1"
+			(polyline
+				(pts
+					(xy -7.62 11.43) (xy 5.08 11.43) (xy 5.08 -11.43) (xy -7.62 -11.43) (xy -7.62 11.43) (xy -7.62 11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 10.16) (xy -3.81 10.16) (xy -3.81 7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -10.16) (xy -3.81 -10.16) (xy -3.81 -8.255)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -10.16 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 10.16 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 7.62 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 5.08 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -5.08 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -7.62 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -10.16 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW_Rotary_2x6"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -14440,7 +18065,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Rotary2x6"
+		(property "Value" "SW_Rotary_2x6"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -14458,7 +18083,7 @@
 			)
 		)
 		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf"
-			(at -2.54 15.24 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14475,7 +18100,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "rotary switch"
+		(property "ki_keywords" "rotary switch 2x6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14484,22 +18109,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "SW_Rotary2x6_0_0"
+		(symbol "SW_Rotary_2x6_0_0"
 			(circle
 				(center -4.445 7.62)
 				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.445 7.62) (xy 0.635 13.97)
-				)
 				(stroke
 					(width 0)
 					(type default)
@@ -14521,7 +18134,19 @@
 			)
 			(polyline
 				(pts
-					(xy -4.445 -10.16) (xy 0.635 -3.81)
+					(xy -4.064 -9.652) (xy 0.2032 -4.318)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.0132 8.128) (xy 0.2032 13.462)
 				)
 				(stroke
 					(width 0)
@@ -14617,7 +18242,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 14.605) (xy 0.635 15.24) (xy 7.62 15.24)
+					(xy 0.635 14.605) (xy 0.635 15.24) (xy 8.89 15.24)
 				)
 				(stroke
 					(width 0)
@@ -14640,7 +18265,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.635 -3.175) (xy 0.635 -2.54) (xy 7.62 -2.54)
+					(xy 0.635 -3.175) (xy 0.635 -2.54) (xy 8.89 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -14707,7 +18332,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 12.7) (xy 7.62 12.7)
+					(xy 4.445 12.7) (xy 8.89 12.7)
 				)
 				(stroke
 					(width 0)
@@ -14719,7 +18344,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 -5.08) (xy 7.62 -5.08)
+					(xy 4.445 -5.08) (xy 8.89 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -14775,7 +18400,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 10.16) (xy 7.62 10.16)
+					(xy 5.715 10.16) (xy 8.89 10.16)
 				)
 				(stroke
 					(width 0)
@@ -14798,7 +18423,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 5.08) (xy 7.62 5.08)
+					(xy 5.715 5.08) (xy 8.89 5.08)
 				)
 				(stroke
 					(width 0)
@@ -14810,7 +18435,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 -7.62) (xy 7.62 -7.62)
+					(xy 5.715 -7.62) (xy 8.89 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -14833,7 +18458,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 -12.7) (xy 7.62 -12.7)
+					(xy 5.715 -12.7) (xy 8.89 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -14845,7 +18470,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 7.62) (xy 7.62 7.62)
+					(xy 6.35 7.62) (xy 8.89 7.62)
 				)
 				(stroke
 					(width 0)
@@ -14857,7 +18482,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 -10.16) (xy 7.62 -10.16)
+					(xy 6.35 -10.16) (xy 8.89 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -14869,7 +18494,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 2.54) (xy 4.445 2.54)
+					(xy 8.89 2.54) (xy 4.445 2.54)
 				)
 				(stroke
 					(width 0)
@@ -14881,7 +18506,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -15.24) (xy 4.445 -15.24)
+					(xy 8.89 -15.24) (xy 4.445 -15.24)
 				)
 				(stroke
 					(width 0)
@@ -14892,10 +18517,47 @@
 				)
 			)
 		)
-		(symbol "SW_Rotary2x6_0_1"
+		(symbol "SW_Rotary_2x6_0_1"
+			(polyline
+				(pts
+					(xy -5.1308 -10.16) (xy -8.89 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 7.62) (xy -8.89 7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Rotary_2x6_1_1"
+			(rectangle
+				(start -8.89 16.51)
+				(end 8.89 -16.51)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
-				(at -10.16 7.62 0)
-				(length 5.08)
+				(at -12.7 7.62 0)
+				(length 3.81)
 				(name "13"
 					(effects
 						(font
@@ -14912,8 +18574,8 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -10.16 0)
-				(length 5.08)
+				(at -12.7 -10.16 0)
+				(length 3.81)
 				(name "14"
 					(effects
 						(font
@@ -14931,7 +18593,7 @@
 			)
 			(pin passive line
 				(at 12.7 15.24 180)
-				(length 5.08)
+				(length 3.81)
 				(name "1"
 					(effects
 						(font
@@ -14949,7 +18611,7 @@
 			)
 			(pin passive line
 				(at 12.7 12.7 180)
-				(length 5.08)
+				(length 3.81)
 				(name "2"
 					(effects
 						(font
@@ -14967,7 +18629,7 @@
 			)
 			(pin passive line
 				(at 12.7 10.16 180)
-				(length 5.08)
+				(length 3.81)
 				(name "3"
 					(effects
 						(font
@@ -14985,7 +18647,7 @@
 			)
 			(pin passive line
 				(at 12.7 7.62 180)
-				(length 5.08)
+				(length 3.81)
 				(name "4"
 					(effects
 						(font
@@ -15003,7 +18665,7 @@
 			)
 			(pin passive line
 				(at 12.7 5.08 180)
-				(length 5.08)
+				(length 3.81)
 				(name "5"
 					(effects
 						(font
@@ -15021,7 +18683,7 @@
 			)
 			(pin passive line
 				(at 12.7 2.54 180)
-				(length 5.08)
+				(length 3.81)
 				(name "6"
 					(effects
 						(font
@@ -15039,7 +18701,7 @@
 			)
 			(pin passive line
 				(at 12.7 -2.54 180)
-				(length 5.08)
+				(length 3.81)
 				(name "7"
 					(effects
 						(font
@@ -15057,7 +18719,7 @@
 			)
 			(pin passive line
 				(at 12.7 -5.08 180)
-				(length 5.08)
+				(length 3.81)
 				(name "8"
 					(effects
 						(font
@@ -15075,7 +18737,7 @@
 			)
 			(pin passive line
 				(at 12.7 -7.62 180)
-				(length 5.08)
+				(length 3.81)
 				(name "9"
 					(effects
 						(font
@@ -15093,7 +18755,7 @@
 			)
 			(pin passive line
 				(at 12.7 -10.16 180)
-				(length 5.08)
+				(length 3.81)
 				(name "10"
 					(effects
 						(font
@@ -15111,7 +18773,7 @@
 			)
 			(pin passive line
 				(at 12.7 -12.7 180)
-				(length 5.08)
+				(length 3.81)
 				(name "11"
 					(effects
 						(font
@@ -15129,7 +18791,7 @@
 			)
 			(pin passive line
 				(at 12.7 -15.24 180)
-				(length 5.08)
+				(length 3.81)
 				(name "12"
 					(effects
 						(font
@@ -15148,7 +18810,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SW_Rotary3x4"
+	(symbol "SW_Rotary_3x4"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -15164,7 +18826,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Rotary3x4"
+		(property "Value" "SW_Rotary_3x4"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -15182,7 +18844,7 @@
 			)
 		)
 		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf"
-			(at -2.54 20.32 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15199,7 +18861,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "rotary switch"
+		(property "ki_keywords" "rotary switch 3x4"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15208,7 +18870,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SW_Rotary3x4_0_0"
+		(symbol "SW_Rotary_3x4_0_0"
 			(circle
 				(center -4.445 12.7)
 				(radius 0.635)
@@ -15220,33 +18882,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -4.445 12.7) (xy 3.81 17.78)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
 				(center -4.445 0)
 				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.445 0) (xy 3.81 5.08)
-				)
 				(stroke
 					(width 0)
 					(type default)
@@ -15268,7 +18906,31 @@
 			)
 			(polyline
 				(pts
-					(xy -4.445 -12.7) (xy 3.81 -7.62)
+					(xy -3.9116 -12.3444) (xy 3.2512 -7.9756)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.8608 13.0048) (xy 3.2512 17.4244)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.8608 0.3048) (xy 3.2512 4.7244)
 				)
 				(stroke
 					(width 0)
@@ -15388,7 +19050,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -10.16) (xy 0 -8.89)
+					(xy 0 -9.9568) (xy 0 -8.89)
 				)
 				(stroke
 					(width 0)
@@ -15433,7 +19095,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 17.78) (xy 7.62 17.78)
+					(xy 4.445 17.78) (xy 8.89 17.78)
 				)
 				(stroke
 					(width 0)
@@ -15445,7 +19107,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 5.08) (xy 7.62 5.08)
+					(xy 4.445 5.08) (xy 8.89 5.08)
 				)
 				(stroke
 					(width 0)
@@ -15457,7 +19119,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 -7.62) (xy 7.62 -7.62)
+					(xy 4.445 -7.62) (xy 8.89 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -15535,7 +19197,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 15.24) (xy 7.62 15.24)
+					(xy 5.715 15.24) (xy 8.89 15.24)
 				)
 				(stroke
 					(width 0)
@@ -15558,7 +19220,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 10.16) (xy 7.62 10.16)
+					(xy 5.715 10.16) (xy 8.89 10.16)
 				)
 				(stroke
 					(width 0)
@@ -15570,7 +19232,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 2.54) (xy 7.62 2.54)
+					(xy 5.715 2.54) (xy 8.89 2.54)
 				)
 				(stroke
 					(width 0)
@@ -15593,7 +19255,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 -2.54) (xy 7.62 -2.54)
+					(xy 5.715 -2.54) (xy 8.89 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -15605,7 +19267,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 -10.16) (xy 7.62 -10.16)
+					(xy 5.715 -10.16) (xy 8.89 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -15628,7 +19290,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 -15.24) (xy 7.62 -15.24)
+					(xy 5.715 -15.24) (xy 8.89 -15.24)
 				)
 				(stroke
 					(width 0)
@@ -15640,7 +19302,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 12.7) (xy 7.62 12.7)
+					(xy 6.35 12.7) (xy 8.89 12.7)
 				)
 				(stroke
 					(width 0)
@@ -15652,7 +19314,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 0) (xy 7.62 0)
+					(xy 6.35 0) (xy 8.89 0)
 				)
 				(stroke
 					(width 0)
@@ -15664,7 +19326,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 -12.7) (xy 7.62 -12.7)
+					(xy 6.35 -12.7) (xy 8.89 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -15675,10 +19337,59 @@
 				)
 			)
 		)
-		(symbol "SW_Rotary3x4_0_1"
+		(symbol "SW_Rotary_3x4_0_1"
+			(polyline
+				(pts
+					(xy -5.08 12.7) (xy -8.89 12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -8.89 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -12.7) (xy -8.89 -12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Rotary_3x4_1_1"
+			(rectangle
+				(start -8.89 19.05)
+				(end 8.89 -16.51)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
-				(at -10.16 12.7 0)
-				(length 5.08)
+				(at -12.7 12.7 0)
+				(length 3.81)
 				(name "13"
 					(effects
 						(font
@@ -15695,8 +19406,8 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 0 0)
-				(length 5.08)
+				(at -12.7 0 0)
+				(length 3.81)
 				(name "14"
 					(effects
 						(font
@@ -15713,8 +19424,8 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -12.7 0)
-				(length 5.08)
+				(at -12.7 -12.7 0)
+				(length 3.81)
 				(name "15"
 					(effects
 						(font
@@ -15732,7 +19443,7 @@
 			)
 			(pin passive line
 				(at 12.7 17.78 180)
-				(length 5.08)
+				(length 3.81)
 				(name "1"
 					(effects
 						(font
@@ -15750,7 +19461,7 @@
 			)
 			(pin passive line
 				(at 12.7 15.24 180)
-				(length 5.08)
+				(length 3.81)
 				(name "2"
 					(effects
 						(font
@@ -15768,7 +19479,7 @@
 			)
 			(pin passive line
 				(at 12.7 12.7 180)
-				(length 5.08)
+				(length 3.81)
 				(name "3"
 					(effects
 						(font
@@ -15786,7 +19497,7 @@
 			)
 			(pin passive line
 				(at 12.7 10.16 180)
-				(length 5.08)
+				(length 3.81)
 				(name "4"
 					(effects
 						(font
@@ -15804,7 +19515,7 @@
 			)
 			(pin passive line
 				(at 12.7 5.08 180)
-				(length 5.08)
+				(length 3.81)
 				(name "5"
 					(effects
 						(font
@@ -15822,7 +19533,7 @@
 			)
 			(pin passive line
 				(at 12.7 2.54 180)
-				(length 5.08)
+				(length 3.81)
 				(name "6"
 					(effects
 						(font
@@ -15840,7 +19551,7 @@
 			)
 			(pin passive line
 				(at 12.7 0 180)
-				(length 5.08)
+				(length 3.81)
 				(name "7"
 					(effects
 						(font
@@ -15858,7 +19569,7 @@
 			)
 			(pin passive line
 				(at 12.7 -2.54 180)
-				(length 5.08)
+				(length 3.81)
 				(name "8"
 					(effects
 						(font
@@ -15876,7 +19587,7 @@
 			)
 			(pin passive line
 				(at 12.7 -7.62 180)
-				(length 5.08)
+				(length 3.81)
 				(name "9"
 					(effects
 						(font
@@ -15894,7 +19605,7 @@
 			)
 			(pin passive line
 				(at 12.7 -10.16 180)
-				(length 5.08)
+				(length 3.81)
 				(name "10"
 					(effects
 						(font
@@ -15912,7 +19623,7 @@
 			)
 			(pin passive line
 				(at 12.7 -12.7 180)
-				(length 5.08)
+				(length 3.81)
 				(name "11"
 					(effects
 						(font
@@ -15930,7 +19641,7 @@
 			)
 			(pin passive line
 				(at 12.7 -15.24 180)
-				(length 5.08)
+				(length 3.81)
 				(name "12"
 					(effects
 						(font
@@ -15949,7 +19660,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SW_Rotary4x3"
+	(symbol "SW_Rotary_4x3"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -15965,7 +19676,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Rotary4x3"
+		(property "Value" "SW_Rotary_4x3"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -16000,7 +19711,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "rotary switch"
+		(property "ki_keywords" "rotary switch 4x3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16009,22 +19720,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "SW_Rotary4x3_0_0"
+		(symbol "SW_Rotary_4x3_0_0"
 			(circle
 				(center -4.445 15.24)
 				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.445 15.24) (xy 5.08 17.78)
-				)
 				(stroke
 					(width 0)
 					(type default)
@@ -16044,33 +19743,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -4.445 5.08) (xy 5.08 7.62)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
 				(center -4.445 -5.08)
 				(radius 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.445 -5.08) (xy 5.08 -2.54)
-				)
 				(stroke
 					(width 0)
 					(type default)
@@ -16092,7 +19767,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.445 -15.24) (xy 5.08 -12.7)
+					(xy -3.81 15.3924) (xy 4.4196 17.6276)
 				)
 				(stroke
 					(width 0)
@@ -16104,7 +19779,43 @@
 			)
 			(polyline
 				(pts
-					(xy 0 15.24) (xy 0 16.51)
+					(xy -3.81 5.2324) (xy 4.4704 7.4168)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -4.9276) (xy 4.4704 -2.7432)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -15.0876) (xy 4.4704 -12.9032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 15.24) (xy 0 16.4084)
 				)
 				(stroke
 					(width 0)
@@ -16282,6 +19993,18 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 0 -14.0716) (xy 0 -13.8176)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
 				(center 5.08 17.78)
 				(radius 0.635)
@@ -16372,7 +20095,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 17.78) (xy 7.62 17.78)
+					(xy 5.715 17.78) (xy 8.89 17.78)
 				)
 				(stroke
 					(width 0)
@@ -16395,7 +20118,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 12.7) (xy 7.62 12.7)
+					(xy 5.715 12.7) (xy 8.89 12.7)
 				)
 				(stroke
 					(width 0)
@@ -16407,7 +20130,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 7.62) (xy 7.62 7.62)
+					(xy 5.715 7.62) (xy 8.89 7.62)
 				)
 				(stroke
 					(width 0)
@@ -16430,7 +20153,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 2.54) (xy 7.62 2.54)
+					(xy 5.715 2.54) (xy 8.89 2.54)
 				)
 				(stroke
 					(width 0)
@@ -16442,7 +20165,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 -2.54) (xy 7.62 -2.54)
+					(xy 5.715 -2.54) (xy 8.89 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -16465,7 +20188,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 -7.62) (xy 7.62 -7.62)
+					(xy 5.715 -7.62) (xy 8.89 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -16477,7 +20200,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 -12.7) (xy 7.62 -12.7)
+					(xy 5.715 -12.7) (xy 8.89 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -16500,7 +20223,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.715 -17.78) (xy 7.62 -17.78)
+					(xy 5.715 -17.78) (xy 8.89 -17.78)
 				)
 				(stroke
 					(width 0)
@@ -16512,7 +20235,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 15.24) (xy 7.62 15.24)
+					(xy 6.35 15.24) (xy 8.89 15.24)
 				)
 				(stroke
 					(width 0)
@@ -16524,7 +20247,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 5.08) (xy 7.62 5.08)
+					(xy 6.35 5.08) (xy 8.89 5.08)
 				)
 				(stroke
 					(width 0)
@@ -16536,7 +20259,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 -5.08) (xy 7.62 -5.08)
+					(xy 6.35 -5.08) (xy 8.89 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -16548,7 +20271,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 -15.24) (xy 7.62 -15.24)
+					(xy 6.35 -15.24) (xy 8.89 -15.24)
 				)
 				(stroke
 					(width 0)
@@ -16559,10 +20282,71 @@
 				)
 			)
 		)
-		(symbol "SW_Rotary4x3_0_1"
+		(symbol "SW_Rotary_4x3_0_1"
+			(polyline
+				(pts
+					(xy -5.08 15.24) (xy -8.89 15.24)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy -8.89 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy -8.89 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -15.24) (xy -8.89 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Rotary_4x3_1_1"
+			(rectangle
+				(start -8.89 19.05)
+				(end 8.89 -19.05)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
-				(at -10.16 15.24 0)
-				(length 5.08)
+				(at -12.7 15.24 0)
+				(length 3.81)
 				(name "13"
 					(effects
 						(font
@@ -16579,8 +20363,8 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 5.08 0)
-				(length 5.08)
+				(at -12.7 5.08 0)
+				(length 3.81)
 				(name "14"
 					(effects
 						(font
@@ -16597,8 +20381,8 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -5.08 0)
-				(length 5.08)
+				(at -12.7 -5.08 0)
+				(length 3.81)
 				(name "15"
 					(effects
 						(font
@@ -16615,8 +20399,8 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -15.24 0)
-				(length 5.08)
+				(at -12.7 -15.24 0)
+				(length 3.81)
 				(name "16"
 					(effects
 						(font
@@ -16634,7 +20418,7 @@
 			)
 			(pin passive line
 				(at 12.7 17.78 180)
-				(length 5.08)
+				(length 3.81)
 				(name "1"
 					(effects
 						(font
@@ -16652,7 +20436,7 @@
 			)
 			(pin passive line
 				(at 12.7 15.24 180)
-				(length 5.08)
+				(length 3.81)
 				(name "2"
 					(effects
 						(font
@@ -16670,7 +20454,7 @@
 			)
 			(pin passive line
 				(at 12.7 12.7 180)
-				(length 5.08)
+				(length 3.81)
 				(name "3"
 					(effects
 						(font
@@ -16688,7 +20472,7 @@
 			)
 			(pin passive line
 				(at 12.7 7.62 180)
-				(length 5.08)
+				(length 3.81)
 				(name "4"
 					(effects
 						(font
@@ -16706,7 +20490,7 @@
 			)
 			(pin passive line
 				(at 12.7 5.08 180)
-				(length 5.08)
+				(length 3.81)
 				(name "5"
 					(effects
 						(font
@@ -16724,7 +20508,7 @@
 			)
 			(pin passive line
 				(at 12.7 2.54 180)
-				(length 5.08)
+				(length 3.81)
 				(name "6"
 					(effects
 						(font
@@ -16742,7 +20526,7 @@
 			)
 			(pin passive line
 				(at 12.7 -2.54 180)
-				(length 5.08)
+				(length 3.81)
 				(name "7"
 					(effects
 						(font
@@ -16760,7 +20544,7 @@
 			)
 			(pin passive line
 				(at 12.7 -5.08 180)
-				(length 5.08)
+				(length 3.81)
 				(name "8"
 					(effects
 						(font
@@ -16778,7 +20562,7 @@
 			)
 			(pin passive line
 				(at 12.7 -7.62 180)
-				(length 5.08)
+				(length 3.81)
 				(name "9"
 					(effects
 						(font
@@ -16796,7 +20580,7 @@
 			)
 			(pin passive line
 				(at 12.7 -12.7 180)
-				(length 5.08)
+				(length 3.81)
 				(name "10"
 					(effects
 						(font
@@ -16814,7 +20598,7 @@
 			)
 			(pin passive line
 				(at 12.7 -15.24 180)
-				(length 5.08)
+				(length 3.81)
 				(name "11"
 					(effects
 						(font
@@ -16832,7 +20616,7 @@
 			)
 			(pin passive line
 				(at 12.7 -17.78 180)
-				(length 5.08)
+				(length 3.81)
 				(name "12"
 					(effects
 						(font
@@ -16885,7 +20669,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at -15.875 4.445 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16979,6 +20763,17 @@
 			)
 		)
 		(symbol "SW_SP3T_1_1"
+			(rectangle
+				(start -3.175 3.81)
+				(end 3.175 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -17054,6 +20849,1181 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "SW_SP3T_NR01103"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SP3T_NR01103"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_NKK_NR01"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nkkswitches.com/pdf/NR01%20Rotaries.pdf"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NKK Switches NR01 Series rotary SP3T switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "NR01 SP3T Switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SW?NKK?NR01*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_SP3T_NR01103_0_1"
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -3.175 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 0) (xy 2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0.635)
+				(mid 0.0861 -0.5113)
+				(end -0.3176 -1.5875)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy -0.3176 -0.6985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy -0.3176 -1.5875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy 0.4444 -1.0795)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 3.175 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 3.175 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_SP3T_NR01103_1_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "Common"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -2.54 5.08 270)
+				(length 0)
+				(hide yes)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 2.54 5.08 270)
+				(length 0)
+				(hide yes)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW_SP4T_NR01104"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SP4T_NR01104"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_NKK_NR01"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nkkswitches.com/pdf/NR01%20Rotaries.pdf"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NKK Switches NR01 Series rotary SP4T switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "NR01 SP4T Switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SW?NKK?NR01*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_SP4T_NR01104_0_1"
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -3.175 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 0) (xy 0.635 4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.9526 2.2225)
+				(mid 0.154 0.449)
+				(end -0.3176 -1.5875)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy -0.3176 -0.6985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy -0.3176 -1.5875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy 0.4444 -1.0795)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.3174 -1.5875) (xy 0.3174 -1.5875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.635 4.445)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.08) (xy 2.54 5.08) (xy 2.54 4.445) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 3.175 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 3.175 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_SP4T_NR01104_1_1"
+			(polyline
+				(pts
+					(xy -5.08 6.35) (xy 5.08 6.35) (xy 5.08 -6.35) (xy -5.08 -6.35) (xy -5.08 6.35) (xy -5.08 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "Common"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(name "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 5.08 -5.08 180)
+				(length 0)
+				(hide yes)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 5.08 180)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW_SP5T_NR01105"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SP5T_NR01105"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_NKK_NR01"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nkkswitches.com/pdf/NR01%20Rotaries.pdf"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NKK Switches NR01 Series rotary SP5T switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "NR01 SP5T Switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SW?NKK?NR01*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_SP5T_NR01105_0_1"
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -3.175 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 0) (xy 0.635 4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.9526 2.2225)
+				(mid 0.154 0.449)
+				(end -0.3176 -1.5875)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy -0.3176 -0.6985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy -0.3176 -1.5875)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.3176 -1.5875) (xy 0.4444 -1.0795)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.635 4.445)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.635 -4.445)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.175 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 5.08) (xy 2.54 5.08) (xy 2.54 4.445) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 3.175 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 3.175 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -5.08) (xy 2.54 -5.08) (xy 2.54 -4.445) (xy 1.27 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_SP5T_NR01105_1_1"
+			(polyline
+				(pts
+					(xy -5.08 6.35) (xy 5.08 6.35) (xy 5.08 -6.35) (xy -5.08 -6.35) (xy -5.08 6.35) (xy -5.08 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "Common"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(name "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 5.08 180)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -5.08 180)
+				(length 2.54)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "SW_SPDT"
 		(pin_names
 			(offset 0)
@@ -17063,7 +22033,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0 4.318 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17088,7 +22058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17114,10 +22084,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "SW_SPDT_0_0"
+		(symbol "SW_SPDT_0_1"
 			(circle
 				(center -2.032 0)
-				(radius 0.508)
+				(radius 0.4572)
 				(stroke
 					(width 0)
 					(type default)
@@ -17126,22 +22096,9 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 2.032 -2.54)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "SW_SPDT_0_1"
 			(polyline
 				(pts
-					(xy -1.524 0.254) (xy 1.651 2.286)
+					(xy -1.651 0.254) (xy 1.651 2.286)
 				)
 				(stroke
 					(width 0)
@@ -17153,7 +22110,18 @@
 			)
 			(circle
 				(center 2.032 2.54)
-				(radius 0.508)
+				(radius 0.4572)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 -2.54)
+				(radius 0.4572)
 				(stroke
 					(width 0)
 					(type default)
@@ -17164,6 +22132,17 @@
 			)
 		)
 		(symbol "SW_SPDT_1_1"
+			(rectangle
+				(start -3.175 3.81)
+				(end 3.175 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -17221,6 +22200,358 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "SW_SPDT_312"
+		(pin_names
+			(offset 1)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT_312"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "changeover single-pole double-throw spdt ON-ON"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_SPDT_312_0_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.4572)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.651 0.254) (xy 1.651 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 2.54)
+				(radius 0.4572)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 -2.54)
+				(radius 0.4572)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_SPDT_312_1_1"
+			(rectangle
+				(start -3.175 3.81)
+				(end 3.175 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 2.54 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW_SPDT_321"
+		(pin_names
+			(offset 1)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT_321"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_SPDT_321_0_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.4572)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.651 0.254) (xy 1.651 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 2.54)
+				(radius 0.4572)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 -2.54)
+				(radius 0.4572)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_SPDT_321_1_1"
+			(rectangle
+				(start -3.175 3.81)
+				(end 3.175 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 2.54 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "SW_SPDT_MSM"
 		(pin_names
 			(offset 0)
@@ -17246,7 +22577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at -13.97 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17255,7 +22586,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17281,10 +22612,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "SW_SPDT_MSM_0_0"
+		(symbol "SW_SPDT_MSM_0_1"
 			(circle
 				(center -2.032 0)
-				(radius 0.508)
+				(radius 0.4572)
 				(stroke
 					(width 0)
 					(type default)
@@ -17295,8 +22626,30 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.127) (xy 1.778 1.016)
+					(xy -1.651 0.254) (xy 1.651 2.286)
 				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 2.54)
+				(radius 0.4572)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.4572)
 				(stroke
 					(width 0)
 					(type default)
@@ -17307,31 +22660,7 @@
 			)
 			(circle
 				(center 2.032 -2.54)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "SW_SPDT_MSM_0_1"
-			(circle
-				(center 2.032 2.54)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 2.286 0)
-				(radius 0.508)
+				(radius 0.4572)
 				(stroke
 					(width 0)
 					(type default)
@@ -17342,10 +22671,21 @@
 			)
 		)
 		(symbol "SW_SPDT_MSM_1_1"
+			(rectangle
+				(start -3.175 3.81)
+				(end 3.175 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "2"
+				(name "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17381,7 +22721,7 @@
 			(pin passive line
 				(at 5.08 -2.54 180)
 				(length 2.54)
-				(name "3"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17389,6 +22729,190 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW_SPDT_XKB_DMx-xxxx-1"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT_XKB_DMx-xxxx-1"
+			(at 0 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Position switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "limit switch single pole double throw spdt microswitch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SW?XKB?DM??16U??1*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_SPDT_XKB_DMx-xxxx-1_1_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.254) (xy 2.286 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 0.508) (xy 0.762 0.508) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 2.54)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 -2.54)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 2.54 180)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17544,16 +23068,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0.635 5.715 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "SW_SPST_LED"
-			(at 0 -3.175 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17570,7 +23093,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 7.62 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17599,30 +23122,6 @@
 		(symbol "SW_SPST_LED_0_0"
 			(polyline
 				(pts
-					(xy -3.81 -1.27) (xy -3.81 -1.905) (xy -3.175 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 -1.905) (xy -2.54 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -2.54 0) (xy 2.54 0)
 				)
 				(stroke
@@ -17635,7 +23134,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.27) (xy -2.54 -1.905) (xy -1.905 -1.905)
+					(xy -2.413 -1.524) (xy -2.413 -2.159) (xy -1.778 -2.159)
 				)
 				(stroke
 					(width 0)
@@ -17647,7 +23146,31 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.905) (xy -1.27 -0.635)
+					(xy -2.413 -2.159) (xy -1.143 -0.889)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.143 -1.524) (xy -1.143 -2.159) (xy -0.508 -2.159)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.143 -2.159) (xy 0.127 -0.889)
 				)
 				(stroke
 					(width 0)
@@ -17790,6 +23313,19 @@
 				)
 			)
 		)
+		(symbol "SW_SPST_LED_1_1"
+			(rectangle
+				(start -3.175 5.08)
+				(end 3.175 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 	(symbol "SW_SPST_Lamp"
@@ -17801,16 +23337,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 0.635 5.715 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "SW_SPST_Lamp"
-			(at 0 -3.175 0)
+			(at 0 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17827,7 +23362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 7.62 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18020,27 +23555,35 @@
 				)
 			)
 		)
+		(symbol "SW_SPST_Lamp_1_1"
+			(rectangle
+				(start -3.175 4.445)
+				(end 3.175 -1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
-	(symbol "SW_SPST_Temperature"
-		(pin_names
-			(offset 0)
-			(hide yes)
-		)
+	(symbol "SW_SPST_Temperature_NC"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 1.778 3.048 0)
+			(at 0 2.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "SW_SPST_Temperature"
-			(at 0 -2.54 0)
+		(property "Value" "SW_SPST_Temperature_NC"
+			(at 1.27 -4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18065,6 +23608,166 @@
 				(hide yes)
 			)
 		)
+		(property "Description" "Single Pole Single Throw (SPST) switch, temperature dependent, normally closed"
+			(at -1.27 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "temperature switch normally closed"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_SPST_Temperature_NC_0_0"
+			(circle
+				(center -2.032 -2.54)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -2.54) (xy 1.524 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -0.508) (xy -0.762 -0.508) (xy -0.762 0) (xy 0.762 0) (xy 0.762 0.508) (xy 0 0.508)
+					(xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 -2.54)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_SPST_Temperature_NC_1_1"
+			(rectangle
+				(start -3.175 1.27)
+				(end 3.175 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW_SPST_Temperature_NO"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST_Temperature_NO"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Description" "Single Pole Single Throw (SPST) switch, temperature dependent"
 			(at 0 0 0)
 			(effects
@@ -18074,7 +23777,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "temperature switch"
+		(property "ki_keywords" "temperature switch normally open"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18083,7 +23786,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SW_SPST_Temperature_0_0"
+		(symbol "SW_SPST_Temperature_NO_0_0"
 			(circle
 				(center -2.032 0)
 				(radius 0.508)
@@ -18132,7 +23835,18 @@
 				)
 			)
 		)
-		(symbol "SW_SPST_Temperature_1_1"
+		(symbol "SW_SPST_Temperature_NO_1_1"
+			(rectangle
+				(start -3.175 3.81)
+				(end 3.175 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -18171,6 +23885,400 @@
 			)
 		)
 		(embedded_fonts no)
+	)
+	(symbol "SW_Slide_DPDT"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Slide_DPDT"
+			(at 0 -8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.97 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switch, dual pole double throw"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch dual-pole double-throw dpdt ON-ON"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_Slide_DPDT_0_0"
+			(circle
+				(center -2.032 5.08)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2.032 -5.08)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 -5.08)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Slide_DPDT_0_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 5.08)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_Slide_DPDT_1_1"
+			(rectangle
+				(start -1.397 5.588)
+				(end -0.762 -0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.762 5.588)
+				(end 1.397 -0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 5.08 180)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -5.08 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CK_KMS2xxG"
+		(extends "SW_Push_Shielded")
+		(property "Reference" "SW"
+			(at 4.318 2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CK_KMS2xxG"
+			(at 0 4.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, without pegs, with shield pin"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*SW*KMS2*G*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "CK_KMS2xxGP"
+		(extends "SW_Push_Shielded")
+		(property "Reference" "SW"
+			(at 4.318 2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CK_KMS2xxGP"
+			(at 0 4.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1482/kms.pdf"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Microminiature SMT Side Actuated, 4.2 x 2.8 x 1.42mm, with pegs, with shield pin"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*SW*KMS2*GP*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol "SW_Coded_SH-7030"
 		(extends "SW_Coded_SH-7010")
@@ -18238,7 +24346,6 @@
 				(hide yes)
 			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "SW_Coded_SH-7070"
 		(extends "SW_Coded_SH-7050")
@@ -18306,7 +24413,6 @@
 				(hide yes)
 			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "SW_E3_SA3624"
 		(extends "SW_E3_SA3216")
@@ -18372,7 +24478,6 @@
 				(hide yes)
 			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "SW_E3_SA6432"
 		(extends "SW_E3_SA3216")
@@ -18438,7 +24543,6 @@
 				(hide yes)
 			)
 		)
-		(embedded_fonts no)
 	)
 	(symbol "SW_MMI_Q5-100"
 		(extends "SW_E3_SA3216")
@@ -18504,6 +24608,198 @@
 				(hide yes)
 			)
 		)
-		(embedded_fonts no)
+	)
+	(symbol "SW_Nidec_CAS-120A1"
+		(extends "SW_SPDT_321")
+		(property "Reference" "SW"
+			(at 0 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "SW_Omron_B3FS"
+		(extends "SW_Push")
+		(property "Reference" "SW"
+			(at 1.27 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 0 -1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SW*Omron*B3FS*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "SW_Wuerth_450301014042"
+		(extends "SW_SPDT_312")
+		(property "Reference" "SW"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Wuerth_450301014042"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch slide, single pole double throw"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "changeover single-pole opposite-side-connection double-throw spdt ON-ON"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 )

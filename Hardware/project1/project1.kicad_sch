@@ -510,7 +510,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push_45deg"
+		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
 			)
@@ -522,7 +522,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 3.048 1.016 0)
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -530,8 +530,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_Push_45deg"
-				(at 0 -3.81 0)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -539,7 +539,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -548,7 +548,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -556,7 +556,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -574,21 +574,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_45deg_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "SW_Push_0_1"
 				(circle
-					(center -1.1684 1.1684)
+					(center -2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -600,19 +588,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 2.54) (xy 2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 2.032 2.032)
+						(xy 0 1.27) (xy 0 3.048)
 					)
 					(stroke
 						(width 0)
@@ -623,7 +599,7 @@
 					)
 				)
 				(circle
-					(center 1.143 -1.1938)
+					(center 2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -635,7 +611,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+						(xy 2.54 1.27) (xy -2.54 1.27)
 					)
 					(stroke
 						(width 0)
@@ -646,8 +622,8 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 2.54 0)
-					(length 0)
+					(at -5.08 0 0)
+					(length 2.54)
 					(name "1"
 						(effects
 							(font
@@ -664,8 +640,8 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 0)
+					(at 5.08 0 180)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -1052,6 +1028,26 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 101.6) (xy 123.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162048d4-ca0a-48d1-aa5e-115f6f32154e")
+	)
+	(wire
+		(pts
+			(xy 123.19 101.6) (xy 123.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e62a34-29e7-41c7-b41d-8e344dd2e40a")
+	)
+	(wire
+		(pts
 			(xy 88.9 109.22) (xy 88.9 114.3)
 		)
 		(stroke
@@ -1059,16 +1055,6 @@
 			(type default)
 		)
 		(uuid "5c3b6f2b-f984-4199-82af-4b892c398b1f")
-	)
-	(wire
-		(pts
-			(xy 111.76 101.6) (xy 129.54 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ea161c4-78da-473f-b2fc-a70d7dc19c9a")
 	)
 	(wire
 		(pts
@@ -1099,6 +1085,16 @@
 			(type default)
 		)
 		(uuid "6fc2a828-8c5a-4f08-b1f8-b9bf8d03119e")
+	)
+	(wire
+		(pts
+			(xy 116.84 99.06) (xy 123.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6a6b5e-62dc-49ee-a674-6d7e9eb9fbaf")
 	)
 	(wire
 		(pts
@@ -1170,15 +1166,73 @@
 		)
 		(uuid "d7392df5-3ea5-40a0-8fa5-ad407892444d")
 	)
-	(wire
-		(pts
-			(xy 106.68 99.06) (xy 106.68 106.68)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 111.76 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1332a18c-f40a-4132-bb8a-2741cfa61e81")
+		(property "Reference" "SW2"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(property "Value" "SW_Push"
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(uuid "ef0f3669-49a3-4951-878d-6f0553813c48")
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile"
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=8-1773450-9_SECTION_C_TACTILE_SWITCHES&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=1825910-6"
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87b1b94e-c0f5-4007-98d9-da944ee358ec")
+		)
+		(pin "2"
+			(uuid "39b770eb-7055-48de-a73a-6f41e37c9d91")
+		)
+		(instances
+			(project "project1"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -1310,76 +1364,6 @@
 			(project "project1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 109.22 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c5353d2-45f8-4c2e-9474-e68265d28b97")
-		(property "Reference" "SW1"
-			(at 113.03 102.8699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_45deg"
-			(at 113.03 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile"
-			(at 109.22 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=8-1773450-9_SECTION_C_TACTILE_SWITCHES&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=1825910-6"
-			(at 109.22 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 109.22 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "584d3bb8-c9ce-4bb7-9762-c957fd7d8a70")
-		)
-		(pin "2"
-			(uuid "da162329-6afc-4dde-9e12-b5c90c0e37b9")
-		)
-		(instances
-			(project "project1"
-				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
