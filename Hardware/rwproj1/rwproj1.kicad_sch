@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Rushan's LED Circuit")
-		(date "2026-09-09")
+		(date "2026-09-26")
 		(rev "0.0")
 		(company "Illini Solar Car")
 		(comment 1 "Designed By: Rushan Weeramunige")
@@ -880,12 +880,125 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 102.87 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3836e51f-1f8b-436c-8100-9f7d2ff2d301")
+	)
+	(junction
+		(at 102.87 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43fbeb5d-c5bb-42e4-9631-130ff3cad558")
+	)
+	(junction
+		(at 102.87 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b363568-2a10-47ac-8f42-f343b6cf5a9f")
 	)
 	(junction
 		(at 102.87 82.55)
@@ -902,6 +1015,16 @@
 			(type default)
 		)
 		(uuid "15ecc0d9-c25c-43e7-9328-049008f69766")
+	)
+	(wire
+		(pts
+			(xy 102.87 83.82) (xy 102.87 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bcc7672-f4f0-4745-9bab-7465144a15ed")
 	)
 	(wire
 		(pts
@@ -935,7 +1058,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 90.17) (xy 102.87 92.71)
+			(xy 102.87 90.17) (xy 102.87 91.44)
 		)
 		(stroke
 			(width 0)
@@ -975,13 +1098,23 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 87.63) (xy 102.87 87.63)
+			(xy 86.36 87.63) (xy 102.87 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c71d5222-2af2-491b-828f-dd1a3c04c36d")
+	)
+	(wire
+		(pts
+			(xy 102.87 91.44) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11debed-8559-44ef-9714-43fb128238d9")
 	)
 	(wire
 		(pts
@@ -995,7 +1128,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 90.17) (xy 102.87 90.17)
+			(xy 86.36 90.17) (xy 102.87 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1005,7 +1138,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 87.63) (xy 102.87 82.55)
+			(xy 102.87 87.63) (xy 102.87 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1059,6 +1192,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 124.46 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 124.46 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1300,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 92.71 90.17 180)
+		(at 81.28 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1158,7 +1309,7 @@
 		(fields_autoplaced yes)
 		(uuid "2558c2ac-f58c-4d20-8b6f-f85e47a185be")
 		(property "Reference" "J1"
-			(at 92.71 81.28 0)
+			(at 81.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1166,7 +1317,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 92.71 83.82 0)
+			(at 81.28 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1174,7 +1325,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 92.71 90.17 0)
+			(at 81.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,8 +1333,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 92.71 90.17 0)
+		(property "Datasheet" "~https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/641/6410/022272021_sd.pdf?inline"
+			(at 81.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1343,25 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 90.17 0)
+			(at 81.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "022272021"
+			(at 81.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "May change to blue"
+			(at 81.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,6 +1379,73 @@
 			(project "rwproj1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 102.87 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "333560d1-9318-4a30-87b0-fb2fde09fd67")
+		(property "Reference" "#FLG01"
+			(at 100.965 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 99.06 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39a25d38-8bad-4d8f-ada5-3a58519ddda4")
+		)
+		(instances
+			(project "rwproj1"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -1279,6 +1515,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 130.81 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 130.81 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2e12552-03e1-4ca1-acfb-fbf777e6d18e")
 		)
@@ -1289,6 +1543,73 @@
 			(project "rwproj1"
 				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 102.87 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f185d83-f71a-47cd-a4f6-3c8822023226")
+		(property "Reference" "#FLG02"
+			(at 100.965 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 99.06 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c10eb405-945e-4b44-8c73-ae535b3b093c")
+		)
+		(instances
+			(project "rwproj1"
+				(path "/1e1b062d-fad0-427c-a622-c5b8a80b5268"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -1395,7 +1716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=8-1773450-9_SECTION_C_TACTILE_SWITCHES&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=1825910-6"
 			(at 113.03 77.47 0)
 			(effects
 				(font
@@ -1405,6 +1726,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1825910-6"
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 113.03 82.55 0)
 			(effects
 				(font
