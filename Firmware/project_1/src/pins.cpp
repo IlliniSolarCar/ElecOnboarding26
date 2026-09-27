@@ -14,6 +14,8 @@
 
 // PROJECT 2 - You can instantiate your AnalogIn object here
 
+AnalogIn Potentiometer(Pot_PIN);
+
 /*
  * COMMON PIN OBJECT INSTANTIATIONS
  */
@@ -23,3 +25,5 @@ DigitalOut led2(P_LED2);
 DigitalOut led3(P_LED3);
 DigitalOut led4(P_LED4);
 // PROJECT 1 - You can instantiate your DigitalOut object here
+
+DigitalOut proj_led(Proj_LED);

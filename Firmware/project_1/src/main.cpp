@@ -11,6 +11,8 @@
 #include "CAN/can_data.h"
 #include "can_buffer.h"
 
+#include "pins.h"		// Added header file
+
 
 /*
  * This is an example function. It blinks the heartbeat LED and sends
@@ -96,10 +98,20 @@ int main() {
         }
 
         if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        	// TASK_1_RATE_US will need to change to rate to reflect the new rate in Project 2
+
         	//PROJECT 1 - add code here to actually make the LED blink
+
+        	proj_led.write(!proj_led.read());
+
         }
 
         //PROJECT 2 - use the potentiometer to change the blink rate
+
+        float pot_val = Potentiometer.read();
+
+		int rate = pot_val * 1000000 + 500000;
+		// 0.5 sec is base value and potentiometer can change rate from 0.5 to 1.5 s
 
 
 	}
