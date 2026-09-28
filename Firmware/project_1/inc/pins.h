@@ -26,7 +26,7 @@
 #define P_LED3 P0_6
 #define P_LED4 P0_7
 #define P_TEST_LED P0_4
-// #define P_POT P0_23
+#define P_POT P0_23
 
 
 /*
@@ -38,14 +38,14 @@ extern DigitalOut led2;
 extern DigitalOut led3;
 extern DigitalOut led4;
 extern DigitalOut test_led;
-// extern AnalogIn pot;
+
 
 /*
  * BOARD SPECIFIC PINS
  */
 
 // PROJECT 2 - You can declare a AnalogIn object here
-
+extern AnalogIn pot;
 
 /*
  * BOARD SPECIFIC PIN OBJECT DECLARATIONS

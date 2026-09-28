@@ -12,7 +12,7 @@
  * PIN OBJECT INSTANTIATIONS
  */
 
-//AnalogIn pot(P_POT);
+AnalogIn pot(P_POT);
 
 /*
  * COMMON PIN OBJECT INSTANTIATIONS

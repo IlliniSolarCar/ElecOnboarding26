@@ -95,7 +95,8 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
-        //uint32_t blink_rate_us = 100000 + (uint32_t)(pot.read() * 1900000);
+        // Scales the reading to range across 100,000 us (0.1s) to 2,000,000 us (2.0s)
+        uint32_t blink_rate_us = 100000 + (uint32_t)(pot.read() * 1900000);
 
         if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
         	test_led.write(!test_led.read());
