@@ -4,12 +4,15 @@
  */
 
 #include <mbed.h>
-#include "pins.h"
+// PROJECT 1 - Include something here!
 #include "peripherals.h"
 #include "can_struct.h"
 #include "CAN/can_id.h"
 #include "CAN/can_data.h"
 #include "can_buffer.h"
+#include <mbed.h>
+#include "pins.h"   // PROJECT 1
+#include "peripherals.h"
 
 
 /*
@@ -95,11 +98,12 @@ int main() {
         	common.toggleReceiveCANLED();
         }
 
-
-        uint32_t blink_rate = (uint32_t)(100000 + pot.read() * 1900000);
-        if(timing.tickThreshold(last_task_1_time, blink_rate)){
-            test_led = !test_led;
+        if(timing.tickThreshold(last_task_1_time, TASK_1_RATE_US)){
+        	//PROJECT 1 - add code here to actually make the LED blink
+			heartbeat_led.write(!heartbeat_led.read());
         }
+
+        //PROJECT 2 - use the potentiometer to change the blink rate
 
 
 	}
